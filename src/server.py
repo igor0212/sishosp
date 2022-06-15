@@ -5,7 +5,7 @@ print('Aguardando conexão')
 conn, ender = Server.create_server()
 
 while True:
-    
+
     #Recebendo mensagem do cliente
     message = Server.get_message(conn)
     if not message or Server.close_connection(message):
@@ -19,5 +19,4 @@ while True:
     response = Allocate.allocate(message)    
 
     #Enviando retorno para o cliente
-    Server.send_message(conn, response)
-    
+    Server.send_message(conn, response)    

@@ -1,4 +1,3 @@
-from os import stat
 from socket import *
 
 HOST = gethostname()

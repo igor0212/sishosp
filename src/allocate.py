@@ -1,5 +1,4 @@
 class Allocate:
-    def allocate(option):
-        print('Mensagem recebida no server: ', option)
+    def allocate(message):
+        print('Mensagem recebida no server: ', message)
         return "Paciente alocado com sucesso"
-        
