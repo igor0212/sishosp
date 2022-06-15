@@ -1,11 +1,19 @@
-import socket
+from socket import *
+from util import Client
 
-HOST = 'localhost'
-PORT = 50000
+client = Client.create_client()
+message = ''
 
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect((HOST, PORT))
-s.sendall(str.encode('Bom dia Bóson'))
-data = s.recv(1024)
+while True:       
 
-print('Mensagem enviada do client: ', data.decode())
+    #Enviando mensagem para o servidor
+    message = input("Digite: ")
+    client.send(message.encode())
+
+    #Recebendo resposta do servidor
+    data = client.recv(1024)
+    print(data.decode())
+
+    #Encerrando conexão
+    if(Client.close_connection(message)):
+        break

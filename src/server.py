@@ -1,20 +1,22 @@
-import socket
+from util import Server
+from allocate import Allocate
 
-HOST = 'localhost'
-PORT = 50000
+print('Aguardando conexão')
+conn, ender = Server.create_server()
 
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.bind((HOST, PORT))
-s.listen()
-print('Aguardando conexão de um cliente')
-conn, ender = s.accept()
-
-print('Conectado em ', ender)
 while True:
+    #Recebendo dados do cliente
     data = conn.recv(1024)
-    if not data:
-        print('Fechando a conexão')
+    if not data or Server.close_connection(data):
+        msg = 'Encerrando conexão'
+        print(msg)
+        Server.send_message(conn, msg)
         conn.close()
         break
-    print('Mensagem recebida no server: ', data.decode())
-    conn.sendall(data)
+
+    #Enviando informações para alocar paciente
+    response = Allocate.allocate(data.decode())    
+
+    #Enviando retorno para o cliente
+    Server.send_message(conn, response)
+    
