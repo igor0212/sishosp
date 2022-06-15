@@ -5,17 +5,18 @@ print('Aguardando conexão')
 conn, ender = Server.create_server()
 
 while True:
-    #Recebendo dados do cliente
-    data = conn.recv(1024)
-    if not data or Server.close_connection(data):
-        msg = 'Encerrando conexão'
-        print(msg)
-        Server.send_message(conn, msg)
+    
+    #Recebendo mensagem do cliente
+    message = Server.get_message(conn)
+    if not message or Server.close_connection(message):
+        error = 'Encerrando conexão'
+        print(error)
+        Server.send_message(conn, error)
         conn.close()
         break
 
     #Enviando informações para alocar paciente
-    response = Allocate.allocate(data.decode())    
+    response = Allocate.allocate(message)    
 
     #Enviando retorno para o cliente
     Server.send_message(conn, response)
