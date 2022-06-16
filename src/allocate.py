@@ -40,6 +40,10 @@ class Allocate:
 
     def allocate_employee(block_id, block_name):
         try:
+            if(not Allocate.check_allocate_is_necessary(block_id, block_name)):
+                print("Alocação de profissional não é necessária pois já existem funcionários suficientes no bloco {}".format(block_name))
+                return
+
             print("\nAlocando profissional ao bloco...")
             #Verificar em qual bloco o paciente foi alocado para enviar médico ou enfermeiro
             occupation_id = 2
@@ -63,15 +67,29 @@ class Allocate:
             error = "Erro ao alocar profissional - {} \n".format(ex)
             raise Exception(error)            
 
+    def check_allocate_is_necessary(block_id, block_name):
+        count_patient = Patient.get_count_by_block(block_id)
+        count_employee = Employee.get_count_by_block(block_id)
+        qt_max_allowed = Util.QT_EMPLOYEES_BY_BLOCK[block_name]
+
+        if(count_employee == 0):
+            return True
+        
+        result = count_patient/count_employee
+        if(result > qt_max_allowed):
+            return True
+
+        return False
+
     def allocate(message):
         try:            
-            #Alocar paciente            
+            #Alocar paciente ao leito
             block_id, block_name = Allocate.allocate_patient(message)            
             
             if(not block_id or not block_name):
                 raise Exception("Bloco não encontrado.")             
 
-            #Alocar profissional
+            #Alocar profissional ao bloco
             Allocate.allocate_employee(block_id, block_name)
 
             return "Fim da operação"

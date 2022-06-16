@@ -23,3 +23,15 @@ class Employee:
         except Exception as ex:
             error = "Employee - update_status error: {} \n".format(ex)            
             raise Exception(error)
+
+    def get_count_by_block(block_id):   
+        try:      
+            query = """
+                        SELECT COUNT(*) 
+                        FROM "Employee" e 
+                        WHERE e.block_id = {}
+                    """.format(block_id)            
+            return DataBase.select(query)[0]['count']
+        except Exception as ex:
+            error = "Employee - get_count_by_block error: {} \n".format(ex)            
+            raise Exception(error)    
