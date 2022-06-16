@@ -44,14 +44,14 @@ class Allocate:
             raise Exception(error)
     
     def get_another_bed(patient_name, state_id):
-        #Buscar leito de outro bloco se necessário
+        
+        #Buscar leito de outro bloco
         bed = Bed.get_available_other_block(state_id)
         if(not bed):
-            print("Hospital com capacidade máxima. Removendo um paciente em estado leve")
-
-            #Remover do leito um paciente que está em estado leve
-            patient = Patient.get_by_state_id(1)
-            print("Hospital com capacidade máxima. Removendo um paciente em estado leve")
+            #Remover do leito um paciente que está em estado leve            
+            print("Hospital com capacidade máxima. Removendo um paciente em estado leve")            
+            
+            patient = Patient.get_by_state_id(1)            
             removed_patient_id =  patient[0]['patient_id']
             removed_bed_id =  patient[0]['bed_id']
             removed_patient_name =  patient[0]['patient_name']
