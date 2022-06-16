@@ -17,9 +17,14 @@ class Allocate:
             
             #Não possui leito disponível
             if(not bed):
-                print("Paciente à espera de um leito.")
-                #Buscar leito de outro lugar se for necessário @TODOOO
-                raise Exception("Não tem leito")   
+                print("Paciente {} à espera de um leito.".format(patient_name))
+
+                #Verificar se paciente pode aguardar leito
+                if(Util.PATIENT_STATE[state_id] in ('Ligh', 'Moderate')):
+                    print("Paciente {} pode aguardar pois o seu estado permite.".format(patient_name))
+                    return
+
+                bed = Allocate.get_another_bed(patient_name, state_id)
 
             bed_id = bed[0]['bed_id']
             bed_name = bed[0]['bed_name']
@@ -36,10 +41,39 @@ class Allocate:
             
         except Exception as ex:
             error = "Erro ao alocar paciente - {} \n".format(ex)
-            raise Exception(error)            
+            raise Exception(error)
+    
+    def get_another_bed(patient_name, state_id):
+        #Buscar leito de outro bloco se necessário
+        bed = Bed.get_available_other_block(state_id)
+        if(not bed):
+            print("Hospital com capacidade máxima. Removendo um paciente em estado leve")
+
+            #Remover do leito um paciente que está em estado leve
+            patient = Patient.get_by_state_id(1)
+            print("Hospital com capacidade máxima. Removendo um paciente em estado leve")
+            removed_patient_id =  patient[0]['patient_id']
+            removed_bed_id =  patient[0]['bed_id']
+            removed_patient_name =  patient[0]['patient_name']
+
+            print("Paciente {} será removido de seu leito.".format(removed_patient_name))
+
+            Patient.remove_bed(removed_patient_id)
+            Bed.update_status(removed_bed_id, True)
+            
+            #Buscar leito que fora esvaziado
+            bed = Bed.get_available_other_block(state_id)
+
+            if(not bed):
+                raise Exception("Erro ao buscar leito depois de removido") 
+
+        print("Paciente {} precisará ocupar um leito de outro bloco.".format(patient_name))
+        
+        return bed
 
     def allocate_employee(block_id, block_name):
         try:
+            #Verificar se alocação de profissional é necessária
             if(not Allocate.check_allocate_is_necessary(block_id, block_name)):
                 print("Alocação de profissional não é necessária pois já existem funcionários suficientes no bloco {}".format(block_name))
                 return

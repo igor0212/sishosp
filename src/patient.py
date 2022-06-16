@@ -22,3 +22,26 @@ class Patient:
         except Exception as ex:
             error = "Patient - get_count_by_block error: {} \n".format(ex)            
             raise Exception(error)    
+
+    def get_by_state_id(state_id):   
+        try:
+            query = """
+                        SELECT name AS patient_name, bed_id, id AS patient_id
+                        FROM "Patient" p                        
+                        WHERE p.state_id = {} AND bed_id IS NOT NULL
+                        LIMIT 1
+                    """.format(state_id)
+
+            return DataBase.select(query)           
+            
+        except Exception as ex:
+            error = "Patient - get_count_by_block error: {} \n".format(ex)            
+            raise Exception(error)    
+
+    def remove_bed(id):   
+        try:
+            query = 'UPDATE "Patient" SET bed_id = NULL, is_waiting = true WHERE id = {}'.format(id)
+            DataBase.update(query)            
+        except Exception as ex:
+            error = "Patient - remove_bed error: {} \n".format(ex)            
+            raise Exception(error)    

@@ -47,4 +47,5 @@ class DataBase:
             raise Exception(error)
         finally:
             if conn is not None:
-                conn.close()       
+                conn.close()                  
+    
