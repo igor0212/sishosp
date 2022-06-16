@@ -2,10 +2,10 @@ from database import DataBase
  
 class Bed:    
 
-    def get_available_bed_id():   
+    def get_available_bed():   
         try:      
-            query = 'select id from "Bed" where is_available = true limit 1'
-            return DataBase.select(query)[0]['id']
+            query = 'select id from "Bed" where is_available = true limit 1'            
+            return DataBase.select(query)
         except Exception as ex:
             error = "Bed - get_available_bed error: {} \n".format(ex)            
             raise Exception(error)            
