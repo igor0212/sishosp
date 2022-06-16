@@ -34,10 +34,10 @@ CREATE TABLE public."Block" (
 
 CREATE INDEX "IX_Block_State_Id" ON public."Block" USING btree ("state_id");
 
-INSERT INTO public."Block" ("name", "state_id") VALUES('A', 4);
-INSERT INTO public."Block" ("name", "state_id") VALUES('B', 3);
-INSERT INTO public."Block" ("name", "state_id") VALUES('C', 2);
-INSERT INTO public."Block" ("name", "state_id") VALUES('D', 1);
+INSERT INTO public."Block" ("name", "state_id") VALUES('A', 1);
+INSERT INTO public."Block" ("name", "state_id") VALUES('B', 2);
+INSERT INTO public."Block" ("name", "state_id") VALUES('C', 3);
+INSERT INTO public."Block" ("name", "state_id") VALUES('D', 4);
 
 --BED
 

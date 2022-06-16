@@ -80,9 +80,9 @@ class Allocate:
 
             print("\nAlocando profissional ao bloco...")
             #Verificar em qual bloco o paciente foi alocado para enviar médico ou enfermeiro
-            occupation_id = 2
+            occupation_id = 1
             if(block_name in ('A', 'B')):
-                occupation_id = 1
+                occupation_id = 2
 
             #Buscar profissional
             employee = Employee.get_available(occupation_id)
