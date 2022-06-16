@@ -35,7 +35,7 @@ class Patient:
             return DataBase.select(query)           
             
         except Exception as ex:
-            error = "Patient - get_count_by_block error: {} \n".format(ex)            
+            error = "Patient - get_by_state_id error: {} \n".format(ex)            
             raise Exception(error)    
 
     def remove_bed(id):   

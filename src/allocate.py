@@ -24,6 +24,7 @@ class Allocate:
                     print("Paciente {} pode aguardar pois o seu estado permite.".format(patient_name))
                     return
 
+                #Buscar outro leito para paciente
                 bed = Allocate.get_another_bed(patient_name)
 
             bed_id = bed[0]['bed_id']
@@ -71,6 +72,32 @@ class Allocate:
         
         return bed
 
+    def get_another_employee():
+
+        #Buscar profissional independente do cargo
+        employee = Employee.get_available()
+        
+        if(not employee):
+            #Transferir um profissional do bloco A para o bloco necessitado
+            print("Todos os profissionais estão alocados. Transferindo um profissional do bloco A")            
+            
+            removed_employee = Employee.get_by_block_id(1)            
+            removed_employee_id =  removed_employee[0]['employee_id']            
+            removed_employee_name =  removed_employee[0]['employee_name']
+
+            print("Profissional {} será removido do bloco A.".format(removed_employee_name))
+
+            Employee.remove(removed_employee_id)            
+            
+            #Buscar profissional que fora desalocado
+            employee = Employee.get_available()
+
+            if(not employee):
+                raise Exception("Erro ao buscar profissional depois de removido")         
+        
+        return employee
+
+
     def allocate_employee(block_id, block_name):
         try:
             #Verificar se alocação de profissional é necessária
@@ -88,12 +115,14 @@ class Allocate:
             employee = Employee.get_available(occupation_id)
 
             if(not employee):
-                #Buscar profissional independente do cargo
-                employee = Employee.get_available()
 
-                if(not employee):                
-                    #Buscar profissional de outro bloco @TODOOO
-                    raise Exception("Não tem profissional") 
+                #Verificar se bloco pode aguardar até a chegada de outro profissional
+                if(block_name in ('A', 'B')):
+                    print("Bloco {} pode aguardar pois o seu estado permite.".format(block_name))
+                    return
+
+                #Buscar profissional de outro bloco
+                employee = Allocate.get_another_employee()
 
             #Alocar profissional ao bloco
             employee_id = employee[0]['employee_id']

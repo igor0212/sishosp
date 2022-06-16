@@ -38,3 +38,26 @@ class Employee:
         except Exception as ex:
             error = "Employee - get_count_by_block error: {} \n".format(ex)            
             raise Exception(error)    
+
+    def get_by_block_id(block_id):   
+        try:
+            query = """
+                        SELECT name AS employee_name, id AS employee_id
+                        FROM "Employee" e                        
+                        WHERE e.block_id = {}
+                        LIMIT 1
+                    """.format(block_id)
+
+            return DataBase.select(query)           
+            
+        except Exception as ex:
+            error = "Employee - get_by_block_id error: {} \n".format(ex)            
+            raise Exception(error)    
+
+    def remove(id):   
+        try:
+            query = 'UPDATE "Employee" SET block_id = NULL WHERE id = {}'.format(id)
+            DataBase.update(query)            
+        except Exception as ex:
+            error = "Employee - remove error: {} \n".format(ex)            
+            raise Exception(error)    
