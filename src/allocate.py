@@ -24,7 +24,7 @@ class Allocate:
                     print("Paciente {} pode aguardar pois o seu estado permite.".format(patient_name))
                     return
 
-                bed = Allocate.get_another_bed(patient_name, state_id)
+                bed = Allocate.get_another_bed(patient_name)
 
             bed_id = bed[0]['bed_id']
             bed_name = bed[0]['bed_name']
@@ -43,10 +43,10 @@ class Allocate:
             error = "Erro ao alocar paciente - {} \n".format(ex)
             raise Exception(error)
     
-    def get_another_bed(patient_name, state_id):
+    def get_another_bed(patient_name):
         
         #Buscar leito de outro bloco
-        bed = Bed.get_available_other_block(state_id)
+        bed = Bed.get_available_other_block()
         if(not bed):
             #Remover do leito um paciente que está em estado leve            
             print("Hospital com capacidade máxima. Removendo um paciente em estado leve")            
@@ -62,7 +62,7 @@ class Allocate:
             Bed.update_status(removed_bed_id, True)
             
             #Buscar leito que fora esvaziado
-            bed = Bed.get_available_other_block(state_id)
+            bed = Bed.get_available_other_block()
 
             if(not bed):
                 raise Exception("Erro ao buscar leito depois de removido") 
@@ -88,8 +88,12 @@ class Allocate:
             employee = Employee.get_available(occupation_id)
 
             if(not employee):
-                #Buscar profissional de outro bloco @TODOOO
-                raise Exception("Não tem profissional") 
+                #Buscar profissional independente do cargo
+                employee = Employee.get_available()
+
+                if(not employee):                
+                    #Buscar profissional de outro bloco @TODOOO
+                    raise Exception("Não tem profissional") 
 
             #Alocar profissional ao bloco
             employee_id = employee[0]['employee_id']

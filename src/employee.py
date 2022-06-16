@@ -2,15 +2,18 @@ from database import DataBase
  
 class Employee:    
 
-    def get_available(occupation_id):   
+    def get_available(occupation_id=None):   
         try:      
             query = """
                         SELECT e.id AS employee_id, e."name" AS employee_name, o."name" AS occupation_name 
                         FROM "Employee" e
                         INNER JOIN "Occupation" o ON e.occupation_id = o.id 
-                        WHERE e.block_id IS NULL AND e.occupation_id = {}
-                        LIMIT 1
-                    """.format(occupation_id)            
+                        WHERE e.block_id IS NULL                        
+                    """
+            if(occupation_id):
+                query += " AND e.occupation_id = {}".format(occupation_id)
+
+            query += " LIMIT 1"
             return DataBase.select(query)
         except Exception as ex:
             error = "Employee - get_available error: {} \n".format(ex)            

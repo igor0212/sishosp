@@ -23,7 +23,7 @@ class Bed:
                         FROM "Bed" b
                         INNER JOIN "Block" b2 ON b.block_id = b2.id 
                         WHERE b.is_available = true AND b2.state_id in (1, 2, 3)
-                        ORDER BY b2.state_id
+                        ORDER BY b2.state_id desc
                         LIMIT 1
                     """
             return DataBase.select(query)
