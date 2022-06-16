@@ -4,6 +4,13 @@ HOST = gethostname()
 PORT = 50000
 DATA_SIZE = 1024
 
+class Util:
+    def get_patient_information(message):
+        list = message.split()
+        name = list[0]
+        state = int(list[1])
+        return name, state
+
 class Client:    
 
     def close_connection(message):        
