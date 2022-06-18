@@ -45,3 +45,11 @@ class Patient:
         except Exception as ex:
             error = "Patient - remove_bed error: {} \n".format(ex)            
             raise Exception(error)    
+
+    def update_state(id, state_id, bed_id):   
+        try:
+            query = 'UPDATE "Patient" SET bed_id = {}, state_id = {} WHERE id = {}'.format(bed_id, state_id, id)
+            DataBase.update(query)            
+        except Exception as ex:
+            error = "Patient - update_state error: {} \n".format(ex)            
+            raise Exception(error)    

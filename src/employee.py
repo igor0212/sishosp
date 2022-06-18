@@ -19,12 +19,12 @@ class Employee:
             error = "Employee - get_available error: {} \n".format(ex)            
             raise Exception(error)            
 
-    def update_status(id, block_id):
+    def update_block(id, block_id):
         try:
             query = 'UPDATE "Employee" SET block_id = {} WHERE id = {}'.format(block_id, id)
             DataBase.update(query)
         except Exception as ex:
-            error = "Employee - update_status error: {} \n".format(ex)            
+            error = "Employee - update_block error: {} \n".format(ex)            
             raise Exception(error)
 
     def get_count_by_block(block_id):   

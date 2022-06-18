@@ -128,7 +128,7 @@ class Allocate:
             employee_id = employee[0]['employee_id']
             employee_name = employee[0]['employee_name']
             occupation_name = employee[0]['occupation_name']
-            Employee.update_status(employee_id, block_id)
+            Employee.update_block(employee_id, block_id)
             print("{} {} alocado(a) com sucesso no bloco {}.\n".format(occupation_name, employee_name, block_name))
         except Exception as ex:
             error = "Erro ao alocar profissional - {} \n".format(ex)
