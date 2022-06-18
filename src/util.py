@@ -7,7 +7,7 @@ DATA_SIZE = 1024
 class Util:
     QT_EMPLOYEES_BY_BLOCK = {'A': 5, 'B':3, 'C': 2, 'D': 1 }
 
-    PATIENT_STATE = {1: 'Ligh', 2:'Moderate', 3: 'Serious', 4: 'Very Serious' }
+    PATIENT_STATE = {1: 'Light', 2:'Moderate', 3: 'Serious', 4: 'Very Serious' }
 
     def get_patient_information(message):
         list = message.split()
