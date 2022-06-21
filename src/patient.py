@@ -6,7 +6,7 @@ import names
  
 class Patient:
 
-    def arrival(env, doctors, nurses, arrival_interval):        
+    def arrival(env, employees, arrival_interval):        
         while True:
 
             #Configurando o intervalo em que os pacientes chegarão
@@ -21,4 +21,4 @@ class Patient:
             File.print("\nPaciente %s chega ao hospital em estado %s as %4.1f " % (patient, state, env.now))
 
             #Inicia o processo do atendimento
-            env.process(Treatment.execute(env, patient, state, priority, is_urgent, doctors, nurses))        
+            env.process(Treatment.execute(env, patient, state, priority, is_urgent, employees))        

@@ -1,0 +1,360 @@
+
+Paciente Geralyn Peterson chega ao hospital em estado Moderado as  0.3 
+Enfermeiro Jack Martin inicia o atendimento ao paciente Geralyn Peterson que esta em estado Moderado as  0.3
+Paciente Jimmy Pulido chega ao hospital em estado Leve as  1.2 
+Paciente Diego Roberts chega ao hospital em estado Gravissimo as  1.7 
+Doutor Georgetta Ford inicia o atendimento ao paciente Diego Roberts que esta em estado Gravissimo as  1.7
+Paciente Amparo Teegarden chega ao hospital em estado Leve as  2.6 
+Enfermeiro Jack Martin finaliza o atendimento ao paciente Geralyn Peterson que esta em estado Moderado as  4.0
+Enfermeiro David Shell inicia o atendimento ao paciente Jimmy Pulido que esta em estado Leve as  4.0
+Enfermeiro David Shell finaliza o atendimento ao paciente Jimmy Pulido que esta em estado Leve as  4.4
+Enfermeiro Richard Sidhu inicia o atendimento ao paciente Amparo Teegarden que esta em estado Leve as  4.4
+Paciente Irwin Wiltse chega ao hospital em estado Gravissimo as  4.7 
+Paciente Randy Yamada chega ao hospital em estado Gravissimo as  5.7 
+Paciente Heidi Schneider chega ao hospital em estado Grave as  7.1 
+Paciente Soila Heath chega ao hospital em estado Leve as  8.7 
+Paciente Eileen Ferguson chega ao hospital em estado Gravissimo as  8.9 
+Enfermeiro Richard Sidhu finaliza o atendimento ao paciente Amparo Teegarden que esta em estado Leve as 11.8
+Enfermeiro Melody Norwood inicia o atendimento ao paciente Soila Heath que esta em estado Leve as 11.8
+Paciente Betty Frame chega ao hospital em estado Gravissimo as 13.7 
+Enfermeiro Melody Norwood finaliza o atendimento ao paciente Soila Heath que esta em estado Leve as 13.8
+Paciente Lena Hill chega ao hospital em estado Leve as 14.0 
+Enfermeiro Kenny Marrero inicia o atendimento ao paciente Lena Hill que esta em estado Leve as 14.0
+Enfermeiro Kenny Marrero finaliza o atendimento ao paciente Lena Hill que esta em estado Leve as 14.8
+Paciente Alice Johnson chega ao hospital em estado Leve as 15.9 
+Enfermeiro Frederick Hayes inicia o atendimento ao paciente Alice Johnson que esta em estado Leve as 15.9
+Paciente Gary Benford chega ao hospital em estado Grave as 16.3 
+Enfermeiro Frederick Hayes finaliza o atendimento ao paciente Alice Johnson que esta em estado Leve as 17.3
+Paciente Blair Brown chega ao hospital em estado Moderado as 18.4 
+Enfermeiro Ofelia Miller inicia o atendimento ao paciente Blair Brown que esta em estado Moderado as 18.4
+Paciente William Brown chega ao hospital em estado Leve as 18.5 
+Paciente Elizabeth Stello chega ao hospital em estado Moderado as 18.7 
+Enfermeiro Ofelia Miller finaliza o atendimento ao paciente Blair Brown que esta em estado Moderado as 19.8
+Enfermeiro Julia Whiteman inicia o atendimento ao paciente Elizabeth Stello que esta em estado Moderado as 19.8
+Paciente Irene Mckillip chega ao hospital em estado Gravissimo as 20.3 
+Paciente Annalee Bruce chega ao hospital em estado Moderado as 20.4 
+Paciente Joseph Miller chega ao hospital em estado Gravissimo as 22.9 
+Paciente Patricia Williams chega ao hospital em estado Gravissimo as 22.9 
+Paciente Mary Martin chega ao hospital em estado Moderado as 23.6 
+Enfermeiro Julia Whiteman finaliza o atendimento ao paciente Elizabeth Stello que esta em estado Moderado as 24.2
+Enfermeiro Jordan Flemings inicia o atendimento ao paciente Annalee Bruce que esta em estado Moderado as 24.2
+Paciente Patricia Cloninger chega ao hospital em estado Gravissimo as 25.7 
+Paciente Lorna Gillis chega ao hospital em estado Leve as 25.9 
+Enfermeiro Jordan Flemings finaliza o atendimento ao paciente Annalee Bruce que esta em estado Moderado as 26.8
+Enfermeiro Jacob Pagan inicia o atendimento ao paciente Mary Martin que esta em estado Moderado as 26.8
+Enfermeiro Jacob Pagan finaliza o atendimento ao paciente Mary Martin que esta em estado Moderado as 28.0
+Enfermeiro Becky Long inicia o atendimento ao paciente William Brown que esta em estado Leve as 28.0
+Paciente Elizabeth Stein chega ao hospital em estado Grave as 28.3 
+Paciente Chris Green chega ao hospital em estado Leve as 29.4 
+Paciente Matthew Rowland chega ao hospital em estado Grave as 31.3 
+Enfermeiro Becky Long finaliza o atendimento ao paciente William Brown que esta em estado Leve as 35.2
+Enfermeiro John Lamblin inicia o atendimento ao paciente Lorna Gillis que esta em estado Leve as 35.2
+Paciente Dennis Glasgow chega ao hospital em estado Moderado as 35.3 
+Enfermeiro John Lamblin finaliza o atendimento ao paciente Lorna Gillis que esta em estado Leve as 36.8
+Enfermeiro William Lafave inicia o atendimento ao paciente Dennis Glasgow que esta em estado Moderado as 36.8
+Paciente Emil Goodman chega ao hospital em estado Grave as 37.5 
+Doutor Georgetta Ford finaliza o atendimento ao paciente Diego Roberts que esta em estado Gravissimo as 39.2
+Doutor Clarence Boucher inicia o atendimento ao paciente Irwin Wiltse que esta em estado Gravissimo as 39.2
+Paciente Krystle Ryan chega ao hospital em estado Grave as 40.0 
+Enfermeiro William Lafave finaliza o atendimento ao paciente Dennis Glasgow que esta em estado Moderado as 42.1
+Enfermeiro Cynthia Amelung inicia o atendimento ao paciente Chris Green que esta em estado Leve as 42.1
+Enfermeiro Cynthia Amelung finaliza o atendimento ao paciente Chris Green que esta em estado Leve as 42.8
+Paciente Terry Green chega ao hospital em estado Grave as 43.0 
+Paciente Doris Franks chega ao hospital em estado Moderado as 43.1 
+Enfermeiro Patricia Smiley inicia o atendimento ao paciente Doris Franks que esta em estado Moderado as 43.1
+Doutor Clarence Boucher finaliza o atendimento ao paciente Irwin Wiltse que esta em estado Gravissimo as 43.9
+Doutor Allen Brown inicia o atendimento ao paciente Randy Yamada que esta em estado Gravissimo as 43.9
+Paciente Raymond Robey chega ao hospital em estado Leve as 49.4 
+Paciente Lisa Garrett chega ao hospital em estado Moderado as 50.3 
+Doutor Allen Brown finaliza o atendimento ao paciente Randy Yamada que esta em estado Gravissimo as 54.3
+Doutor Magda Jenkins inicia o atendimento ao paciente Eileen Ferguson que esta em estado Gravissimo as 54.3
+Paciente Joann Chapin chega ao hospital em estado Leve as 54.5 
+Paciente Jennifer Neal chega ao hospital em estado Leve as 55.0 
+Doutor Magda Jenkins finaliza o atendimento ao paciente Eileen Ferguson que esta em estado Gravissimo as 55.4
+Doutor Eric Kowalczyk inicia o atendimento ao paciente Betty Frame que esta em estado Gravissimo as 55.4
+Doutor Eric Kowalczyk finaliza o atendimento ao paciente Betty Frame que esta em estado Gravissimo as 55.6
+Doutor Joshua Cheney inicia o atendimento ao paciente Irene Mckillip que esta em estado Gravissimo as 55.6
+Paciente Selene Smith chega ao hospital em estado Moderado as 55.6 
+Paciente Helen Estes chega ao hospital em estado Leve as 56.7 
+Paciente Christina Brinlee chega ao hospital em estado Moderado as 57.3 
+Paciente Melissa Billings chega ao hospital em estado Leve as 58.1 
+Paciente Lisa Panek chega ao hospital em estado Moderado as 59.2 
+Paciente Timothy Williams chega ao hospital em estado Gravissimo as 59.7 
+Paciente Joann Miller chega ao hospital em estado Leve as 59.7 
+Paciente Kelli Osborn chega ao hospital em estado Grave as 59.8 
+Enfermeiro Patricia Smiley finaliza o atendimento ao paciente Doris Franks que esta em estado Moderado as 62.9
+Enfermeiro Cheryl Rogers inicia o atendimento ao paciente Lisa Garrett que esta em estado Moderado as 62.9
+Paciente Edward Gales chega ao hospital em estado Grave as 63.5 
+Enfermeiro Cheryl Rogers finaliza o atendimento ao paciente Lisa Garrett que esta em estado Moderado as 63.7
+Enfermeiro Natasha Farr inicia o atendimento ao paciente Selene Smith que esta em estado Moderado as 63.7
+Paciente Robert Motley chega ao hospital em estado Gravissimo as 64.1 
+Enfermeiro Natasha Farr finaliza o atendimento ao paciente Selene Smith que esta em estado Moderado as 64.9
+Enfermeiro Logan Shapero inicia o atendimento ao paciente Christina Brinlee que esta em estado Moderado as 64.9
+Paciente Billy Dale chega ao hospital em estado Grave as 67.7 
+Enfermeiro Logan Shapero finaliza o atendimento ao paciente Christina Brinlee que esta em estado Moderado as 68.0
+Enfermeiro Carl Sevy inicia o atendimento ao paciente Lisa Panek que esta em estado Moderado as 68.0
+Doutor Joshua Cheney finaliza o atendimento ao paciente Irene Mckillip que esta em estado Gravissimo as 68.4
+Doutor Janet Porter inicia o atendimento ao paciente Joseph Miller que esta em estado Gravissimo as 68.4
+Paciente Jefferson Fryson chega ao hospital em estado Grave as 72.1 
+Paciente Ron Elliott chega ao hospital em estado Moderado as 74.9 
+Doutor Janet Porter finaliza o atendimento ao paciente Joseph Miller que esta em estado Gravissimo as 75.2
+Doutor Geneva Sowell inicia o atendimento ao paciente Patricia Williams que esta em estado Gravissimo as 75.2
+Enfermeiro Carl Sevy finaliza o atendimento ao paciente Lisa Panek que esta em estado Moderado as 76.3
+Enfermeiro Peter Vail inicia o atendimento ao paciente Ron Elliott que esta em estado Moderado as 76.3
+Enfermeiro Peter Vail finaliza o atendimento ao paciente Ron Elliott que esta em estado Moderado as 78.5
+Enfermeiro Robert Childers inicia o atendimento ao paciente Raymond Robey que esta em estado Leve as 78.5
+Paciente Juan Schneider chega ao hospital em estado Grave as 80.2 
+Enfermeiro Robert Childers finaliza o atendimento ao paciente Raymond Robey que esta em estado Leve as 81.7
+Enfermeiro Gary Behanna inicia o atendimento ao paciente Joann Chapin que esta em estado Leve as 81.7
+Enfermeiro Gary Behanna finaliza o atendimento ao paciente Joann Chapin que esta em estado Leve as 82.3
+Enfermeiro Brittney Patillo inicia o atendimento ao paciente Jennifer Neal que esta em estado Leve as 82.3
+Enfermeiro Brittney Patillo finaliza o atendimento ao paciente Jennifer Neal que esta em estado Leve as 86.4
+Enfermeiro Stephen Hopfensperger inicia o atendimento ao paciente Helen Estes que esta em estado Leve as 86.4
+Enfermeiro Stephen Hopfensperger finaliza o atendimento ao paciente Helen Estes que esta em estado Leve as 86.4
+Enfermeiro Mary Melgoza inicia o atendimento ao paciente Melissa Billings que esta em estado Leve as 86.4
+Paciente Hector Gregg chega ao hospital em estado Grave as 89.1 
+Doutor Geneva Sowell finaliza o atendimento ao paciente Patricia Williams que esta em estado Gravissimo as 89.1
+Doutor Joshua Alexander inicia o atendimento ao paciente Patricia Cloninger que esta em estado Gravissimo as 89.1
+Enfermeiro Mary Melgoza finaliza o atendimento ao paciente Melissa Billings que esta em estado Leve as 89.1
+Enfermeiro Mary Grobmyer inicia o atendimento ao paciente Joann Miller que esta em estado Leve as 89.1
+Paciente William Hice chega ao hospital em estado Gravissimo as 92.8 
+Paciente Lottie Shields chega ao hospital em estado Moderado as 93.4 
+Enfermeiro Mary Grobmyer finaliza o atendimento ao paciente Joann Miller que esta em estado Leve as 95.7
+Enfermeiro Kelly Lapierre inicia o atendimento ao paciente Lottie Shields que esta em estado Moderado as 95.7
+Paciente Samuel Preslipsky chega ao hospital em estado Leve as 97.2 
+Paciente James Juarez chega ao hospital em estado Moderado as 98.6 
+Paciente Charles Abbott chega ao hospital em estado Moderado as 98.7 
+Paciente Kyla Tamez chega ao hospital em estado Moderado as 101.4 
+Doutor Joshua Alexander finaliza o atendimento ao paciente Patricia Cloninger que esta em estado Gravissimo as 101.4
+Doutor Beverly White inicia o atendimento ao paciente Timothy Williams que esta em estado Gravissimo as 101.4
+Enfermeiro Kelly Lapierre finaliza o atendimento ao paciente Lottie Shields que esta em estado Moderado as 102.5
+Enfermeiro Mary Zehender inicia o atendimento ao paciente James Juarez que esta em estado Moderado as 102.5
+Enfermeiro Mary Zehender finaliza o atendimento ao paciente James Juarez que esta em estado Moderado as 102.7
+Enfermeiro Monique Herbst inicia o atendimento ao paciente Charles Abbott que esta em estado Moderado as 102.7
+Doutor Beverly White finaliza o atendimento ao paciente Timothy Williams que esta em estado Gravissimo as 104.6
+Doutor Anna Perez inicia o atendimento ao paciente Robert Motley que esta em estado Gravissimo as 104.6
+Paciente Stephanie Harris chega ao hospital em estado Leve as 107.7 
+Enfermeiro Monique Herbst finaliza o atendimento ao paciente Charles Abbott que esta em estado Moderado as 109.4
+Enfermeiro Danny Ruiz inicia o atendimento ao paciente Kyla Tamez que esta em estado Moderado as 109.4
+Enfermeiro Danny Ruiz finaliza o atendimento ao paciente Kyla Tamez que esta em estado Moderado as 109.6
+Enfermeiro Juan Banton inicia o atendimento ao paciente Samuel Preslipsky que esta em estado Leve as 109.6
+Paciente Rachael Mensing chega ao hospital em estado Gravissimo as 110.9 
+Paciente Erin Will chega ao hospital em estado Leve as 114.3 
+Enfermeiro Juan Banton finaliza o atendimento ao paciente Samuel Preslipsky que esta em estado Leve as 115.6
+Enfermeiro Marguerite Read inicia o atendimento ao paciente Stephanie Harris que esta em estado Leve as 115.6
+Paciente Catherine Gregory chega ao hospital em estado Moderado as 116.5 
+Paciente Tanesha Chinzi chega ao hospital em estado Grave as 116.7 
+Paciente Betty Holden chega ao hospital em estado Leve as 117.2 
+Enfermeiro Marguerite Read finaliza o atendimento ao paciente Stephanie Harris que esta em estado Leve as 117.8
+Enfermeiro Edwin Burns inicia o atendimento ao paciente Catherine Gregory que esta em estado Moderado as 117.8
+Paciente Debra Rave chega ao hospital em estado Moderado as 118.1 
+Doutor Anna Perez finaliza o atendimento ao paciente Robert Motley que esta em estado Gravissimo as 119.2
+Doutor Alicia Schneider inicia o atendimento ao paciente William Hice que esta em estado Gravissimo as 119.2
+Paciente Debbie Vang chega ao hospital em estado Moderado as 119.7 
+Paciente Alfred Roussos chega ao hospital em estado Grave as 120.8 
+Paciente Lauren Vega chega ao hospital em estado Moderado as 130.4 
+Paciente Sergio Green chega ao hospital em estado Leve as 130.7 
+Enfermeiro Edwin Burns finaliza o atendimento ao paciente Catherine Gregory que esta em estado Moderado as 130.9
+Enfermeiro David Oakley inicia o atendimento ao paciente Debra Rave que esta em estado Moderado as 130.9
+Paciente Ruby Escalante chega ao hospital em estado Moderado as 131.9 
+Paciente Florence Nolan chega ao hospital em estado Gravissimo as 132.9 
+Paciente Nicholas Puga chega ao hospital em estado Leve as 133.6 
+Paciente Eleanor Frisby chega ao hospital em estado Leve as 133.7 
+Paciente Joe Bies chega ao hospital em estado Leve as 133.7 
+Paciente Leona Ruybal chega ao hospital em estado Moderado as 134.6 
+Paciente Andrew Kestler chega ao hospital em estado Grave as 136.5 
+Doutor Alicia Schneider finaliza o atendimento ao paciente William Hice que esta em estado Gravissimo as 137.9
+Doutor Barbara Penny inicia o atendimento ao paciente Rachael Mensing que esta em estado Gravissimo as 137.9
+Paciente Kayla Red chega ao hospital em estado Moderado as 138.9 
+Paciente Robin Stephen chega ao hospital em estado Moderado as 139.0 
+Enfermeiro David Oakley finaliza o atendimento ao paciente Debra Rave que esta em estado Moderado as 139.5
+Enfermeiro Keith Simmon inicia o atendimento ao paciente Debbie Vang que esta em estado Moderado as 139.5
+Enfermeiro Keith Simmon finaliza o atendimento ao paciente Debbie Vang que esta em estado Moderado as 139.5
+Enfermeiro Sharon Luna inicia o atendimento ao paciente Lauren Vega que esta em estado Moderado as 139.5
+Enfermeiro Sharon Luna finaliza o atendimento ao paciente Lauren Vega que esta em estado Moderado as 139.5
+Enfermeiro Sandra Salberg inicia o atendimento ao paciente Ruby Escalante que esta em estado Moderado as 139.5
+Paciente Jessica Turner chega ao hospital em estado Grave as 139.6 
+Paciente Adrian Westphal chega ao hospital em estado Grave as 141.2 
+Paciente Robert Gowers chega ao hospital em estado Gravissimo as 143.1 
+Enfermeiro Sandra Salberg finaliza o atendimento ao paciente Ruby Escalante que esta em estado Moderado as 144.6
+Enfermeiro Luz Kountz inicia o atendimento ao paciente Leona Ruybal que esta em estado Moderado as 144.6
+Paciente Shirley Bowen chega ao hospital em estado Moderado as 144.8 
+Paciente Adelina Pittman chega ao hospital em estado Leve as 145.2 
+Paciente Eva Ballance chega ao hospital em estado Gravissimo as 146.0 
+Enfermeiro Luz Kountz finaliza o atendimento ao paciente Leona Ruybal que esta em estado Moderado as 147.7
+Enfermeiro Ruben Galloway inicia o atendimento ao paciente Kayla Red que esta em estado Moderado as 147.7
+Paciente Nicholas Gross chega ao hospital em estado Gravissimo as 148.1 
+Paciente Marlene Berrios chega ao hospital em estado Leve as 148.8 
+Paciente Stephen King chega ao hospital em estado Gravissimo as 149.3 
+Paciente Lewis Calderon chega ao hospital em estado Grave as 149.4 
+Paciente Tamara Thomas chega ao hospital em estado Moderado as 150.7 
+Paciente Jonathan Carrousal chega ao hospital em estado Leve as 151.1 
+Paciente Kenneth Coleman chega ao hospital em estado Grave as 153.5 
+Enfermeiro Ruben Galloway finaliza o atendimento ao paciente Kayla Red que esta em estado Moderado as 154.4
+Enfermeiro Vivian Dematteo inicia o atendimento ao paciente Robin Stephen que esta em estado Moderado as 154.4
+Enfermeiro Vivian Dematteo finaliza o atendimento ao paciente Robin Stephen que esta em estado Moderado as 154.6
+Enfermeiro Geraldine Mccarthy inicia o atendimento ao paciente Shirley Bowen que esta em estado Moderado as 154.6
+Enfermeiro Geraldine Mccarthy finaliza o atendimento ao paciente Shirley Bowen que esta em estado Moderado as 155.1
+Enfermeiro Jessie Velazquez inicia o atendimento ao paciente Tamara Thomas que esta em estado Moderado as 155.1
+Paciente Martha Loveless chega ao hospital em estado Moderado as 157.9 
+Paciente Jack Winfield chega ao hospital em estado Moderado as 159.8 
+Paciente Mario Robinette chega ao hospital em estado Gravissimo as 165.5 
+Paciente James Mull chega ao hospital em estado Leve as 168.8 
+Enfermeiro Jessie Velazquez finaliza o atendimento ao paciente Tamara Thomas que esta em estado Moderado as 169.3
+Enfermeiro Scott Collado inicia o atendimento ao paciente Martha Loveless que esta em estado Moderado as 169.3
+Enfermeiro Scott Collado finaliza o atendimento ao paciente Martha Loveless que esta em estado Moderado as 171.5
+Enfermeiro Rodrigo Brown inicia o atendimento ao paciente Jack Winfield que esta em estado Moderado as 171.5
+Paciente David Robbins chega ao hospital em estado Gravissimo as 173.3 
+Enfermeiro Rodrigo Brown finaliza o atendimento ao paciente Jack Winfield que esta em estado Moderado as 174.4
+Enfermeiro Rita Cable inicia o atendimento ao paciente Erin Will que esta em estado Leve as 174.4
+Enfermeiro Rita Cable finaliza o atendimento ao paciente Erin Will que esta em estado Leve as 174.9
+Enfermeiro Lawerence Black inicia o atendimento ao paciente Betty Holden que esta em estado Leve as 174.9
+Paciente Rita Dallas chega ao hospital em estado Gravissimo as 175.0 
+Paciente Phillip Ziegler chega ao hospital em estado Gravissimo as 175.2 
+Paciente Carroll Halasz chega ao hospital em estado Grave as 175.3 
+Enfermeiro Lawerence Black finaliza o atendimento ao paciente Betty Holden que esta em estado Leve as 176.0
+Enfermeiro Arlene Arrington inicia o atendimento ao paciente Sergio Green que esta em estado Leve as 176.0
+Doutor Barbara Penny finaliza o atendimento ao paciente Rachael Mensing que esta em estado Gravissimo as 176.5
+Doutor Shannon Greenfield inicia o atendimento ao paciente Florence Nolan que esta em estado Gravissimo as 176.5
+Paciente Latasha Jackson chega ao hospital em estado Moderado as 176.8 
+Paciente Sandra Portes chega ao hospital em estado Gravissimo as 177.2 
+Enfermeiro Arlene Arrington finaliza o atendimento ao paciente Sergio Green que esta em estado Leve as 179.2
+Enfermeiro Carol Miranda inicia o atendimento ao paciente Latasha Jackson que esta em estado Moderado as 179.2
+Doutor Shannon Greenfield finaliza o atendimento ao paciente Florence Nolan que esta em estado Gravissimo as 179.3
+Doutor Theresa Hess inicia o atendimento ao paciente Robert Gowers que esta em estado Gravissimo as 179.3
+Enfermeiro Carol Miranda finaliza o atendimento ao paciente Latasha Jackson que esta em estado Moderado as 180.0
+Enfermeiro Lyle Cross inicia o atendimento ao paciente Nicholas Puga que esta em estado Leve as 180.0
+Enfermeiro Lyle Cross finaliza o atendimento ao paciente Nicholas Puga que esta em estado Leve as 180.7
+Enfermeiro Gladys Perfater inicia o atendimento ao paciente Eleanor Frisby que esta em estado Leve as 180.7
+Enfermeiro Gladys Perfater finaliza o atendimento ao paciente Eleanor Frisby que esta em estado Leve as 181.1
+Enfermeiro Jonathan Politi inicia o atendimento ao paciente Joe Bies que esta em estado Leve as 181.1
+Paciente Kim Langham chega ao hospital em estado Grave as 181.6 
+Doutor Theresa Hess finaliza o atendimento ao paciente Robert Gowers que esta em estado Gravissimo as 181.9
+Doutor Michael Moon inicia o atendimento ao paciente Eva Ballance que esta em estado Gravissimo as 181.9
+Paciente Jacqueline Barney chega ao hospital em estado Gravissimo as 184.3 
+Paciente Bertha Payne chega ao hospital em estado Grave as 184.8 
+Enfermeiro Jonathan Politi finaliza o atendimento ao paciente Joe Bies que esta em estado Leve as 185.4
+Enfermeiro Joseph Walker inicia o atendimento ao paciente Adelina Pittman que esta em estado Leve as 185.4
+Enfermeiro Joseph Walker finaliza o atendimento ao paciente Adelina Pittman que esta em estado Leve as 188.2
+Enfermeiro Michael Wray inicia o atendimento ao paciente Marlene Berrios que esta em estado Leve as 188.2
+Paciente Dorothy Oliver chega ao hospital em estado Leve as 188.2 
+Enfermeiro Michael Wray finaliza o atendimento ao paciente Marlene Berrios que esta em estado Leve as 188.7
+Enfermeiro Cameron Ringgold inicia o atendimento ao paciente Jonathan Carrousal que esta em estado Leve as 188.7
+Enfermeiro Cameron Ringgold finaliza o atendimento ao paciente Jonathan Carrousal que esta em estado Leve as 192.8
+Enfermeiro Samuel Olsen inicia o atendimento ao paciente James Mull que esta em estado Leve as 192.8
+Paciente Jack Mason chega ao hospital em estado Moderado as 193.6 
+Doutor Michael Moon finaliza o atendimento ao paciente Eva Ballance que esta em estado Gravissimo as 195.2
+Doutor Margaret Cox inicia o atendimento ao paciente Nicholas Gross que esta em estado Gravissimo as 195.2
+Doutor Margaret Cox finaliza o atendimento ao paciente Nicholas Gross que esta em estado Gravissimo as 195.3
+Doutor Alan Johnson inicia o atendimento ao paciente Stephen King que esta em estado Gravissimo as 195.3
+Enfermeiro Samuel Olsen finaliza o atendimento ao paciente James Mull que esta em estado Leve as 197.1
+Enfermeiro Lisa Wilson inicia o atendimento ao paciente Jack Mason que esta em estado Moderado as 197.1
+Doutor Alan Johnson finaliza o atendimento ao paciente Stephen King que esta em estado Gravissimo as 197.9
+Doutor Diana Ramos inicia o atendimento ao paciente Mario Robinette que esta em estado Gravissimo as 197.9
+Enfermeiro Lisa Wilson finaliza o atendimento ao paciente Jack Mason que esta em estado Moderado as 199.0
+Enfermeiro Richard Sala inicia o atendimento ao paciente Dorothy Oliver que esta em estado Leve as 199.0
+Paciente Carol Melius chega ao hospital em estado Leve as 199.3 
+Doutor Diana Ramos finaliza o atendimento ao paciente Mario Robinette que esta em estado Gravissimo as 202.3
+Doutor Herman Sullivan inicia o atendimento ao paciente David Robbins que esta em estado Gravissimo as 202.3
+Enfermeiro Richard Sala finaliza o atendimento ao paciente Dorothy Oliver que esta em estado Leve as 202.6
+Enfermeiro Mark Stallings inicia o atendimento ao paciente Carol Melius que esta em estado Leve as 202.6
+Enfermeiro Mark Stallings finaliza o atendimento ao paciente Carol Melius que esta em estado Leve as 203.2
+Paciente Charles Gilliam chega ao hospital em estado Gravissimo as 203.3 
+Paciente Lana Agee chega ao hospital em estado Gravissimo as 205.1 
+Paciente William Powell chega ao hospital em estado Gravissimo as 206.4 
+Paciente Joe Wille chega ao hospital em estado Gravissimo as 206.7 
+Paciente Lee Tucker chega ao hospital em estado Grave as 209.6 
+Paciente Maria Manley chega ao hospital em estado Grave as 214.4 
+Paciente Edward Riojas chega ao hospital em estado Leve as 215.2 
+Enfermeiro John Lee inicia o atendimento ao paciente Edward Riojas que esta em estado Leve as 215.2
+Paciente Elbert Brooks chega ao hospital em estado Grave as 215.7 
+Paciente John Purkey chega ao hospital em estado Leve as 216.3 
+Paciente Mary Pinson chega ao hospital em estado Moderado as 218.4 
+Paciente Heather Driggers chega ao hospital em estado Moderado as 219.9 
+Enfermeiro John Lee finaliza o atendimento ao paciente Edward Riojas que esta em estado Leve as 220.1
+Enfermeiro Diane Salvador inicia o atendimento ao paciente Mary Pinson que esta em estado Moderado as 220.1
+Paciente Victor Guffey chega ao hospital em estado Moderado as 221.0 
+Paciente Bertie Watson chega ao hospital em estado Moderado as 224.7 
+Enfermeiro Diane Salvador finaliza o atendimento ao paciente Mary Pinson que esta em estado Moderado as 225.1
+Enfermeiro Leslie Phillips inicia o atendimento ao paciente Heather Driggers que esta em estado Moderado as 225.1
+Paciente Thomas Ashby chega ao hospital em estado Leve as 225.4 
+Paciente Vicente Pearson chega ao hospital em estado Leve as 225.5 
+Paciente Angela Pat chega ao hospital em estado Moderado as 226.5 
+Doutor Herman Sullivan finaliza o atendimento ao paciente David Robbins que esta em estado Gravissimo as 227.9
+Doutor George Hyde inicia o atendimento ao paciente Rita Dallas que esta em estado Gravissimo as 227.9
+Enfermeiro Leslie Phillips finaliza o atendimento ao paciente Heather Driggers que esta em estado Moderado as 228.0
+Enfermeiro Maria Rea inicia o atendimento ao paciente Victor Guffey que esta em estado Moderado as 228.0
+Paciente Sheryl Devine chega ao hospital em estado Gravissimo as 228.6 
+Enfermeiro Maria Rea finaliza o atendimento ao paciente Victor Guffey que esta em estado Moderado as 228.6
+Enfermeiro James Ritschard inicia o atendimento ao paciente Bertie Watson que esta em estado Moderado as 228.6
+Enfermeiro James Ritschard finaliza o atendimento ao paciente Bertie Watson que esta em estado Moderado as 228.9
+Enfermeiro Ginette Randall inicia o atendimento ao paciente Angela Pat que esta em estado Moderado as 228.9
+Paciente Eugene Chesser chega ao hospital em estado Grave as 229.2 
+Paciente Brenton Boatman chega ao hospital em estado Grave as 229.3 
+Paciente Johnnie Overcash chega ao hospital em estado Moderado as 230.6 
+Paciente Sophie Fleming chega ao hospital em estado Gravissimo as 233.1 
+Enfermeiro Ginette Randall finaliza o atendimento ao paciente Angela Pat que esta em estado Moderado as 235.8
+Enfermeiro Michael Lopez inicia o atendimento ao paciente Johnnie Overcash que esta em estado Moderado as 235.8
+Paciente Lawerence Padilla chega ao hospital em estado Leve as 236.0 
+Enfermeiro Michael Lopez finaliza o atendimento ao paciente Johnnie Overcash que esta em estado Moderado as 238.3
+Enfermeiro Benjamin Walter inicia o atendimento ao paciente John Purkey que esta em estado Leve as 238.3
+Paciente John Andrews chega ao hospital em estado Grave as 239.5 
+Paciente Tim Lebrecque chega ao hospital em estado Gravissimo as 240.0 
+Paciente Benjamin Black chega ao hospital em estado Gravissimo as 242.3 
+Paciente Shanika Jemmott chega ao hospital em estado Gravissimo as 244.4 
+Enfermeiro Benjamin Walter finaliza o atendimento ao paciente John Purkey que esta em estado Leve as 244.8
+Enfermeiro Randall Garcia inicia o atendimento ao paciente Thomas Ashby que esta em estado Leve as 244.8
+Paciente Tracy Wilson chega ao hospital em estado Grave as 246.3 
+Enfermeiro Randall Garcia finaliza o atendimento ao paciente Thomas Ashby que esta em estado Leve as 246.7
+Enfermeiro Gertie Daniels inicia o atendimento ao paciente Vicente Pearson que esta em estado Leve as 246.7
+Paciente Anita Mascaro chega ao hospital em estado Moderado as 246.8 
+Paciente Kristine Cannon chega ao hospital em estado Moderado as 247.9 
+Paciente Vincent Mullings chega ao hospital em estado Grave as 249.9 
+Doutor George Hyde finaliza o atendimento ao paciente Rita Dallas que esta em estado Gravissimo as 251.1
+Doutor Dwight Welch inicia o atendimento ao paciente Phillip Ziegler que esta em estado Gravissimo as 251.1
+Enfermeiro Gertie Daniels finaliza o atendimento ao paciente Vicente Pearson que esta em estado Leve as 251.2
+Enfermeiro Viola Davis inicia o atendimento ao paciente Anita Mascaro que esta em estado Moderado as 251.2
+Paciente Mark Parker chega ao hospital em estado Gravissimo as 255.7 
+Paciente Angel Salmons chega ao hospital em estado Moderado as 255.8 
+Paciente Leroy Sanchez chega ao hospital em estado Grave as 256.8 
+Paciente David Pettus chega ao hospital em estado Gravissimo as 264.0 
+Enfermeiro Viola Davis finaliza o atendimento ao paciente Anita Mascaro que esta em estado Moderado as 265.3
+Enfermeiro Carol Reed inicia o atendimento ao paciente Kristine Cannon que esta em estado Moderado as 265.3
+Enfermeiro Carol Reed finaliza o atendimento ao paciente Kristine Cannon que esta em estado Moderado as 265.8
+Enfermeiro Catherine Mann inicia o atendimento ao paciente Angel Salmons que esta em estado Moderado as 265.8
+Enfermeiro Catherine Mann finaliza o atendimento ao paciente Angel Salmons que esta em estado Moderado as 268.3
+Enfermeiro Kenneth Carroll inicia o atendimento ao paciente Lawerence Padilla que esta em estado Leve as 268.3
+Doutor Dwight Welch finaliza o atendimento ao paciente Phillip Ziegler que esta em estado Gravissimo as 271.0
+Doutor Mark Schroeder inicia o atendimento ao paciente Sandra Portes que esta em estado Gravissimo as 271.0
+Doutor Mark Schroeder finaliza o atendimento ao paciente Sandra Portes que esta em estado Gravissimo as 273.0
+Doutor Roland Patel inicia o atendimento ao paciente Jacqueline Barney que esta em estado Gravissimo as 273.0
+Paciente Beatriz Johnson chega ao hospital em estado Moderado as 274.1 
+Enfermeiro Kenneth Carroll finaliza o atendimento ao paciente Lawerence Padilla que esta em estado Leve as 275.2
+Enfermeiro Michael Weeks inicia o atendimento ao paciente Beatriz Johnson que esta em estado Moderado as 275.2
+Doutor Roland Patel finaliza o atendimento ao paciente Jacqueline Barney que esta em estado Gravissimo as 275.9
+Doutor Kimberly Pritchett inicia o atendimento ao paciente Charles Gilliam que esta em estado Gravissimo as 275.9
+Paciente Oscar Hungerford chega ao hospital em estado Leve as 276.0 
+Paciente Barry Moore chega ao hospital em estado Leve as 276.2 
+Paciente Louise Murphy chega ao hospital em estado Grave as 276.4 
+Paciente Laura Gross chega ao hospital em estado Leve as 278.3 
+Paciente Lacy Vargas chega ao hospital em estado Moderado as 278.5 
+Paciente Margaret Bridges chega ao hospital em estado Gravissimo as 283.5 
+Paciente Mary Reeder chega ao hospital em estado Grave as 283.7 
+Paciente Priscilla Mcghee chega ao hospital em estado Gravissimo as 287.7 
+Paciente Norma Frank chega ao hospital em estado Leve as 288.2 
+Enfermeiro Michael Weeks finaliza o atendimento ao paciente Beatriz Johnson que esta em estado Moderado as 291.3
+Enfermeiro David Delapaz inicia o atendimento ao paciente Lacy Vargas que esta em estado Moderado as 291.3
+Enfermeiro David Delapaz finaliza o atendimento ao paciente Lacy Vargas que esta em estado Moderado as 291.3
+Enfermeiro David Holvey inicia o atendimento ao paciente Oscar Hungerford que esta em estado Leve as 291.3
+Doutor Kimberly Pritchett finaliza o atendimento ao paciente Charles Gilliam que esta em estado Gravissimo as 291.8
+Doutor Stephen Carter inicia o atendimento ao paciente Lana Agee que esta em estado Gravissimo as 291.8
+Paciente Edgar Hollenbach chega ao hospital em estado Gravissimo as 295.6 
+Doutor Stephen Carter finaliza o atendimento ao paciente Lana Agee que esta em estado Gravissimo as 296.7
+Doutor Mary Clothier inicia o atendimento ao paciente William Powell que esta em estado Gravissimo as 296.7
+Enfermeiro David Holvey finaliza o atendimento ao paciente Oscar Hungerford que esta em estado Leve as 297.0
+Enfermeiro Daniel Romero inicia o atendimento ao paciente Barry Moore que esta em estado Leve as 297.0
+Enfermeiro Daniel Romero finaliza o atendimento ao paciente Barry Moore que esta em estado Leve as 297.2
+Enfermeiro Scott Jones inicia o atendimento ao paciente Laura Gross que esta em estado Leve as 297.2
+Doutor Mary Clothier finaliza o atendimento ao paciente William Powell que esta em estado Gravissimo as 298.6
+Doutor Donald Anderson inicia o atendimento ao paciente Joe Wille que esta em estado Gravissimo as 298.6
+Paciente Marion Scanlon chega ao hospital em estado Leve as 298.9 
