@@ -1,360 +1,866 @@
 
-Paciente Geralyn Peterson chega ao hospital em estado Moderado as  0.3 
-Enfermeiro Jack Martin inicia o atendimento ao paciente Geralyn Peterson que esta em estado Moderado as  0.3
-Paciente Jimmy Pulido chega ao hospital em estado Leve as  1.2 
-Paciente Diego Roberts chega ao hospital em estado Gravissimo as  1.7 
-Doutor Georgetta Ford inicia o atendimento ao paciente Diego Roberts que esta em estado Gravissimo as  1.7
-Paciente Amparo Teegarden chega ao hospital em estado Leve as  2.6 
-Enfermeiro Jack Martin finaliza o atendimento ao paciente Geralyn Peterson que esta em estado Moderado as  4.0
-Enfermeiro David Shell inicia o atendimento ao paciente Jimmy Pulido que esta em estado Leve as  4.0
-Enfermeiro David Shell finaliza o atendimento ao paciente Jimmy Pulido que esta em estado Leve as  4.4
-Enfermeiro Richard Sidhu inicia o atendimento ao paciente Amparo Teegarden que esta em estado Leve as  4.4
-Paciente Irwin Wiltse chega ao hospital em estado Gravissimo as  4.7 
-Paciente Randy Yamada chega ao hospital em estado Gravissimo as  5.7 
-Paciente Heidi Schneider chega ao hospital em estado Grave as  7.1 
-Paciente Soila Heath chega ao hospital em estado Leve as  8.7 
-Paciente Eileen Ferguson chega ao hospital em estado Gravissimo as  8.9 
-Enfermeiro Richard Sidhu finaliza o atendimento ao paciente Amparo Teegarden que esta em estado Leve as 11.8
-Enfermeiro Melody Norwood inicia o atendimento ao paciente Soila Heath que esta em estado Leve as 11.8
-Paciente Betty Frame chega ao hospital em estado Gravissimo as 13.7 
-Enfermeiro Melody Norwood finaliza o atendimento ao paciente Soila Heath que esta em estado Leve as 13.8
-Paciente Lena Hill chega ao hospital em estado Leve as 14.0 
-Enfermeiro Kenny Marrero inicia o atendimento ao paciente Lena Hill que esta em estado Leve as 14.0
-Enfermeiro Kenny Marrero finaliza o atendimento ao paciente Lena Hill que esta em estado Leve as 14.8
-Paciente Alice Johnson chega ao hospital em estado Leve as 15.9 
-Enfermeiro Frederick Hayes inicia o atendimento ao paciente Alice Johnson que esta em estado Leve as 15.9
-Paciente Gary Benford chega ao hospital em estado Grave as 16.3 
-Enfermeiro Frederick Hayes finaliza o atendimento ao paciente Alice Johnson que esta em estado Leve as 17.3
-Paciente Blair Brown chega ao hospital em estado Moderado as 18.4 
-Enfermeiro Ofelia Miller inicia o atendimento ao paciente Blair Brown que esta em estado Moderado as 18.4
-Paciente William Brown chega ao hospital em estado Leve as 18.5 
-Paciente Elizabeth Stello chega ao hospital em estado Moderado as 18.7 
-Enfermeiro Ofelia Miller finaliza o atendimento ao paciente Blair Brown que esta em estado Moderado as 19.8
-Enfermeiro Julia Whiteman inicia o atendimento ao paciente Elizabeth Stello que esta em estado Moderado as 19.8
-Paciente Irene Mckillip chega ao hospital em estado Gravissimo as 20.3 
-Paciente Annalee Bruce chega ao hospital em estado Moderado as 20.4 
-Paciente Joseph Miller chega ao hospital em estado Gravissimo as 22.9 
-Paciente Patricia Williams chega ao hospital em estado Gravissimo as 22.9 
-Paciente Mary Martin chega ao hospital em estado Moderado as 23.6 
-Enfermeiro Julia Whiteman finaliza o atendimento ao paciente Elizabeth Stello que esta em estado Moderado as 24.2
-Enfermeiro Jordan Flemings inicia o atendimento ao paciente Annalee Bruce que esta em estado Moderado as 24.2
-Paciente Patricia Cloninger chega ao hospital em estado Gravissimo as 25.7 
-Paciente Lorna Gillis chega ao hospital em estado Leve as 25.9 
-Enfermeiro Jordan Flemings finaliza o atendimento ao paciente Annalee Bruce que esta em estado Moderado as 26.8
-Enfermeiro Jacob Pagan inicia o atendimento ao paciente Mary Martin que esta em estado Moderado as 26.8
-Enfermeiro Jacob Pagan finaliza o atendimento ao paciente Mary Martin que esta em estado Moderado as 28.0
-Enfermeiro Becky Long inicia o atendimento ao paciente William Brown que esta em estado Leve as 28.0
-Paciente Elizabeth Stein chega ao hospital em estado Grave as 28.3 
-Paciente Chris Green chega ao hospital em estado Leve as 29.4 
-Paciente Matthew Rowland chega ao hospital em estado Grave as 31.3 
-Enfermeiro Becky Long finaliza o atendimento ao paciente William Brown que esta em estado Leve as 35.2
-Enfermeiro John Lamblin inicia o atendimento ao paciente Lorna Gillis que esta em estado Leve as 35.2
-Paciente Dennis Glasgow chega ao hospital em estado Moderado as 35.3 
-Enfermeiro John Lamblin finaliza o atendimento ao paciente Lorna Gillis que esta em estado Leve as 36.8
-Enfermeiro William Lafave inicia o atendimento ao paciente Dennis Glasgow que esta em estado Moderado as 36.8
-Paciente Emil Goodman chega ao hospital em estado Grave as 37.5 
-Doutor Georgetta Ford finaliza o atendimento ao paciente Diego Roberts que esta em estado Gravissimo as 39.2
-Doutor Clarence Boucher inicia o atendimento ao paciente Irwin Wiltse que esta em estado Gravissimo as 39.2
-Paciente Krystle Ryan chega ao hospital em estado Grave as 40.0 
-Enfermeiro William Lafave finaliza o atendimento ao paciente Dennis Glasgow que esta em estado Moderado as 42.1
-Enfermeiro Cynthia Amelung inicia o atendimento ao paciente Chris Green que esta em estado Leve as 42.1
-Enfermeiro Cynthia Amelung finaliza o atendimento ao paciente Chris Green que esta em estado Leve as 42.8
-Paciente Terry Green chega ao hospital em estado Grave as 43.0 
-Paciente Doris Franks chega ao hospital em estado Moderado as 43.1 
-Enfermeiro Patricia Smiley inicia o atendimento ao paciente Doris Franks que esta em estado Moderado as 43.1
-Doutor Clarence Boucher finaliza o atendimento ao paciente Irwin Wiltse que esta em estado Gravissimo as 43.9
-Doutor Allen Brown inicia o atendimento ao paciente Randy Yamada que esta em estado Gravissimo as 43.9
-Paciente Raymond Robey chega ao hospital em estado Leve as 49.4 
-Paciente Lisa Garrett chega ao hospital em estado Moderado as 50.3 
-Doutor Allen Brown finaliza o atendimento ao paciente Randy Yamada que esta em estado Gravissimo as 54.3
-Doutor Magda Jenkins inicia o atendimento ao paciente Eileen Ferguson que esta em estado Gravissimo as 54.3
-Paciente Joann Chapin chega ao hospital em estado Leve as 54.5 
-Paciente Jennifer Neal chega ao hospital em estado Leve as 55.0 
-Doutor Magda Jenkins finaliza o atendimento ao paciente Eileen Ferguson que esta em estado Gravissimo as 55.4
-Doutor Eric Kowalczyk inicia o atendimento ao paciente Betty Frame que esta em estado Gravissimo as 55.4
-Doutor Eric Kowalczyk finaliza o atendimento ao paciente Betty Frame que esta em estado Gravissimo as 55.6
-Doutor Joshua Cheney inicia o atendimento ao paciente Irene Mckillip que esta em estado Gravissimo as 55.6
-Paciente Selene Smith chega ao hospital em estado Moderado as 55.6 
-Paciente Helen Estes chega ao hospital em estado Leve as 56.7 
-Paciente Christina Brinlee chega ao hospital em estado Moderado as 57.3 
-Paciente Melissa Billings chega ao hospital em estado Leve as 58.1 
-Paciente Lisa Panek chega ao hospital em estado Moderado as 59.2 
-Paciente Timothy Williams chega ao hospital em estado Gravissimo as 59.7 
-Paciente Joann Miller chega ao hospital em estado Leve as 59.7 
-Paciente Kelli Osborn chega ao hospital em estado Grave as 59.8 
-Enfermeiro Patricia Smiley finaliza o atendimento ao paciente Doris Franks que esta em estado Moderado as 62.9
-Enfermeiro Cheryl Rogers inicia o atendimento ao paciente Lisa Garrett que esta em estado Moderado as 62.9
-Paciente Edward Gales chega ao hospital em estado Grave as 63.5 
-Enfermeiro Cheryl Rogers finaliza o atendimento ao paciente Lisa Garrett que esta em estado Moderado as 63.7
-Enfermeiro Natasha Farr inicia o atendimento ao paciente Selene Smith que esta em estado Moderado as 63.7
-Paciente Robert Motley chega ao hospital em estado Gravissimo as 64.1 
-Enfermeiro Natasha Farr finaliza o atendimento ao paciente Selene Smith que esta em estado Moderado as 64.9
-Enfermeiro Logan Shapero inicia o atendimento ao paciente Christina Brinlee que esta em estado Moderado as 64.9
-Paciente Billy Dale chega ao hospital em estado Grave as 67.7 
-Enfermeiro Logan Shapero finaliza o atendimento ao paciente Christina Brinlee que esta em estado Moderado as 68.0
-Enfermeiro Carl Sevy inicia o atendimento ao paciente Lisa Panek que esta em estado Moderado as 68.0
-Doutor Joshua Cheney finaliza o atendimento ao paciente Irene Mckillip que esta em estado Gravissimo as 68.4
-Doutor Janet Porter inicia o atendimento ao paciente Joseph Miller que esta em estado Gravissimo as 68.4
-Paciente Jefferson Fryson chega ao hospital em estado Grave as 72.1 
-Paciente Ron Elliott chega ao hospital em estado Moderado as 74.9 
-Doutor Janet Porter finaliza o atendimento ao paciente Joseph Miller que esta em estado Gravissimo as 75.2
-Doutor Geneva Sowell inicia o atendimento ao paciente Patricia Williams que esta em estado Gravissimo as 75.2
-Enfermeiro Carl Sevy finaliza o atendimento ao paciente Lisa Panek que esta em estado Moderado as 76.3
-Enfermeiro Peter Vail inicia o atendimento ao paciente Ron Elliott que esta em estado Moderado as 76.3
-Enfermeiro Peter Vail finaliza o atendimento ao paciente Ron Elliott que esta em estado Moderado as 78.5
-Enfermeiro Robert Childers inicia o atendimento ao paciente Raymond Robey que esta em estado Leve as 78.5
-Paciente Juan Schneider chega ao hospital em estado Grave as 80.2 
-Enfermeiro Robert Childers finaliza o atendimento ao paciente Raymond Robey que esta em estado Leve as 81.7
-Enfermeiro Gary Behanna inicia o atendimento ao paciente Joann Chapin que esta em estado Leve as 81.7
-Enfermeiro Gary Behanna finaliza o atendimento ao paciente Joann Chapin que esta em estado Leve as 82.3
-Enfermeiro Brittney Patillo inicia o atendimento ao paciente Jennifer Neal que esta em estado Leve as 82.3
-Enfermeiro Brittney Patillo finaliza o atendimento ao paciente Jennifer Neal que esta em estado Leve as 86.4
-Enfermeiro Stephen Hopfensperger inicia o atendimento ao paciente Helen Estes que esta em estado Leve as 86.4
-Enfermeiro Stephen Hopfensperger finaliza o atendimento ao paciente Helen Estes que esta em estado Leve as 86.4
-Enfermeiro Mary Melgoza inicia o atendimento ao paciente Melissa Billings que esta em estado Leve as 86.4
-Paciente Hector Gregg chega ao hospital em estado Grave as 89.1 
-Doutor Geneva Sowell finaliza o atendimento ao paciente Patricia Williams que esta em estado Gravissimo as 89.1
-Doutor Joshua Alexander inicia o atendimento ao paciente Patricia Cloninger que esta em estado Gravissimo as 89.1
-Enfermeiro Mary Melgoza finaliza o atendimento ao paciente Melissa Billings que esta em estado Leve as 89.1
-Enfermeiro Mary Grobmyer inicia o atendimento ao paciente Joann Miller que esta em estado Leve as 89.1
-Paciente William Hice chega ao hospital em estado Gravissimo as 92.8 
-Paciente Lottie Shields chega ao hospital em estado Moderado as 93.4 
-Enfermeiro Mary Grobmyer finaliza o atendimento ao paciente Joann Miller que esta em estado Leve as 95.7
-Enfermeiro Kelly Lapierre inicia o atendimento ao paciente Lottie Shields que esta em estado Moderado as 95.7
-Paciente Samuel Preslipsky chega ao hospital em estado Leve as 97.2 
-Paciente James Juarez chega ao hospital em estado Moderado as 98.6 
-Paciente Charles Abbott chega ao hospital em estado Moderado as 98.7 
-Paciente Kyla Tamez chega ao hospital em estado Moderado as 101.4 
-Doutor Joshua Alexander finaliza o atendimento ao paciente Patricia Cloninger que esta em estado Gravissimo as 101.4
-Doutor Beverly White inicia o atendimento ao paciente Timothy Williams que esta em estado Gravissimo as 101.4
-Enfermeiro Kelly Lapierre finaliza o atendimento ao paciente Lottie Shields que esta em estado Moderado as 102.5
-Enfermeiro Mary Zehender inicia o atendimento ao paciente James Juarez que esta em estado Moderado as 102.5
-Enfermeiro Mary Zehender finaliza o atendimento ao paciente James Juarez que esta em estado Moderado as 102.7
-Enfermeiro Monique Herbst inicia o atendimento ao paciente Charles Abbott que esta em estado Moderado as 102.7
-Doutor Beverly White finaliza o atendimento ao paciente Timothy Williams que esta em estado Gravissimo as 104.6
-Doutor Anna Perez inicia o atendimento ao paciente Robert Motley que esta em estado Gravissimo as 104.6
-Paciente Stephanie Harris chega ao hospital em estado Leve as 107.7 
-Enfermeiro Monique Herbst finaliza o atendimento ao paciente Charles Abbott que esta em estado Moderado as 109.4
-Enfermeiro Danny Ruiz inicia o atendimento ao paciente Kyla Tamez que esta em estado Moderado as 109.4
-Enfermeiro Danny Ruiz finaliza o atendimento ao paciente Kyla Tamez que esta em estado Moderado as 109.6
-Enfermeiro Juan Banton inicia o atendimento ao paciente Samuel Preslipsky que esta em estado Leve as 109.6
-Paciente Rachael Mensing chega ao hospital em estado Gravissimo as 110.9 
-Paciente Erin Will chega ao hospital em estado Leve as 114.3 
-Enfermeiro Juan Banton finaliza o atendimento ao paciente Samuel Preslipsky que esta em estado Leve as 115.6
-Enfermeiro Marguerite Read inicia o atendimento ao paciente Stephanie Harris que esta em estado Leve as 115.6
-Paciente Catherine Gregory chega ao hospital em estado Moderado as 116.5 
-Paciente Tanesha Chinzi chega ao hospital em estado Grave as 116.7 
-Paciente Betty Holden chega ao hospital em estado Leve as 117.2 
-Enfermeiro Marguerite Read finaliza o atendimento ao paciente Stephanie Harris que esta em estado Leve as 117.8
-Enfermeiro Edwin Burns inicia o atendimento ao paciente Catherine Gregory que esta em estado Moderado as 117.8
-Paciente Debra Rave chega ao hospital em estado Moderado as 118.1 
-Doutor Anna Perez finaliza o atendimento ao paciente Robert Motley que esta em estado Gravissimo as 119.2
-Doutor Alicia Schneider inicia o atendimento ao paciente William Hice que esta em estado Gravissimo as 119.2
-Paciente Debbie Vang chega ao hospital em estado Moderado as 119.7 
-Paciente Alfred Roussos chega ao hospital em estado Grave as 120.8 
-Paciente Lauren Vega chega ao hospital em estado Moderado as 130.4 
-Paciente Sergio Green chega ao hospital em estado Leve as 130.7 
-Enfermeiro Edwin Burns finaliza o atendimento ao paciente Catherine Gregory que esta em estado Moderado as 130.9
-Enfermeiro David Oakley inicia o atendimento ao paciente Debra Rave que esta em estado Moderado as 130.9
-Paciente Ruby Escalante chega ao hospital em estado Moderado as 131.9 
-Paciente Florence Nolan chega ao hospital em estado Gravissimo as 132.9 
-Paciente Nicholas Puga chega ao hospital em estado Leve as 133.6 
-Paciente Eleanor Frisby chega ao hospital em estado Leve as 133.7 
-Paciente Joe Bies chega ao hospital em estado Leve as 133.7 
-Paciente Leona Ruybal chega ao hospital em estado Moderado as 134.6 
-Paciente Andrew Kestler chega ao hospital em estado Grave as 136.5 
-Doutor Alicia Schneider finaliza o atendimento ao paciente William Hice que esta em estado Gravissimo as 137.9
-Doutor Barbara Penny inicia o atendimento ao paciente Rachael Mensing que esta em estado Gravissimo as 137.9
-Paciente Kayla Red chega ao hospital em estado Moderado as 138.9 
-Paciente Robin Stephen chega ao hospital em estado Moderado as 139.0 
-Enfermeiro David Oakley finaliza o atendimento ao paciente Debra Rave que esta em estado Moderado as 139.5
-Enfermeiro Keith Simmon inicia o atendimento ao paciente Debbie Vang que esta em estado Moderado as 139.5
-Enfermeiro Keith Simmon finaliza o atendimento ao paciente Debbie Vang que esta em estado Moderado as 139.5
-Enfermeiro Sharon Luna inicia o atendimento ao paciente Lauren Vega que esta em estado Moderado as 139.5
-Enfermeiro Sharon Luna finaliza o atendimento ao paciente Lauren Vega que esta em estado Moderado as 139.5
-Enfermeiro Sandra Salberg inicia o atendimento ao paciente Ruby Escalante que esta em estado Moderado as 139.5
-Paciente Jessica Turner chega ao hospital em estado Grave as 139.6 
-Paciente Adrian Westphal chega ao hospital em estado Grave as 141.2 
-Paciente Robert Gowers chega ao hospital em estado Gravissimo as 143.1 
-Enfermeiro Sandra Salberg finaliza o atendimento ao paciente Ruby Escalante que esta em estado Moderado as 144.6
-Enfermeiro Luz Kountz inicia o atendimento ao paciente Leona Ruybal que esta em estado Moderado as 144.6
-Paciente Shirley Bowen chega ao hospital em estado Moderado as 144.8 
-Paciente Adelina Pittman chega ao hospital em estado Leve as 145.2 
-Paciente Eva Ballance chega ao hospital em estado Gravissimo as 146.0 
-Enfermeiro Luz Kountz finaliza o atendimento ao paciente Leona Ruybal que esta em estado Moderado as 147.7
-Enfermeiro Ruben Galloway inicia o atendimento ao paciente Kayla Red que esta em estado Moderado as 147.7
-Paciente Nicholas Gross chega ao hospital em estado Gravissimo as 148.1 
-Paciente Marlene Berrios chega ao hospital em estado Leve as 148.8 
-Paciente Stephen King chega ao hospital em estado Gravissimo as 149.3 
-Paciente Lewis Calderon chega ao hospital em estado Grave as 149.4 
-Paciente Tamara Thomas chega ao hospital em estado Moderado as 150.7 
-Paciente Jonathan Carrousal chega ao hospital em estado Leve as 151.1 
-Paciente Kenneth Coleman chega ao hospital em estado Grave as 153.5 
-Enfermeiro Ruben Galloway finaliza o atendimento ao paciente Kayla Red que esta em estado Moderado as 154.4
-Enfermeiro Vivian Dematteo inicia o atendimento ao paciente Robin Stephen que esta em estado Moderado as 154.4
-Enfermeiro Vivian Dematteo finaliza o atendimento ao paciente Robin Stephen que esta em estado Moderado as 154.6
-Enfermeiro Geraldine Mccarthy inicia o atendimento ao paciente Shirley Bowen que esta em estado Moderado as 154.6
-Enfermeiro Geraldine Mccarthy finaliza o atendimento ao paciente Shirley Bowen que esta em estado Moderado as 155.1
-Enfermeiro Jessie Velazquez inicia o atendimento ao paciente Tamara Thomas que esta em estado Moderado as 155.1
-Paciente Martha Loveless chega ao hospital em estado Moderado as 157.9 
-Paciente Jack Winfield chega ao hospital em estado Moderado as 159.8 
-Paciente Mario Robinette chega ao hospital em estado Gravissimo as 165.5 
-Paciente James Mull chega ao hospital em estado Leve as 168.8 
-Enfermeiro Jessie Velazquez finaliza o atendimento ao paciente Tamara Thomas que esta em estado Moderado as 169.3
-Enfermeiro Scott Collado inicia o atendimento ao paciente Martha Loveless que esta em estado Moderado as 169.3
-Enfermeiro Scott Collado finaliza o atendimento ao paciente Martha Loveless que esta em estado Moderado as 171.5
-Enfermeiro Rodrigo Brown inicia o atendimento ao paciente Jack Winfield que esta em estado Moderado as 171.5
-Paciente David Robbins chega ao hospital em estado Gravissimo as 173.3 
-Enfermeiro Rodrigo Brown finaliza o atendimento ao paciente Jack Winfield que esta em estado Moderado as 174.4
-Enfermeiro Rita Cable inicia o atendimento ao paciente Erin Will que esta em estado Leve as 174.4
-Enfermeiro Rita Cable finaliza o atendimento ao paciente Erin Will que esta em estado Leve as 174.9
-Enfermeiro Lawerence Black inicia o atendimento ao paciente Betty Holden que esta em estado Leve as 174.9
-Paciente Rita Dallas chega ao hospital em estado Gravissimo as 175.0 
-Paciente Phillip Ziegler chega ao hospital em estado Gravissimo as 175.2 
-Paciente Carroll Halasz chega ao hospital em estado Grave as 175.3 
-Enfermeiro Lawerence Black finaliza o atendimento ao paciente Betty Holden que esta em estado Leve as 176.0
-Enfermeiro Arlene Arrington inicia o atendimento ao paciente Sergio Green que esta em estado Leve as 176.0
-Doutor Barbara Penny finaliza o atendimento ao paciente Rachael Mensing que esta em estado Gravissimo as 176.5
-Doutor Shannon Greenfield inicia o atendimento ao paciente Florence Nolan que esta em estado Gravissimo as 176.5
-Paciente Latasha Jackson chega ao hospital em estado Moderado as 176.8 
-Paciente Sandra Portes chega ao hospital em estado Gravissimo as 177.2 
-Enfermeiro Arlene Arrington finaliza o atendimento ao paciente Sergio Green que esta em estado Leve as 179.2
-Enfermeiro Carol Miranda inicia o atendimento ao paciente Latasha Jackson que esta em estado Moderado as 179.2
-Doutor Shannon Greenfield finaliza o atendimento ao paciente Florence Nolan que esta em estado Gravissimo as 179.3
-Doutor Theresa Hess inicia o atendimento ao paciente Robert Gowers que esta em estado Gravissimo as 179.3
-Enfermeiro Carol Miranda finaliza o atendimento ao paciente Latasha Jackson que esta em estado Moderado as 180.0
-Enfermeiro Lyle Cross inicia o atendimento ao paciente Nicholas Puga que esta em estado Leve as 180.0
-Enfermeiro Lyle Cross finaliza o atendimento ao paciente Nicholas Puga que esta em estado Leve as 180.7
-Enfermeiro Gladys Perfater inicia o atendimento ao paciente Eleanor Frisby que esta em estado Leve as 180.7
-Enfermeiro Gladys Perfater finaliza o atendimento ao paciente Eleanor Frisby que esta em estado Leve as 181.1
-Enfermeiro Jonathan Politi inicia o atendimento ao paciente Joe Bies que esta em estado Leve as 181.1
-Paciente Kim Langham chega ao hospital em estado Grave as 181.6 
-Doutor Theresa Hess finaliza o atendimento ao paciente Robert Gowers que esta em estado Gravissimo as 181.9
-Doutor Michael Moon inicia o atendimento ao paciente Eva Ballance que esta em estado Gravissimo as 181.9
-Paciente Jacqueline Barney chega ao hospital em estado Gravissimo as 184.3 
-Paciente Bertha Payne chega ao hospital em estado Grave as 184.8 
-Enfermeiro Jonathan Politi finaliza o atendimento ao paciente Joe Bies que esta em estado Leve as 185.4
-Enfermeiro Joseph Walker inicia o atendimento ao paciente Adelina Pittman que esta em estado Leve as 185.4
-Enfermeiro Joseph Walker finaliza o atendimento ao paciente Adelina Pittman que esta em estado Leve as 188.2
-Enfermeiro Michael Wray inicia o atendimento ao paciente Marlene Berrios que esta em estado Leve as 188.2
-Paciente Dorothy Oliver chega ao hospital em estado Leve as 188.2 
-Enfermeiro Michael Wray finaliza o atendimento ao paciente Marlene Berrios que esta em estado Leve as 188.7
-Enfermeiro Cameron Ringgold inicia o atendimento ao paciente Jonathan Carrousal que esta em estado Leve as 188.7
-Enfermeiro Cameron Ringgold finaliza o atendimento ao paciente Jonathan Carrousal que esta em estado Leve as 192.8
-Enfermeiro Samuel Olsen inicia o atendimento ao paciente James Mull que esta em estado Leve as 192.8
-Paciente Jack Mason chega ao hospital em estado Moderado as 193.6 
-Doutor Michael Moon finaliza o atendimento ao paciente Eva Ballance que esta em estado Gravissimo as 195.2
-Doutor Margaret Cox inicia o atendimento ao paciente Nicholas Gross que esta em estado Gravissimo as 195.2
-Doutor Margaret Cox finaliza o atendimento ao paciente Nicholas Gross que esta em estado Gravissimo as 195.3
-Doutor Alan Johnson inicia o atendimento ao paciente Stephen King que esta em estado Gravissimo as 195.3
-Enfermeiro Samuel Olsen finaliza o atendimento ao paciente James Mull que esta em estado Leve as 197.1
-Enfermeiro Lisa Wilson inicia o atendimento ao paciente Jack Mason que esta em estado Moderado as 197.1
-Doutor Alan Johnson finaliza o atendimento ao paciente Stephen King que esta em estado Gravissimo as 197.9
-Doutor Diana Ramos inicia o atendimento ao paciente Mario Robinette que esta em estado Gravissimo as 197.9
-Enfermeiro Lisa Wilson finaliza o atendimento ao paciente Jack Mason que esta em estado Moderado as 199.0
-Enfermeiro Richard Sala inicia o atendimento ao paciente Dorothy Oliver que esta em estado Leve as 199.0
-Paciente Carol Melius chega ao hospital em estado Leve as 199.3 
-Doutor Diana Ramos finaliza o atendimento ao paciente Mario Robinette que esta em estado Gravissimo as 202.3
-Doutor Herman Sullivan inicia o atendimento ao paciente David Robbins que esta em estado Gravissimo as 202.3
-Enfermeiro Richard Sala finaliza o atendimento ao paciente Dorothy Oliver que esta em estado Leve as 202.6
-Enfermeiro Mark Stallings inicia o atendimento ao paciente Carol Melius que esta em estado Leve as 202.6
-Enfermeiro Mark Stallings finaliza o atendimento ao paciente Carol Melius que esta em estado Leve as 203.2
-Paciente Charles Gilliam chega ao hospital em estado Gravissimo as 203.3 
-Paciente Lana Agee chega ao hospital em estado Gravissimo as 205.1 
-Paciente William Powell chega ao hospital em estado Gravissimo as 206.4 
-Paciente Joe Wille chega ao hospital em estado Gravissimo as 206.7 
-Paciente Lee Tucker chega ao hospital em estado Grave as 209.6 
-Paciente Maria Manley chega ao hospital em estado Grave as 214.4 
-Paciente Edward Riojas chega ao hospital em estado Leve as 215.2 
-Enfermeiro John Lee inicia o atendimento ao paciente Edward Riojas que esta em estado Leve as 215.2
-Paciente Elbert Brooks chega ao hospital em estado Grave as 215.7 
-Paciente John Purkey chega ao hospital em estado Leve as 216.3 
-Paciente Mary Pinson chega ao hospital em estado Moderado as 218.4 
-Paciente Heather Driggers chega ao hospital em estado Moderado as 219.9 
-Enfermeiro John Lee finaliza o atendimento ao paciente Edward Riojas que esta em estado Leve as 220.1
-Enfermeiro Diane Salvador inicia o atendimento ao paciente Mary Pinson que esta em estado Moderado as 220.1
-Paciente Victor Guffey chega ao hospital em estado Moderado as 221.0 
-Paciente Bertie Watson chega ao hospital em estado Moderado as 224.7 
-Enfermeiro Diane Salvador finaliza o atendimento ao paciente Mary Pinson que esta em estado Moderado as 225.1
-Enfermeiro Leslie Phillips inicia o atendimento ao paciente Heather Driggers que esta em estado Moderado as 225.1
-Paciente Thomas Ashby chega ao hospital em estado Leve as 225.4 
-Paciente Vicente Pearson chega ao hospital em estado Leve as 225.5 
-Paciente Angela Pat chega ao hospital em estado Moderado as 226.5 
-Doutor Herman Sullivan finaliza o atendimento ao paciente David Robbins que esta em estado Gravissimo as 227.9
-Doutor George Hyde inicia o atendimento ao paciente Rita Dallas que esta em estado Gravissimo as 227.9
-Enfermeiro Leslie Phillips finaliza o atendimento ao paciente Heather Driggers que esta em estado Moderado as 228.0
-Enfermeiro Maria Rea inicia o atendimento ao paciente Victor Guffey que esta em estado Moderado as 228.0
-Paciente Sheryl Devine chega ao hospital em estado Gravissimo as 228.6 
-Enfermeiro Maria Rea finaliza o atendimento ao paciente Victor Guffey que esta em estado Moderado as 228.6
-Enfermeiro James Ritschard inicia o atendimento ao paciente Bertie Watson que esta em estado Moderado as 228.6
-Enfermeiro James Ritschard finaliza o atendimento ao paciente Bertie Watson que esta em estado Moderado as 228.9
-Enfermeiro Ginette Randall inicia o atendimento ao paciente Angela Pat que esta em estado Moderado as 228.9
-Paciente Eugene Chesser chega ao hospital em estado Grave as 229.2 
-Paciente Brenton Boatman chega ao hospital em estado Grave as 229.3 
-Paciente Johnnie Overcash chega ao hospital em estado Moderado as 230.6 
-Paciente Sophie Fleming chega ao hospital em estado Gravissimo as 233.1 
-Enfermeiro Ginette Randall finaliza o atendimento ao paciente Angela Pat que esta em estado Moderado as 235.8
-Enfermeiro Michael Lopez inicia o atendimento ao paciente Johnnie Overcash que esta em estado Moderado as 235.8
-Paciente Lawerence Padilla chega ao hospital em estado Leve as 236.0 
-Enfermeiro Michael Lopez finaliza o atendimento ao paciente Johnnie Overcash que esta em estado Moderado as 238.3
-Enfermeiro Benjamin Walter inicia o atendimento ao paciente John Purkey que esta em estado Leve as 238.3
-Paciente John Andrews chega ao hospital em estado Grave as 239.5 
-Paciente Tim Lebrecque chega ao hospital em estado Gravissimo as 240.0 
-Paciente Benjamin Black chega ao hospital em estado Gravissimo as 242.3 
-Paciente Shanika Jemmott chega ao hospital em estado Gravissimo as 244.4 
-Enfermeiro Benjamin Walter finaliza o atendimento ao paciente John Purkey que esta em estado Leve as 244.8
-Enfermeiro Randall Garcia inicia o atendimento ao paciente Thomas Ashby que esta em estado Leve as 244.8
-Paciente Tracy Wilson chega ao hospital em estado Grave as 246.3 
-Enfermeiro Randall Garcia finaliza o atendimento ao paciente Thomas Ashby que esta em estado Leve as 246.7
-Enfermeiro Gertie Daniels inicia o atendimento ao paciente Vicente Pearson que esta em estado Leve as 246.7
-Paciente Anita Mascaro chega ao hospital em estado Moderado as 246.8 
-Paciente Kristine Cannon chega ao hospital em estado Moderado as 247.9 
-Paciente Vincent Mullings chega ao hospital em estado Grave as 249.9 
-Doutor George Hyde finaliza o atendimento ao paciente Rita Dallas que esta em estado Gravissimo as 251.1
-Doutor Dwight Welch inicia o atendimento ao paciente Phillip Ziegler que esta em estado Gravissimo as 251.1
-Enfermeiro Gertie Daniels finaliza o atendimento ao paciente Vicente Pearson que esta em estado Leve as 251.2
-Enfermeiro Viola Davis inicia o atendimento ao paciente Anita Mascaro que esta em estado Moderado as 251.2
-Paciente Mark Parker chega ao hospital em estado Gravissimo as 255.7 
-Paciente Angel Salmons chega ao hospital em estado Moderado as 255.8 
-Paciente Leroy Sanchez chega ao hospital em estado Grave as 256.8 
-Paciente David Pettus chega ao hospital em estado Gravissimo as 264.0 
-Enfermeiro Viola Davis finaliza o atendimento ao paciente Anita Mascaro que esta em estado Moderado as 265.3
-Enfermeiro Carol Reed inicia o atendimento ao paciente Kristine Cannon que esta em estado Moderado as 265.3
-Enfermeiro Carol Reed finaliza o atendimento ao paciente Kristine Cannon que esta em estado Moderado as 265.8
-Enfermeiro Catherine Mann inicia o atendimento ao paciente Angel Salmons que esta em estado Moderado as 265.8
-Enfermeiro Catherine Mann finaliza o atendimento ao paciente Angel Salmons que esta em estado Moderado as 268.3
-Enfermeiro Kenneth Carroll inicia o atendimento ao paciente Lawerence Padilla que esta em estado Leve as 268.3
-Doutor Dwight Welch finaliza o atendimento ao paciente Phillip Ziegler que esta em estado Gravissimo as 271.0
-Doutor Mark Schroeder inicia o atendimento ao paciente Sandra Portes que esta em estado Gravissimo as 271.0
-Doutor Mark Schroeder finaliza o atendimento ao paciente Sandra Portes que esta em estado Gravissimo as 273.0
-Doutor Roland Patel inicia o atendimento ao paciente Jacqueline Barney que esta em estado Gravissimo as 273.0
-Paciente Beatriz Johnson chega ao hospital em estado Moderado as 274.1 
-Enfermeiro Kenneth Carroll finaliza o atendimento ao paciente Lawerence Padilla que esta em estado Leve as 275.2
-Enfermeiro Michael Weeks inicia o atendimento ao paciente Beatriz Johnson que esta em estado Moderado as 275.2
-Doutor Roland Patel finaliza o atendimento ao paciente Jacqueline Barney que esta em estado Gravissimo as 275.9
-Doutor Kimberly Pritchett inicia o atendimento ao paciente Charles Gilliam que esta em estado Gravissimo as 275.9
-Paciente Oscar Hungerford chega ao hospital em estado Leve as 276.0 
-Paciente Barry Moore chega ao hospital em estado Leve as 276.2 
-Paciente Louise Murphy chega ao hospital em estado Grave as 276.4 
-Paciente Laura Gross chega ao hospital em estado Leve as 278.3 
-Paciente Lacy Vargas chega ao hospital em estado Moderado as 278.5 
-Paciente Margaret Bridges chega ao hospital em estado Gravissimo as 283.5 
-Paciente Mary Reeder chega ao hospital em estado Grave as 283.7 
-Paciente Priscilla Mcghee chega ao hospital em estado Gravissimo as 287.7 
-Paciente Norma Frank chega ao hospital em estado Leve as 288.2 
-Enfermeiro Michael Weeks finaliza o atendimento ao paciente Beatriz Johnson que esta em estado Moderado as 291.3
-Enfermeiro David Delapaz inicia o atendimento ao paciente Lacy Vargas que esta em estado Moderado as 291.3
-Enfermeiro David Delapaz finaliza o atendimento ao paciente Lacy Vargas que esta em estado Moderado as 291.3
-Enfermeiro David Holvey inicia o atendimento ao paciente Oscar Hungerford que esta em estado Leve as 291.3
-Doutor Kimberly Pritchett finaliza o atendimento ao paciente Charles Gilliam que esta em estado Gravissimo as 291.8
-Doutor Stephen Carter inicia o atendimento ao paciente Lana Agee que esta em estado Gravissimo as 291.8
-Paciente Edgar Hollenbach chega ao hospital em estado Gravissimo as 295.6 
-Doutor Stephen Carter finaliza o atendimento ao paciente Lana Agee que esta em estado Gravissimo as 296.7
-Doutor Mary Clothier inicia o atendimento ao paciente William Powell que esta em estado Gravissimo as 296.7
-Enfermeiro David Holvey finaliza o atendimento ao paciente Oscar Hungerford que esta em estado Leve as 297.0
-Enfermeiro Daniel Romero inicia o atendimento ao paciente Barry Moore que esta em estado Leve as 297.0
-Enfermeiro Daniel Romero finaliza o atendimento ao paciente Barry Moore que esta em estado Leve as 297.2
-Enfermeiro Scott Jones inicia o atendimento ao paciente Laura Gross que esta em estado Leve as 297.2
-Doutor Mary Clothier finaliza o atendimento ao paciente William Powell que esta em estado Gravissimo as 298.6
-Doutor Donald Anderson inicia o atendimento ao paciente Joe Wille que esta em estado Gravissimo as 298.6
-Paciente Marion Scanlon chega ao hospital em estado Leve as 298.9 
+ Hospital ira operar em 600 unidades de medida, com pacientes chegando em um intervalo de 2 unidades de medida e possuindo 3 funcionarios.
+
+ Paciente Geralyn Peterson que esta em estado Moderado chega ao hospital as 0.31
+ Paciente Geralyn Peterson que esta em estado Moderado tem o seu atendimento iniciado as 0.31
+ Paciente Jack Martin que esta em estado Moderado chega ao hospital as 1.18
+ Paciente Jack Martin que esta em estado Moderado tem o seu atendimento iniciado as 1.18
+ Paciente Steven Fleming que esta em estado Gravissimo chega ao hospital as 1.27
+ Paciente Steven Fleming que esta em estado Gravissimo tem o seu atendimento iniciado as 1.27
+ Paciente Wilbur Alvarado que esta em estado Moderado chega ao hospital as 1.73
+ Paciente Steven Fleming que esta em estado Gravissimo tem o seu atendimento finalizado as 3.63
+ Paciente Wilbur Alvarado que esta em estado Moderado tem o seu atendimento iniciado as 3.63
+ Paciente Geralyn Peterson que esta em estado Moderado tem o seu atendimento finalizado as 4.56
+ Paciente Hazel Wolfrom que esta em estado Gravissimo chega ao hospital as 5.33
+ Paciente Hazel Wolfrom que esta em estado Gravissimo tem o seu atendimento iniciado as 5.33
+ Paciente David Shell que esta em estado Leve chega ao hospital as 5.68
+ Paciente Wilbur Alvarado que esta em estado Moderado tem o seu atendimento finalizado as 6.73
+ Paciente David Shell que esta em estado Leve tem o seu atendimento iniciado as 6.73
+ Paciente David Shell que esta em estado Leve tem o seu atendimento finalizado as 7.26
+ Paciente Lonnie Escutia que esta em estado Leve chega ao hospital as 9.50
+ Paciente Lonnie Escutia que esta em estado Leve tem o seu atendimento iniciado as 9.50
+ Paciente Lisa Schmitz que esta em estado Gravissimo chega ao hospital as 10.68
+ Paciente Lonnie Escutia que esta em estado Leve tem o seu atendimento interrompido as 10.68
+ Paciente Lisa Schmitz que esta em estado Gravissimo tem o seu atendimento iniciado as 10.68
+ Paciente Heidi Schneider que esta em estado Grave chega ao hospital as 12.56
+ Paciente Soila Heath que esta em estado Leve chega ao hospital as 14.13
+ Paciente Eileen Ferguson que esta em estado Gravissimo chega ao hospital as 14.34
+ Paciente Jack Martin que esta em estado Moderado tem o seu atendimento interrompido as 14.34
+ Paciente Eileen Ferguson que esta em estado Gravissimo tem o seu atendimento iniciado as 14.34
+ Paciente Hazel Wolfrom que esta em estado Gravissimo tem o seu atendimento finalizado as 17.88
+ Paciente Heidi Schneider que esta em estado Grave tem o seu atendimento iniciado as 17.88
+ Paciente Karyn Stone que esta em estado Leve chega ao hospital as 19.14
+ Paciente Donna Bannon que esta em estado Grave chega ao hospital as 20.90
+ Paciente Derrick Suchan que esta em estado Gravissimo chega ao hospital as 21.16
+ Paciente Heidi Schneider que esta em estado Grave tem o seu atendimento interrompido as 21.16
+ Paciente Derrick Suchan que esta em estado Gravissimo tem o seu atendimento iniciado as 21.16
+ Paciente Alice Johnson que esta em estado Leve chega ao hospital as 22.65
+ Paciente Frederick Hayes que esta em estado Moderado chega ao hospital as 23.08
+ Paciente Derrick Suchan que esta em estado Gravissimo tem o seu atendimento finalizado as 24.09
+ Paciente Donna Bannon que esta em estado Grave tem o seu atendimento iniciado as 24.09
+ Paciente Lisa Schmitz que esta em estado Gravissimo tem o seu atendimento finalizado as 25.85
+ Paciente Frederick Hayes que esta em estado Moderado tem o seu atendimento iniciado as 25.85
+ Paciente Blair Brown que esta em estado Moderado chega ao hospital as 28.59
+ Paciente Ofelia Miller que esta em estado Leve chega ao hospital as 28.69
+ Paciente Donna Bannon que esta em estado Grave tem o seu atendimento finalizado as 28.69
+ Paciente Blair Brown que esta em estado Moderado tem o seu atendimento iniciado as 28.69
+ Paciente Charles Martinez que esta em estado Moderado chega ao hospital as 29.26
+ Paciente Blair Brown que esta em estado Moderado tem o seu atendimento finalizado as 29.29
+ Paciente Charles Martinez que esta em estado Moderado tem o seu atendimento iniciado as 29.29
+ Paciente Eileen Ferguson que esta em estado Gravissimo tem o seu atendimento finalizado as 29.39
+ Paciente Soila Heath que esta em estado Leve tem o seu atendimento iniciado as 29.39
+ Paciente Soila Heath que esta em estado Leve tem o seu atendimento finalizado as 29.51
+ Paciente Karyn Stone que esta em estado Leve tem o seu atendimento iniciado as 29.51
+ Paciente Karyn Stone que esta em estado Leve tem o seu atendimento finalizado as 31.17
+ Paciente Alice Johnson que esta em estado Leve tem o seu atendimento iniciado as 31.17
+ Paciente Thelma Warden que esta em estado Gravissimo chega ao hospital as 31.59
+ Paciente Alice Johnson que esta em estado Leve tem o seu atendimento interrompido as 31.59
+ Paciente Thelma Warden que esta em estado Gravissimo tem o seu atendimento iniciado as 31.59
+ Paciente Jennifer Hrbacek que esta em estado Moderado chega ao hospital as 32.67
+ Paciente Frederick Hayes que esta em estado Moderado tem o seu atendimento finalizado as 33.34
+ Paciente Jennifer Hrbacek que esta em estado Moderado tem o seu atendimento iniciado as 33.34
+ Paciente Charles Martinez que esta em estado Moderado tem o seu atendimento finalizado as 37.22
+ Paciente Ofelia Miller que esta em estado Leve tem o seu atendimento iniciado as 37.22
+ Paciente David Lofty que esta em estado Moderado chega ao hospital as 41.71
+ Paciente Elena Brown que esta em estado Leve chega ao hospital as 42.34
+ Paciente Ofelia Miller que esta em estado Leve tem o seu atendimento finalizado as 42.75
+ Paciente David Lofty que esta em estado Moderado tem o seu atendimento iniciado as 42.75
+ Paciente Jennifer Hrbacek que esta em estado Moderado tem o seu atendimento finalizado as 44.67
+ Paciente Elena Brown que esta em estado Leve tem o seu atendimento iniciado as 44.67
+ Paciente David Lofty que esta em estado Moderado tem o seu atendimento finalizado as 44.84
+ Paciente Charles Turk que esta em estado Grave chega ao hospital as 45.80
+ Paciente Charles Turk que esta em estado Grave tem o seu atendimento iniciado as 45.80
+ Paciente Joyce Mertes que esta em estado Leve chega ao hospital as 45.85
+ Paciente Elena Brown que esta em estado Leve tem o seu atendimento finalizado as 46.22
+ Paciente Joyce Mertes que esta em estado Leve tem o seu atendimento iniciado as 46.22
+ Paciente Charles Turk que esta em estado Grave tem o seu atendimento finalizado as 46.62
+ Paciente James Deloach que esta em estado Moderado chega ao hospital as 48.79
+ Paciente James Deloach que esta em estado Moderado tem o seu atendimento iniciado as 48.79
+ Paciente James Deloach que esta em estado Moderado tem o seu atendimento finalizado as 49.72
+ Paciente Rodney Johnson que esta em estado Moderado chega ao hospital as 52.01
+ Paciente Rodney Johnson que esta em estado Moderado tem o seu atendimento iniciado as 52.01
+ Paciente Thelma Warden que esta em estado Gravissimo tem o seu atendimento finalizado as 52.60
+ Paciente Laura Caserta que esta em estado Grave chega ao hospital as 53.02
+ Paciente Laura Caserta que esta em estado Grave tem o seu atendimento iniciado as 53.02
+ Paciente Joyce Mertes que esta em estado Leve tem o seu atendimento finalizado as 53.26
+ Paciente Victor Sowers que esta em estado Leve chega ao hospital as 54.74
+ Paciente Victor Sowers que esta em estado Leve tem o seu atendimento iniciado as 54.74
+ Paciente Rodney Johnson que esta em estado Moderado tem o seu atendimento finalizado as 54.89
+ Paciente Chris Green que esta em estado Leve chega ao hospital as 56.50
+ Paciente Chris Green que esta em estado Leve tem o seu atendimento iniciado as 56.50
+ Paciente Chris Green que esta em estado Leve tem o seu atendimento finalizado as 56.64
+ Paciente Victor Sowers que esta em estado Leve tem o seu atendimento finalizado as 57.38
+ Paciente Andrea Robbins que esta em estado Gravissimo chega ao hospital as 58.41
+ Paciente Andrea Robbins que esta em estado Gravissimo tem o seu atendimento iniciado as 58.41
+ Paciente Mary Sanchez que esta em estado Leve chega ao hospital as 58.56
+ Paciente Mary Sanchez que esta em estado Leve tem o seu atendimento iniciado as 58.56
+ Paciente Keith Schaper que esta em estado Leve chega ao hospital as 58.74
+ Paciente Mary Sanchez que esta em estado Leve tem o seu atendimento finalizado as 61.50
+ Paciente Keith Schaper que esta em estado Leve tem o seu atendimento iniciado as 61.50
+ Paciente Keith Schaper que esta em estado Leve tem o seu atendimento finalizado as 63.93
+ Paciente David Galletti que esta em estado Grave chega ao hospital as 65.41
+ Paciente David Galletti que esta em estado Grave tem o seu atendimento iniciado as 65.41
+ Paciente Clarence Boucher que esta em estado Moderado chega ao hospital as 66.36
+ Paciente Krystle Ryan que esta em estado Grave chega ao hospital as 68.60
+ Paciente Cynthia Amelung que esta em estado Leve chega ao hospital as 71.63
+ Paciente Michael Kolb que esta em estado Leve chega ao hospital as 71.87
+ Paciente Sarah Miller que esta em estado Gravissimo chega ao hospital as 73.17
+ Paciente David Galletti que esta em estado Grave tem o seu atendimento interrompido as 73.17
+ Paciente Sarah Miller que esta em estado Gravissimo tem o seu atendimento iniciado as 73.17
+ Paciente Laura Caserta que esta em estado Grave tem o seu atendimento finalizado as 76.24
+ Paciente Krystle Ryan que esta em estado Grave tem o seu atendimento iniciado as 76.24
+ Paciente Krystle Ryan que esta em estado Grave tem o seu atendimento finalizado as 76.51
+ Paciente Clarence Boucher que esta em estado Moderado tem o seu atendimento iniciado as 76.51
+ Paciente Allen Brown que esta em estado Grave chega ao hospital as 76.99
+ Paciente Michael Tyler que esta em estado Moderado chega ao hospital as 77.52
+ Paciente Donald Feenstra que esta em estado Grave chega ao hospital as 79.50
+ Paciente Clarence Boucher que esta em estado Moderado tem o seu atendimento finalizado as 80.98
+ Paciente Allen Brown que esta em estado Grave tem o seu atendimento iniciado as 80.98
+ Paciente Allen Brown que esta em estado Grave tem o seu atendimento finalizado as 82.90
+ Paciente Donald Feenstra que esta em estado Grave tem o seu atendimento iniciado as 82.90
+ Paciente Donald Feenstra que esta em estado Grave tem o seu atendimento finalizado as 83.73
+ Paciente Michael Tyler que esta em estado Moderado tem o seu atendimento iniciado as 83.73
+ Paciente Sarah Miller que esta em estado Gravissimo tem o seu atendimento finalizado as 83.81
+ Paciente Cynthia Amelung que esta em estado Leve tem o seu atendimento iniciado as 83.81
+ Paciente Van Gallaher que esta em estado Leve chega ao hospital as 84.93
+ Paciente George Stewart que esta em estado Leve chega ao hospital as 85.69
+ Paciente Michael Tyler que esta em estado Moderado tem o seu atendimento finalizado as 86.25
+ Paciente Michael Kolb que esta em estado Leve tem o seu atendimento iniciado as 86.25
+ Paciente Andrea Robbins que esta em estado Gravissimo tem o seu atendimento finalizado as 87.02
+ Paciente Van Gallaher que esta em estado Leve tem o seu atendimento iniciado as 87.02
+ Paciente Van Gallaher que esta em estado Leve tem o seu atendimento finalizado as 87.71
+ Paciente George Stewart que esta em estado Leve tem o seu atendimento iniciado as 87.71
+ Paciente Cynthia Amelung que esta em estado Leve tem o seu atendimento finalizado as 88.17
+ Paciente George Stewart que esta em estado Leve tem o seu atendimento finalizado as 89.90
+ Paciente Cora Hisey que esta em estado Leve chega ao hospital as 91.03
+ Paciente Cora Hisey que esta em estado Leve tem o seu atendimento iniciado as 91.03
+ Paciente Robert Taylor que esta em estado Gravissimo chega ao hospital as 92.59
+ Paciente Robert Taylor que esta em estado Gravissimo tem o seu atendimento iniciado as 92.59
+ Paciente Christopher Jordan que esta em estado Moderado chega ao hospital as 92.93
+ Paciente Michael Kolb que esta em estado Leve tem o seu atendimento finalizado as 93.31
+ Paciente Christopher Jordan que esta em estado Moderado tem o seu atendimento iniciado as 93.31
+ Paciente Alice Gerdes que esta em estado Leve chega ao hospital as 97.57
+ Paciente Danny Robinson que esta em estado Moderado chega ao hospital as 99.04
+ Paciente Katherine Gales que esta em estado Grave chega ao hospital as 99.41
+ Paciente Robert Taylor que esta em estado Gravissimo tem o seu atendimento finalizado as 99.46
+ Paciente Katherine Gales que esta em estado Grave tem o seu atendimento iniciado as 99.46
+ Paciente Katherine Gales que esta em estado Grave tem o seu atendimento finalizado as 99.66
+ Paciente Danny Robinson que esta em estado Moderado tem o seu atendimento iniciado as 99.66
+ Paciente Christopher Portillo que esta em estado Leve chega ao hospital as 100.44
+ Paciente Cornelius Gardner que esta em estado Grave chega ao hospital as 100.60
+ Paciente Cora Hisey que esta em estado Leve tem o seu atendimento finalizado as 102.10
+ Paciente Cornelius Gardner que esta em estado Grave tem o seu atendimento iniciado as 102.10
+ Paciente Elaine Maxwell que esta em estado Leve chega ao hospital as 102.31
+ Paciente Edward Gales que esta em estado Grave chega ao hospital as 102.58
+ Paciente Natasha Farr que esta em estado Leve chega ao hospital as 103.15
+ Paciente Eugene Yeoman que esta em estado Gravissimo chega ao hospital as 103.71
+ Paciente Danny Robinson que esta em estado Moderado tem o seu atendimento interrompido as 103.71
+ Paciente Eugene Yeoman que esta em estado Gravissimo tem o seu atendimento iniciado as 103.71
+ Paciente Theresa Davis que esta em estado Moderado chega ao hospital as 104.20
+ Paciente Roslyn Doucette que esta em estado Grave chega ao hospital as 105.05
+ Paciente Kevin Bergmark que esta em estado Moderado chega ao hospital as 109.00
+ Paciente Ronnie Fair que esta em estado Gravissimo chega ao hospital as 109.08
+ Paciente Christopher Jordan que esta em estado Moderado tem o seu atendimento interrompido as 109.08
+ Paciente Ronnie Fair que esta em estado Gravissimo tem o seu atendimento iniciado as 109.08
+ Paciente Ronnie Fair que esta em estado Gravissimo tem o seu atendimento finalizado as 110.33
+ Paciente Edward Gales que esta em estado Grave tem o seu atendimento iniciado as 110.33
+ Paciente Rikki Delacruz que esta em estado Moderado chega ao hospital as 111.46
+ Paciente Cornelius Gardner que esta em estado Grave tem o seu atendimento finalizado as 113.59
+ Paciente Roslyn Doucette que esta em estado Grave tem o seu atendimento iniciado as 113.59
+ Paciente Peter Vail que esta em estado Moderado chega ao hospital as 114.40
+ Paciente Annette Barthelemy que esta em estado Leve chega ao hospital as 114.58
+ Paciente Thanh Mata que esta em estado Moderado chega ao hospital as 114.76
+ Paciente Roslyn Doucette que esta em estado Grave tem o seu atendimento finalizado as 120.83
+ Paciente Theresa Davis que esta em estado Moderado tem o seu atendimento iniciado as 120.83
+ Paciente Brittney Patillo que esta em estado Grave chega ao hospital as 121.70
+ Paciente Theresa Davis que esta em estado Moderado tem o seu atendimento finalizado as 122.01
+ Paciente Brittney Patillo que esta em estado Grave tem o seu atendimento iniciado as 122.01
+ Paciente Paul Smith que esta em estado Gravissimo chega ao hospital as 123.99
+ Paciente Brittney Patillo que esta em estado Grave tem o seu atendimento interrompido as 123.99
+ Paciente Paul Smith que esta em estado Gravissimo tem o seu atendimento iniciado as 123.99
+ Paciente Edward Gales que esta em estado Grave tem o seu atendimento finalizado as 124.62
+ Paciente Kevin Bergmark que esta em estado Moderado tem o seu atendimento iniciado as 124.62
+ Paciente Laurie Fountain que esta em estado Gravissimo chega ao hospital as 125.82
+ Paciente Kevin Bergmark que esta em estado Moderado tem o seu atendimento interrompido as 125.82
+ Paciente Laurie Fountain que esta em estado Gravissimo tem o seu atendimento iniciado as 125.82
+ Paciente Kelly Williams que esta em estado Moderado chega ao hospital as 127.10
+ Paciente William Hice que esta em estado Gravissimo chega ao hospital as 127.33
+ Paciente Lottie Shields que esta em estado Moderado chega ao hospital as 127.88
+ Paciente Laurie Fountain que esta em estado Gravissimo tem o seu atendimento finalizado as 128.57
+ Paciente William Hice que esta em estado Gravissimo tem o seu atendimento iniciado as 128.57
+ Paciente Dorothy Prather que esta em estado Gravissimo chega ao hospital as 131.74
+ Paciente James Juarez que esta em estado Moderado chega ao hospital as 131.81
+ Paciente Charles Abbott que esta em estado Moderado chega ao hospital as 131.85
+ Paciente William Hice que esta em estado Gravissimo tem o seu atendimento finalizado as 134.40
+ Paciente Dorothy Prather que esta em estado Gravissimo tem o seu atendimento iniciado as 134.40
+ Paciente Kyla Tamez que esta em estado Moderado chega ao hospital as 134.55
+ Paciente Eugene Yeoman que esta em estado Gravissimo tem o seu atendimento finalizado as 139.13
+ Paciente Rikki Delacruz que esta em estado Moderado tem o seu atendimento iniciado as 139.13
+ Paciente Jennifer Stevens que esta em estado Gravissimo chega ao hospital as 140.89
+ Paciente Rikki Delacruz que esta em estado Moderado tem o seu atendimento interrompido as 140.89
+ Paciente Jennifer Stevens que esta em estado Gravissimo tem o seu atendimento iniciado as 140.89
+ Paciente Jesse Rickert que esta em estado Grave chega ao hospital as 140.89
+ Paciente Anna Perez que esta em estado Grave chega ao hospital as 143.12
+ Paciente Paul Smith que esta em estado Gravissimo tem o seu atendimento finalizado as 144.01
+ Paciente Jesse Rickert que esta em estado Grave tem o seu atendimento iniciado as 144.01
+ Paciente Mary Conley que esta em estado Grave chega ao hospital as 145.07
+ Paciente Danny Ruiz que esta em estado Leve chega ao hospital as 146.09
+ Paciente Rachael Mensing que esta em estado Gravissimo chega ao hospital as 146.29
+ Paciente Jesse Rickert que esta em estado Grave tem o seu atendimento interrompido as 146.29
+ Paciente Rachael Mensing que esta em estado Gravissimo tem o seu atendimento iniciado as 146.29
+ Paciente Erin Will que esta em estado Leve chega ao hospital as 149.72
+ Paciente Marguerite Read que esta em estado Grave chega ao hospital as 151.85
+ Paciente Catherine Gregory que esta em estado Moderado chega ao hospital as 157.20
+ Paciente Tanesha Chinzi que esta em estado Grave chega ao hospital as 157.42
+ Paciente Betty Holden que esta em estado Leve chega ao hospital as 157.95
+ Paciente Edwin Burns que esta em estado Gravissimo chega ao hospital as 158.82
+ Paciente Debra Rave que esta em estado Moderado chega ao hospital as 161.33
+ Paciente Dorothy Prather que esta em estado Gravissimo tem o seu atendimento finalizado as 161.40
+ Paciente Edwin Burns que esta em estado Gravissimo tem o seu atendimento iniciado as 161.40
+ Paciente Patricia Patrick que esta em estado Moderado chega ao hospital as 162.98
+ Paciente Edith Persaud que esta em estado Leve chega ao hospital as 164.09
+ Paciente Becky Winkelpleck que esta em estado Moderado chega ao hospital as 165.58
+ Paciente Rachel Hinojosa que esta em estado Gravissimo chega ao hospital as 166.23
+ Paciente Robert Morris que esta em estado Leve chega ao hospital as 166.49
+ Paciente Ruby Escalante que esta em estado Moderado chega ao hospital as 168.13
+ Paciente Florence Nolan que esta em estado Gravissimo chega ao hospital as 169.14
+ Paciente Nicholas Puga que esta em estado Leve chega ao hospital as 169.83
+ Paciente Eleanor Frisby que esta em estado Leve chega ao hospital as 169.88
+ Paciente Joe Bies que esta em estado Leve chega ao hospital as 169.95
+ Paciente Leona Ruybal que esta em estado Moderado chega ao hospital as 170.80
+ Paciente Edwin Burns que esta em estado Gravissimo tem o seu atendimento finalizado as 172.10
+ Paciente Rachel Hinojosa que esta em estado Gravissimo tem o seu atendimento iniciado as 172.10
+ Paciente Rachel Hinojosa que esta em estado Gravissimo tem o seu atendimento finalizado as 172.37
+ Paciente Florence Nolan que esta em estado Gravissimo tem o seu atendimento iniciado as 172.37
+ Paciente Troy Curiel que esta em estado Moderado chega ao hospital as 172.70
+ Paciente Rachael Mensing que esta em estado Gravissimo tem o seu atendimento finalizado as 173.44
+ Paciente Anna Perez que esta em estado Grave tem o seu atendimento iniciado as 173.44
+ Paciente Kayla Red que esta em estado Moderado chega ao hospital as 175.39
+ Paciente Robin Stephen que esta em estado Moderado chega ao hospital as 175.49
+ Paciente Keith Simmon que esta em estado Leve chega ao hospital as 176.02
+ Paciente Marta Bennett que esta em estado Moderado chega ao hospital as 176.68
+ Paciente Donald Jackson que esta em estado Grave chega ao hospital as 181.24
+ Paciente Leticia Lewis que esta em estado Grave chega ao hospital as 181.36
+ Paciente Anna Perez que esta em estado Grave tem o seu atendimento finalizado as 182.86
+ Paciente Mary Conley que esta em estado Grave tem o seu atendimento iniciado as 182.86
+ Paciente Mary Conley que esta em estado Grave tem o seu atendimento finalizado as 185.92
+ Paciente Marguerite Read que esta em estado Grave tem o seu atendimento iniciado as 185.92
+ Paciente Robert Gowers que esta em estado Gravissimo chega ao hospital as 186.10
+ Paciente Marguerite Read que esta em estado Grave tem o seu atendimento interrompido as 186.10
+ Paciente Robert Gowers que esta em estado Gravissimo tem o seu atendimento iniciado as 186.10
+ Paciente Jennifer Stevens que esta em estado Gravissimo tem o seu atendimento finalizado as 187.71
+ Paciente Tanesha Chinzi que esta em estado Grave tem o seu atendimento iniciado as 187.71
+ Paciente Kathy Sable que esta em estado Grave chega ao hospital as 187.85
+ Paciente Tanesha Chinzi que esta em estado Grave tem o seu atendimento finalizado as 188.20
+ Paciente Donald Jackson que esta em estado Grave tem o seu atendimento iniciado as 188.20
+ Paciente Florence Nolan que esta em estado Gravissimo tem o seu atendimento finalizado as 189.04
+ Paciente Leticia Lewis que esta em estado Grave tem o seu atendimento iniciado as 189.04
+ Paciente Oscar Renfrow que esta em estado Grave chega ao hospital as 190.15
+ Paciente Adelina Pittman que esta em estado Leve chega ao hospital as 190.28
+ Paciente Robert Gowers que esta em estado Gravissimo tem o seu atendimento finalizado as 190.92
+ Paciente Kathy Sable que esta em estado Grave tem o seu atendimento iniciado as 190.92
+ Paciente Eva Ballance que esta em estado Gravissimo chega ao hospital as 191.08
+ Paciente Kathy Sable que esta em estado Grave tem o seu atendimento interrompido as 191.08
+ Paciente Eva Ballance que esta em estado Gravissimo tem o seu atendimento iniciado as 191.08
+ Paciente Ruben Galloway que esta em estado Grave chega ao hospital as 193.17
+ Paciente Anthony Eichenlaub que esta em estado Moderado chega ao hospital as 193.37
+ Paciente Phillip Taylor que esta em estado Leve chega ao hospital as 194.72
+ Paciente Stephen King que esta em estado Gravissimo chega ao hospital as 198.54
+ Paciente Leticia Lewis que esta em estado Grave tem o seu atendimento interrompido as 198.54
+ Paciente Stephen King que esta em estado Gravissimo tem o seu atendimento iniciado as 198.54
+ Paciente Lewis Calderon que esta em estado Grave chega ao hospital as 198.61
+ Paciente Tamara Thomas que esta em estado Moderado chega ao hospital as 199.94
+ Paciente Jonathan Carrousal que esta em estado Leve chega ao hospital as 200.36
+ Paciente Donald Jackson que esta em estado Grave tem o seu atendimento finalizado as 202.17
+ Paciente Oscar Renfrow que esta em estado Grave tem o seu atendimento iniciado as 202.17
+ Paciente Jillian Miller que esta em estado Moderado chega ao hospital as 202.67
+ Paciente Christopher Blair que esta em estado Gravissimo chega ao hospital as 206.44
+ Paciente Oscar Renfrow que esta em estado Grave tem o seu atendimento interrompido as 206.44
+ Paciente Christopher Blair que esta em estado Gravissimo tem o seu atendimento iniciado as 206.44
+ Paciente Dennis Revak que esta em estado Grave chega ao hospital as 206.61
+ Paciente Christopher Blair que esta em estado Gravissimo tem o seu atendimento finalizado as 206.89
+ Paciente Ruben Galloway que esta em estado Grave tem o seu atendimento iniciado as 206.89
+ Paciente Eva Ballance que esta em estado Gravissimo tem o seu atendimento finalizado as 206.92
+ Paciente Lewis Calderon que esta em estado Grave tem o seu atendimento iniciado as 206.92
+ Paciente Laura Anderson que esta em estado Gravissimo chega ao hospital as 207.26
+ Paciente Lewis Calderon que esta em estado Grave tem o seu atendimento interrompido as 207.26
+ Paciente Laura Anderson que esta em estado Gravissimo tem o seu atendimento iniciado as 207.26
+ Paciente Laura Anderson que esta em estado Gravissimo tem o seu atendimento finalizado as 209.22
+ Paciente Dennis Revak que esta em estado Grave tem o seu atendimento iniciado as 209.22
+ Paciente Dennis Revak que esta em estado Grave tem o seu atendimento finalizado as 210.23
+ Paciente Peter Vail que esta em estado Moderado tem o seu atendimento iniciado as 210.23
+ Paciente Olive Riccelli que esta em estado Gravissimo chega ao hospital as 210.96
+ Paciente Peter Vail que esta em estado Moderado tem o seu atendimento interrompido as 210.96
+ Paciente Olive Riccelli que esta em estado Gravissimo tem o seu atendimento iniciado as 210.96
+ Paciente James Mull que esta em estado Leve chega ao hospital as 212.89
+ Paciente Ruben Galloway que esta em estado Grave tem o seu atendimento finalizado as 216.67
+ Paciente Thanh Mata que esta em estado Moderado tem o seu atendimento iniciado as 216.67
+ Paciente Scott Collado que esta em estado Moderado chega ao hospital as 217.39
+ Paciente Stephen King que esta em estado Gravissimo tem o seu atendimento finalizado as 219.51
+ Paciente Kelly Williams que esta em estado Moderado tem o seu atendimento iniciado as 219.51
+ Paciente Christopher Curtis que esta em estado Leve chega ao hospital as 219.73
+ Paciente Lila Bruner que esta em estado Moderado chega ao hospital as 220.43
+ Paciente Nancy Martin que esta em estado Gravissimo chega ao hospital as 221.45
+ Paciente Kelly Williams que esta em estado Moderado tem o seu atendimento interrompido as 221.45
+ Paciente Nancy Martin que esta em estado Gravissimo tem o seu atendimento iniciado as 221.45
+ Paciente Rita Dallas que esta em estado Gravissimo chega ao hospital as 224.01
+ Paciente Thanh Mata que esta em estado Moderado tem o seu atendimento interrompido as 224.01
+ Paciente Rita Dallas que esta em estado Gravissimo tem o seu atendimento iniciado as 224.01
+ Paciente Justin Ashurst que esta em estado Leve chega ao hospital as 224.22
+ Paciente Edith Alden que esta em estado Gravissimo chega ao hospital as 224.44
+ Paciente Nancy Sparks que esta em estado Grave chega ao hospital as 225.11
+ Paciente Rita Dallas que esta em estado Gravissimo tem o seu atendimento finalizado as 226.36
+ Paciente Edith Alden que esta em estado Gravissimo tem o seu atendimento iniciado as 226.36
+ Paciente Latasha Jackson que esta em estado Moderado chega ao hospital as 227.08
+ Paciente Sandra Portes que esta em estado Gravissimo chega ao hospital as 227.50
+ Paciente Edith Alden que esta em estado Gravissimo tem o seu atendimento finalizado as 229.14
+ Paciente Sandra Portes que esta em estado Gravissimo tem o seu atendimento iniciado as 229.14
+ Paciente George Yang que esta em estado Moderado chega ao hospital as 231.88
+ Paciente Donna Macias que esta em estado Gravissimo chega ao hospital as 232.92
+ Paciente Micheal Wang que esta em estado Gravissimo chega ao hospital as 233.77
+ Paciente Jonathan Politi que esta em estado Gravissimo chega ao hospital as 234.05
+ Paciente Danny Mcguinness que esta em estado Grave chega ao hospital as 234.65
+ Paciente Michael Moon que esta em estado Grave chega ao hospital as 237.76
+ Paciente Lawanda Frost que esta em estado Moderado chega ao hospital as 240.26
+ Paciente Sandra Portes que esta em estado Gravissimo tem o seu atendimento finalizado as 241.05
+ Paciente Donna Macias que esta em estado Gravissimo tem o seu atendimento iniciado as 241.05
+ Paciente Betty Pressley que esta em estado Grave chega ao hospital as 246.13
+ Paciente Donna Macias que esta em estado Gravissimo tem o seu atendimento finalizado as 251.60
+ Paciente Micheal Wang que esta em estado Gravissimo tem o seu atendimento iniciado as 251.60
+ Paciente Nancy Martin que esta em estado Gravissimo tem o seu atendimento finalizado as 254.60
+ Paciente Jonathan Politi que esta em estado Gravissimo tem o seu atendimento iniciado as 254.60
+ Paciente Kevin Suh que esta em estado Leve chega ao hospital as 254.72
+ Paciente Olive Riccelli que esta em estado Gravissimo tem o seu atendimento finalizado as 255.58
+ Paciente Nancy Sparks que esta em estado Grave tem o seu atendimento iniciado as 255.58
+ Paciente Dorothy Oliver que esta em estado Leve chega ao hospital as 256.34
+ Paciente Nancy Sparks que esta em estado Grave tem o seu atendimento finalizado as 257.34
+ Paciente Danny Mcguinness que esta em estado Grave tem o seu atendimento iniciado as 257.34
+ Paciente Jonathan Politi que esta em estado Gravissimo tem o seu atendimento finalizado as 257.85
+ Paciente Michael Moon que esta em estado Grave tem o seu atendimento iniciado as 257.85
+ Paciente Micheal Wang que esta em estado Gravissimo tem o seu atendimento finalizado as 260.65
+ Paciente Betty Pressley que esta em estado Grave tem o seu atendimento iniciado as 260.65
+ Paciente Samuel Olsen que esta em estado Gravissimo chega ao hospital as 261.66
+ Paciente Betty Pressley que esta em estado Grave tem o seu atendimento interrompido as 261.66
+ Paciente Samuel Olsen que esta em estado Gravissimo tem o seu atendimento iniciado as 261.66
+ Paciente Tina Novak que esta em estado Grave chega ao hospital as 261.85
+ Paciente Ricardo Nichols que esta em estado Leve chega ao hospital as 262.08
+ Paciente Michelle Beck que esta em estado Gravissimo chega ao hospital as 262.66
+ Paciente Michael Moon que esta em estado Grave tem o seu atendimento interrompido as 262.66
+ Paciente Michelle Beck que esta em estado Gravissimo tem o seu atendimento iniciado as 262.66
+ Paciente Danny Mcguinness que esta em estado Grave tem o seu atendimento finalizado as 264.37
+ Paciente Tina Novak que esta em estado Grave tem o seu atendimento iniciado as 264.37
+ Paciente Michelle Beck que esta em estado Gravissimo tem o seu atendimento finalizado as 265.10
+ Paciente Lottie Shields que esta em estado Moderado tem o seu atendimento iniciado as 265.10
+ Paciente Sharon Russell que esta em estado Gravissimo chega ao hospital as 265.39
+ Paciente Lottie Shields que esta em estado Moderado tem o seu atendimento interrompido as 265.39
+ Paciente Sharon Russell que esta em estado Gravissimo tem o seu atendimento iniciado as 265.39
+ Paciente Samuel Olsen que esta em estado Gravissimo tem o seu atendimento finalizado as 265.49
+ Paciente James Juarez que esta em estado Moderado tem o seu atendimento iniciado as 265.49
+ Paciente James Juarez que esta em estado Moderado tem o seu atendimento finalizado as 267.18
+ Paciente Charles Abbott que esta em estado Moderado tem o seu atendimento iniciado as 267.18
+ Paciente Julian Garcia que esta em estado Leve chega ao hospital as 267.76
+ Paciente Janette Wilson que esta em estado Gravissimo chega ao hospital as 269.04
+ Paciente Charles Abbott que esta em estado Moderado tem o seu atendimento interrompido as 269.04
+ Paciente Janette Wilson que esta em estado Gravissimo tem o seu atendimento iniciado as 269.04
+ Paciente Sharon Russell que esta em estado Gravissimo tem o seu atendimento finalizado as 269.74
+ Paciente Kyla Tamez que esta em estado Moderado tem o seu atendimento iniciado as 269.74
+ Paciente Tina Novak que esta em estado Grave tem o seu atendimento finalizado as 269.85
+ Paciente Catherine Gregory que esta em estado Moderado tem o seu atendimento iniciado as 269.85
+ Paciente Kyla Tamez que esta em estado Moderado tem o seu atendimento finalizado as 271.28
+ Paciente Debra Rave que esta em estado Moderado tem o seu atendimento iniciado as 271.28
+ Paciente Shani Frahm que esta em estado Grave chega ao hospital as 272.06
+ Paciente Catherine Gregory que esta em estado Moderado tem o seu atendimento finalizado as 273.78
+ Paciente Shani Frahm que esta em estado Grave tem o seu atendimento iniciado as 273.78
+ Paciente William Powell que esta em estado Gravissimo chega ao hospital as 275.50
+ Paciente Debra Rave que esta em estado Moderado tem o seu atendimento interrompido as 275.50
+ Paciente William Powell que esta em estado Gravissimo tem o seu atendimento iniciado as 275.50
+ Paciente Beulah Kremen que esta em estado Gravissimo chega ao hospital as 275.82
+ Paciente Shani Frahm que esta em estado Grave tem o seu atendimento interrompido as 275.82
+ Paciente Beulah Kremen que esta em estado Gravissimo tem o seu atendimento iniciado as 275.82
+ Paciente William Powell que esta em estado Gravissimo tem o seu atendimento finalizado as 276.73
+ Paciente Patricia Patrick que esta em estado Moderado tem o seu atendimento iniciado as 276.73
+ Paciente Patricia Patrick que esta em estado Moderado tem o seu atendimento finalizado as 278.32
+ Paciente Becky Winkelpleck que esta em estado Moderado tem o seu atendimento iniciado as 278.32
+ Paciente Stacey Mathis que esta em estado Grave chega ao hospital as 278.33
+ Paciente Janette Wilson que esta em estado Gravissimo tem o seu atendimento finalizado as 279.89
+ Paciente Stacey Mathis que esta em estado Grave tem o seu atendimento iniciado as 279.89
+ Paciente John Gustafson que esta em estado Leve chega ao hospital as 282.60
+ Paciente Becky Winkelpleck que esta em estado Moderado tem o seu atendimento finalizado as 284.03
+ Paciente Ruby Escalante que esta em estado Moderado tem o seu atendimento iniciado as 284.03
+ Paciente John Lee que esta em estado Gravissimo chega ao hospital as 284.05
+ Paciente Ruby Escalante que esta em estado Moderado tem o seu atendimento interrompido as 284.05
+ Paciente John Lee que esta em estado Gravissimo tem o seu atendimento iniciado as 284.05
+ Paciente Stacey Mathis que esta em estado Grave tem o seu atendimento finalizado as 284.85
+ Paciente Leona Ruybal que esta em estado Moderado tem o seu atendimento iniciado as 284.85
+ Paciente John Goins que esta em estado Moderado chega ao hospital as 286.21
+ Paciente Melody Griffin que esta em estado Grave chega ao hospital as 286.66
+ Paciente Crystal Gaston que esta em estado Gravissimo chega ao hospital as 287.88
+ Paciente Leona Ruybal que esta em estado Moderado tem o seu atendimento interrompido as 287.88
+ Paciente Crystal Gaston que esta em estado Gravissimo tem o seu atendimento iniciado as 287.88
+ Paciente Mamie Nelson que esta em estado Moderado chega ao hospital as 288.72
+ Paciente Patricia Castillo que esta em estado Moderado chega ao hospital as 291.19
+ Paciente Beulah Kremen que esta em estado Gravissimo tem o seu atendimento finalizado as 293.06
+ Paciente Melody Griffin que esta em estado Grave tem o seu atendimento iniciado as 293.06
+ Paciente Bertie Watson que esta em estado Moderado chega ao hospital as 293.26
+ Paciente Leslie Phillips que esta em estado Moderado chega ao hospital as 293.97
+ Paciente Clara Gonzalez que esta em estado Leve chega ao hospital as 294.25
+ Paciente Lindsay Leblanc que esta em estado Leve chega ao hospital as 294.55
+ Paciente Elvin Hudson que esta em estado Grave chega ao hospital as 295.69
+ Paciente Olivia Rucker que esta em estado Moderado chega ao hospital as 295.92
+ Paciente Christopher Thies que esta em estado Grave chega ao hospital as 297.60
+ Paciente Melody Griffin que esta em estado Grave tem o seu atendimento finalizado as 299.52
+ Paciente Elvin Hudson que esta em estado Grave tem o seu atendimento iniciado as 299.52
+ Paciente Crystal Gaston que esta em estado Gravissimo tem o seu atendimento finalizado as 302.22
+ Paciente Christopher Thies que esta em estado Grave tem o seu atendimento iniciado as 302.22
+ Paciente Elvin Hudson que esta em estado Grave tem o seu atendimento finalizado as 302.40
+ Paciente Troy Curiel que esta em estado Moderado tem o seu atendimento iniciado as 302.40
+ Paciente Troy Curiel que esta em estado Moderado tem o seu atendimento finalizado as 302.59
+ Paciente Kayla Red que esta em estado Moderado tem o seu atendimento iniciado as 302.59
+ Paciente Tony Heagney que esta em estado Moderado chega ao hospital as 306.33
+ Paciente Eugene Chesser que esta em estado Grave chega ao hospital as 308.61
+ Paciente Brenton Boatman que esta em estado Grave chega ao hospital as 308.74
+ Paciente John Lee que esta em estado Gravissimo tem o seu atendimento finalizado as 309.50
+ Paciente Eugene Chesser que esta em estado Grave tem o seu atendimento iniciado as 309.50
+ Paciente Darrell Mclean que esta em estado Grave chega ao hospital as 310.05
+ Paciente Patricia Szala que esta em estado Grave chega ao hospital as 310.63
+ Paciente Patrick Oland que esta em estado Moderado chega ao hospital as 315.58
+ Paciente Anthony Ellis que esta em estado Gravissimo chega ao hospital as 315.77
+ Paciente Kayla Red que esta em estado Moderado tem o seu atendimento interrompido as 315.77
+ Paciente Anthony Ellis que esta em estado Gravissimo tem o seu atendimento iniciado as 315.77
+ Paciente Eugene Chesser que esta em estado Grave tem o seu atendimento finalizado as 317.49
+ Paciente Brenton Boatman que esta em estado Grave tem o seu atendimento iniciado as 317.49
+ Paciente Anthony Ellis que esta em estado Gravissimo tem o seu atendimento finalizado as 318.18
+ Paciente Darrell Mclean que esta em estado Grave tem o seu atendimento iniciado as 318.18
+ Paciente Christopher Thies que esta em estado Grave tem o seu atendimento finalizado as 319.15
+ Paciente Patricia Szala que esta em estado Grave tem o seu atendimento iniciado as 319.15
+ Paciente Brenton Boatman que esta em estado Grave tem o seu atendimento finalizado as 319.29
+ Paciente Robin Stephen que esta em estado Moderado tem o seu atendimento iniciado as 319.29
+ Paciente Robin Stephen que esta em estado Moderado tem o seu atendimento finalizado as 319.42
+ Paciente Marta Bennett que esta em estado Moderado tem o seu atendimento iniciado as 319.42
+ Paciente Marta Bennett que esta em estado Moderado tem o seu atendimento finalizado as 319.77
+ Paciente Anthony Eichenlaub que esta em estado Moderado tem o seu atendimento iniciado as 319.77
+ Paciente Darrell Mclean que esta em estado Grave tem o seu atendimento finalizado as 320.93
+ Paciente Tamara Thomas que esta em estado Moderado tem o seu atendimento iniciado as 320.93
+ Paciente Tamara Thomas que esta em estado Moderado tem o seu atendimento finalizado as 321.20
+ Paciente Jillian Miller que esta em estado Moderado tem o seu atendimento iniciado as 321.20
+ Paciente Anthony Eichenlaub que esta em estado Moderado tem o seu atendimento finalizado as 322.70
+ Paciente Scott Collado que esta em estado Moderado tem o seu atendimento iniciado as 322.70
+ Paciente Georgia Howard que esta em estado Leve chega ao hospital as 324.20
+ Paciente Patricia Szala que esta em estado Grave tem o seu atendimento finalizado as 324.22
+ Paciente Lila Bruner que esta em estado Moderado tem o seu atendimento iniciado as 324.22
+ Paciente Shanika Jemmott que esta em estado Gravissimo chega ao hospital as 324.31
+ Paciente Lila Bruner que esta em estado Moderado tem o seu atendimento interrompido as 324.31
+ Paciente Shanika Jemmott que esta em estado Gravissimo tem o seu atendimento iniciado as 324.31
+ Paciente Shanika Jemmott que esta em estado Gravissimo tem o seu atendimento finalizado as 325.09
+ Paciente Latasha Jackson que esta em estado Moderado tem o seu atendimento iniciado as 325.09
+ Paciente Dennis Wilcox que esta em estado Gravissimo chega ao hospital as 326.21
+ Paciente Latasha Jackson que esta em estado Moderado tem o seu atendimento interrompido as 326.21
+ Paciente Dennis Wilcox que esta em estado Gravissimo tem o seu atendimento iniciado as 326.21
+ Paciente Pearl Hoage que esta em estado Leve chega ao hospital as 326.72
+ Paciente Scott Collado que esta em estado Moderado tem o seu atendimento finalizado as 327.66
+ Paciente George Yang que esta em estado Moderado tem o seu atendimento iniciado as 327.66
+ Paciente Jillian Miller que esta em estado Moderado tem o seu atendimento finalizado as 328.18
+ Paciente Lawanda Frost que esta em estado Moderado tem o seu atendimento iniciado as 328.18
+ Paciente Harold Mclean que esta em estado Gravissimo chega ao hospital as 329.73
+ Paciente Lawanda Frost que esta em estado Moderado tem o seu atendimento interrompido as 329.73
+ Paciente Harold Mclean que esta em estado Gravissimo tem o seu atendimento iniciado as 329.73
+ Paciente Dennis Wilcox que esta em estado Gravissimo tem o seu atendimento finalizado as 330.80
+ Paciente John Goins que esta em estado Moderado tem o seu atendimento iniciado as 330.80
+ Paciente Vincent Mullings que esta em estado Grave chega ao hospital as 332.61
+ Paciente John Goins que esta em estado Moderado tem o seu atendimento finalizado as 333.22
+ Paciente Vincent Mullings que esta em estado Grave tem o seu atendimento iniciado as 333.22
+ Paciente Harold Mclean que esta em estado Gravissimo tem o seu atendimento finalizado as 334.97
+ Paciente Mamie Nelson que esta em estado Moderado tem o seu atendimento iniciado as 334.97
+ Paciente Vincent Mullings que esta em estado Grave tem o seu atendimento finalizado as 335.10
+ Paciente Patricia Castillo que esta em estado Moderado tem o seu atendimento iniciado as 335.10
+ Paciente George Yang que esta em estado Moderado tem o seu atendimento finalizado as 338.38
+ Paciente Bertie Watson que esta em estado Moderado tem o seu atendimento iniciado as 338.38
+ Paciente Manuel Roll que esta em estado Gravissimo chega ao hospital as 338.46
+ Paciente Bertie Watson que esta em estado Moderado tem o seu atendimento interrompido as 338.46
+ Paciente Manuel Roll que esta em estado Gravissimo tem o seu atendimento iniciado as 338.46
+ Paciente Patricia Castillo que esta em estado Moderado tem o seu atendimento finalizado as 339.04
+ Paciente Leslie Phillips que esta em estado Moderado tem o seu atendimento iniciado as 339.04
+ Paciente John Crisler que esta em estado Gravissimo chega ao hospital as 339.17
+ Paciente Leslie Phillips que esta em estado Moderado tem o seu atendimento interrompido as 339.17
+ Paciente John Crisler que esta em estado Gravissimo tem o seu atendimento iniciado as 339.17
+ Paciente Leroy Sanchez que esta em estado Grave chega ao hospital as 340.21
+ Paciente Manuel Roll que esta em estado Gravissimo tem o seu atendimento finalizado as 340.36
+ Paciente Leroy Sanchez que esta em estado Grave tem o seu atendimento iniciado as 340.36
+ Paciente Leroy Sanchez que esta em estado Grave tem o seu atendimento finalizado as 340.76
+ Paciente Olivia Rucker que esta em estado Moderado tem o seu atendimento iniciado as 340.76
+ Paciente Mamie Nelson que esta em estado Moderado tem o seu atendimento finalizado as 341.22
+ Paciente Tony Heagney que esta em estado Moderado tem o seu atendimento iniciado as 341.22
+ Paciente Tony Heagney que esta em estado Moderado tem o seu atendimento finalizado as 342.62
+ Paciente Patrick Oland que esta em estado Moderado tem o seu atendimento iniciado as 342.62
+ Paciente John Crisler que esta em estado Gravissimo tem o seu atendimento finalizado as 344.89
+ Paciente Alice Gerdes que esta em estado Leve tem o seu atendimento iniciado as 344.89
+ Paciente Olivia Rucker que esta em estado Moderado tem o seu atendimento finalizado as 345.44
+ Paciente Christopher Portillo que esta em estado Leve tem o seu atendimento iniciado as 345.44
+ Paciente Christopher Portillo que esta em estado Leve tem o seu atendimento finalizado as 346.01
+ Paciente Elaine Maxwell que esta em estado Leve tem o seu atendimento iniciado as 346.01
+ Paciente Patrick Oland que esta em estado Moderado tem o seu atendimento finalizado as 346.07
+ Paciente Natasha Farr que esta em estado Leve tem o seu atendimento iniciado as 346.07
+ Paciente Natasha Farr que esta em estado Leve tem o seu atendimento finalizado as 346.31
+ Paciente Annette Barthelemy que esta em estado Leve tem o seu atendimento iniciado as 346.31
+ Paciente Elaine Maxwell que esta em estado Leve tem o seu atendimento finalizado as 346.52
+ Paciente Danny Ruiz que esta em estado Leve tem o seu atendimento iniciado as 346.52
+ Paciente Alice Gerdes que esta em estado Leve tem o seu atendimento finalizado as 347.26
+ Paciente Erin Will que esta em estado Leve tem o seu atendimento iniciado as 347.26
+ Paciente Catherine Mann que esta em estado Moderado chega ao hospital as 347.47
+ Paciente Mary Bostic que esta em estado Moderado chega ao hospital as 347.89
+ Paciente Danny Ruiz que esta em estado Leve tem o seu atendimento finalizado as 348.64
+ Paciente Catherine Mann que esta em estado Moderado tem o seu atendimento iniciado as 348.64
+ Paciente Roland Patel que esta em estado Leve chega ao hospital as 348.95
+ Paciente Catherine Mann que esta em estado Moderado tem o seu atendimento finalizado as 349.61
+ Paciente Mary Bostic que esta em estado Moderado tem o seu atendimento iniciado as 349.61
+ Paciente Annette Barthelemy que esta em estado Leve tem o seu atendimento finalizado as 353.48
+ Paciente Betty Holden que esta em estado Leve tem o seu atendimento iniciado as 353.48
+ Paciente Betty Holden que esta em estado Leve tem o seu atendimento finalizado as 353.51
+ Paciente Edith Persaud que esta em estado Leve tem o seu atendimento iniciado as 353.51
+ Paciente Erin Will que esta em estado Leve tem o seu atendimento finalizado as 354.41
+ Paciente Robert Morris que esta em estado Leve tem o seu atendimento iniciado as 354.41
+ Paciente Michael Weeks que esta em estado Gravissimo chega ao hospital as 354.51
+ Paciente Robert Morris que esta em estado Leve tem o seu atendimento interrompido as 354.51
+ Paciente Michael Weeks que esta em estado Gravissimo tem o seu atendimento iniciado as 354.51
+ Paciente Edith Persaud que esta em estado Leve tem o seu atendimento finalizado as 355.40
+ Paciente Nicholas Puga que esta em estado Leve tem o seu atendimento iniciado as 355.40
+ Paciente Michael Weeks que esta em estado Gravissimo tem o seu atendimento finalizado as 358.63
+ Paciente Eleanor Frisby que esta em estado Leve tem o seu atendimento iniciado as 358.63
+ Paciente Oscar Hungerford que esta em estado Leve chega ao hospital as 360.83
+ Paciente Barry Moore que esta em estado Leve chega ao hospital as 361.07
+ Paciente Nicholas Puga que esta em estado Leve tem o seu atendimento finalizado as 361.22
+ Paciente Joe Bies que esta em estado Leve tem o seu atendimento iniciado as 361.22
+ Paciente William Khan que esta em estado Grave chega ao hospital as 361.24
+ Paciente Mary Bostic que esta em estado Moderado tem o seu atendimento finalizado as 361.49
+ Paciente William Khan que esta em estado Grave tem o seu atendimento iniciado as 361.49
+ Paciente Damian Proctor que esta em estado Gravissimo chega ao hospital as 361.87
+ Paciente Joe Bies que esta em estado Leve tem o seu atendimento interrompido as 361.87
+ Paciente Damian Proctor que esta em estado Gravissimo tem o seu atendimento iniciado as 361.87
+ Paciente Eleanor Frisby que esta em estado Leve tem o seu atendimento finalizado as 362.32
+ Paciente Keith Simmon que esta em estado Leve tem o seu atendimento iniciado as 362.32
+ Paciente Keith Simmon que esta em estado Leve tem o seu atendimento finalizado as 363.43
+ Paciente Adelina Pittman que esta em estado Leve tem o seu atendimento iniciado as 363.43
+ Paciente Margaret Bridges que esta em estado Gravissimo chega ao hospital as 363.91
+ Paciente Adelina Pittman que esta em estado Leve tem o seu atendimento interrompido as 363.91
+ Paciente Margaret Bridges que esta em estado Gravissimo tem o seu atendimento iniciado as 363.91
+ Paciente Keith Tripp que esta em estado Gravissimo chega ao hospital as 364.11
+ Paciente William Khan que esta em estado Grave tem o seu atendimento interrompido as 364.11
+ Paciente Keith Tripp que esta em estado Gravissimo tem o seu atendimento iniciado as 364.11
+ Paciente Margaret Bridges que esta em estado Gravissimo tem o seu atendimento finalizado as 368.14
+ Paciente Phillip Taylor que esta em estado Leve tem o seu atendimento iniciado as 368.14
+ Paciente Phillip Taylor que esta em estado Leve tem o seu atendimento finalizado as 370.22
+ Paciente Jonathan Carrousal que esta em estado Leve tem o seu atendimento iniciado as 370.22
+ Paciente Conrad Tenney que esta em estado Moderado chega ao hospital as 372.95
+ Paciente Steve Lane que esta em estado Gravissimo chega ao hospital as 373.90
+ Paciente Jonathan Carrousal que esta em estado Leve tem o seu atendimento interrompido as 373.90
+ Paciente Steve Lane que esta em estado Gravissimo tem o seu atendimento iniciado as 373.90
+ Paciente Chris Wood que esta em estado Gravissimo chega ao hospital as 374.29
+ Paciente Stephen Carter que esta em estado Moderado chega ao hospital as 378.06
+ Paciente Elisa Broach que esta em estado Grave chega ao hospital as 378.32
+ Paciente Keith Tripp que esta em estado Gravissimo tem o seu atendimento finalizado as 379.30
+ Paciente Chris Wood que esta em estado Gravissimo tem o seu atendimento iniciado as 379.30
+ Paciente Wayne Brown que esta em estado Grave chega ao hospital as 380.38
+ Paciente Myrtle Hall que esta em estado Leve chega ao hospital as 381.03
+ Paciente Fernande Wegener que esta em estado Gravissimo chega ao hospital as 383.02
+ Paciente John Little que esta em estado Gravissimo chega ao hospital as 383.29
+ Paciente Marion Scanlon que esta em estado Leve chega ao hospital as 384.80
+ Paciente Janyce Mcdowell que esta em estado Moderado chega ao hospital as 386.30
+ Paciente Roxanne Martin que esta em estado Grave chega ao hospital as 386.32
+ Paciente Eugene Watkins que esta em estado Leve chega ao hospital as 387.20
+ Paciente Steve Lane que esta em estado Gravissimo tem o seu atendimento finalizado as 389.45
+ Paciente Fernande Wegener que esta em estado Gravissimo tem o seu atendimento iniciado as 389.45
+ Paciente Damian Proctor que esta em estado Gravissimo tem o seu atendimento finalizado as 389.85
+ Paciente John Little que esta em estado Gravissimo tem o seu atendimento iniciado as 389.85
+ Paciente Chris Wood que esta em estado Gravissimo tem o seu atendimento finalizado as 390.32
+ Paciente Elisa Broach que esta em estado Grave tem o seu atendimento iniciado as 390.32
+ Paciente Jaclyn Purcell que esta em estado Moderado chega ao hospital as 391.80
+ Paciente John Little que esta em estado Gravissimo tem o seu atendimento finalizado as 392.79
+ Paciente Wayne Brown que esta em estado Grave tem o seu atendimento iniciado as 392.79
+ Paciente Elisa Broach que esta em estado Grave tem o seu atendimento finalizado as 392.85
+ Paciente Roxanne Martin que esta em estado Grave tem o seu atendimento iniciado as 392.85
+ Paciente Theresa Sides que esta em estado Gravissimo chega ao hospital as 396.20
+ Paciente Roxanne Martin que esta em estado Grave tem o seu atendimento interrompido as 396.20
+ Paciente Theresa Sides que esta em estado Gravissimo tem o seu atendimento iniciado as 396.20
+ Paciente Marie Early que esta em estado Leve chega ao hospital as 397.57
+ Paciente Sarah Gunnels que esta em estado Moderado chega ao hospital as 398.00
+ Paciente Joe Ayala que esta em estado Leve chega ao hospital as 400.61
+ Paciente Fernande Wegener que esta em estado Gravissimo tem o seu atendimento finalizado as 401.46
+ Paciente Conrad Tenney que esta em estado Moderado tem o seu atendimento iniciado as 401.46
+ Paciente Michael Tapia que esta em estado Moderado chega ao hospital as 406.86
+ Paciente Theresa Sides que esta em estado Gravissimo tem o seu atendimento finalizado as 407.37
+ Paciente Stephen Carter que esta em estado Moderado tem o seu atendimento iniciado as 407.37
+ Paciente Samuel Mahone que esta em estado Leve chega ao hospital as 409.43
+ Paciente Stephen Carter que esta em estado Moderado tem o seu atendimento finalizado as 410.09
+ Paciente Janyce Mcdowell que esta em estado Moderado tem o seu atendimento iniciado as 410.09
+ Paciente Genevieve Clift que esta em estado Leve chega ao hospital as 411.50
+ Paciente Elizabeth Toone que esta em estado Leve chega ao hospital as 412.53
+ Paciente Conrad Tenney que esta em estado Moderado tem o seu atendimento finalizado as 413.17
+ Paciente Jaclyn Purcell que esta em estado Moderado tem o seu atendimento iniciado as 413.17
+ Paciente Maureen Upchurch que esta em estado Grave chega ao hospital as 415.29
+ Paciente Wayne Brown que esta em estado Grave tem o seu atendimento finalizado as 417.91
+ Paciente Maureen Upchurch que esta em estado Grave tem o seu atendimento iniciado as 417.91
+ Paciente Jaclyn Purcell que esta em estado Moderado tem o seu atendimento finalizado as 419.84
+ Paciente Sarah Gunnels que esta em estado Moderado tem o seu atendimento iniciado as 419.84
+ Paciente Janyce Mcdowell que esta em estado Moderado tem o seu atendimento finalizado as 420.05
+ Paciente Michael Tapia que esta em estado Moderado tem o seu atendimento iniciado as 420.05
+ Paciente Sarah Gunnels que esta em estado Moderado tem o seu atendimento finalizado as 423.24
+ Paciente James Mull que esta em estado Leve tem o seu atendimento iniciado as 423.24
+ Paciente Cheryl Philson que esta em estado Grave chega ao hospital as 424.49
+ Paciente Alma Eastlick que esta em estado Gravissimo chega ao hospital as 425.49
+ Paciente James Mull que esta em estado Leve tem o seu atendimento interrompido as 425.49
+ Paciente Alma Eastlick que esta em estado Gravissimo tem o seu atendimento iniciado as 425.49
+ Paciente Jamie Iannotti que esta em estado Leve chega ao hospital as 430.47
+ Paciente Mary Mccoy que esta em estado Leve chega ao hospital as 437.26
+ Paciente Brian Lear que esta em estado Leve chega ao hospital as 437.39
+ Paciente Maureen Upchurch que esta em estado Grave tem o seu atendimento finalizado as 437.42
+ Paciente Cheryl Philson que esta em estado Grave tem o seu atendimento iniciado as 437.42
+ Paciente Mary Herring que esta em estado Moderado chega ao hospital as 437.92
+ Paciente Clifford Maggio que esta em estado Moderado chega ao hospital as 439.11
+ Paciente Alma Eastlick que esta em estado Gravissimo tem o seu atendimento finalizado as 439.14
+ Paciente Mary Herring que esta em estado Moderado tem o seu atendimento iniciado as 439.14
+ Paciente Curtis Traxler que esta em estado Moderado chega ao hospital as 439.54
+ Paciente Maurine Williams que esta em estado Gravissimo chega ao hospital as 439.81
+ Paciente Mary Herring que esta em estado Moderado tem o seu atendimento interrompido as 439.81
+ Paciente Maurine Williams que esta em estado Gravissimo tem o seu atendimento iniciado as 439.81
+ Paciente Michael Tapia que esta em estado Moderado tem o seu atendimento finalizado as 440.29
+ Paciente Clifford Maggio que esta em estado Moderado tem o seu atendimento iniciado as 440.29
+ Paciente Brian Snelling que esta em estado Grave chega ao hospital as 440.78
+ Paciente Clifford Maggio que esta em estado Moderado tem o seu atendimento finalizado as 440.85
+ Paciente Brian Snelling que esta em estado Grave tem o seu atendimento iniciado as 440.85
+ Paciente Douglas Hill que esta em estado Leve chega ao hospital as 445.29
+ Paciente Brian Snelling que esta em estado Grave tem o seu atendimento finalizado as 445.42
+ Paciente Curtis Traxler que esta em estado Moderado tem o seu atendimento iniciado as 445.42
+ Paciente David Beard que esta em estado Leve chega ao hospital as 445.55
+ Paciente Andrea Mcguire que esta em estado Moderado chega ao hospital as 446.19
+ Paciente Maurine Williams que esta em estado Gravissimo tem o seu atendimento finalizado as 446.47
+ Paciente Andrea Mcguire que esta em estado Moderado tem o seu atendimento iniciado as 446.47
+ Paciente Andrea Mcguire que esta em estado Moderado tem o seu atendimento finalizado as 448.01
+ Paciente Christopher Curtis que esta em estado Leve tem o seu atendimento iniciado as 448.01
+ Paciente Maribel Benavidez que esta em estado Moderado chega ao hospital as 448.38
+ Paciente Curtis Traxler que esta em estado Moderado tem o seu atendimento finalizado as 450.77
+ Paciente Maribel Benavidez que esta em estado Moderado tem o seu atendimento iniciado as 450.77
+ Paciente Dominic Carpenter que esta em estado Gravissimo chega ao hospital as 451.49
+ Paciente Christopher Curtis que esta em estado Leve tem o seu atendimento interrompido as 451.49
+ Paciente Dominic Carpenter que esta em estado Gravissimo tem o seu atendimento iniciado as 451.49
+ Paciente Theresa Manzo que esta em estado Moderado chega ao hospital as 451.69
+ Paciente Rose Cheatham que esta em estado Moderado chega ao hospital as 451.86
+ Paciente Maribel Benavidez que esta em estado Moderado tem o seu atendimento finalizado as 453.26
+ Paciente Theresa Manzo que esta em estado Moderado tem o seu atendimento iniciado as 453.26
+ Paciente Cheryl Philson que esta em estado Grave tem o seu atendimento finalizado as 453.29
+ Paciente Rose Cheatham que esta em estado Moderado tem o seu atendimento iniciado as 453.29
+ Paciente Karyl Powell que esta em estado Leve chega ao hospital as 453.75
+ Paciente Rose Cheatham que esta em estado Moderado tem o seu atendimento finalizado as 453.88
+ Paciente Justin Ashurst que esta em estado Leve tem o seu atendimento iniciado as 453.88
+ Paciente Paula Welch que esta em estado Moderado chega ao hospital as 454.58
+ Paciente William Ingram que esta em estado Leve chega ao hospital as 454.70
+ Paciente Justin Ashurst que esta em estado Leve tem o seu atendimento finalizado as 454.72
+ Paciente Paula Welch que esta em estado Moderado tem o seu atendimento iniciado as 454.72
+ Paciente Dominic Carpenter que esta em estado Gravissimo tem o seu atendimento finalizado as 455.67
+ Paciente Kevin Suh que esta em estado Leve tem o seu atendimento iniciado as 455.67
+ Paciente Keith Adams que esta em estado Leve chega ao hospital as 455.76
+ Paciente Jewell Martin que esta em estado Leve chega ao hospital as 458.26
+ Paciente Kevin Suh que esta em estado Leve tem o seu atendimento finalizado as 462.75
+ Paciente Dorothy Oliver que esta em estado Leve tem o seu atendimento iniciado as 462.75
+ Paciente Linda Finch que esta em estado Grave chega ao hospital as 463.60
+ Paciente Dorothy Oliver que esta em estado Leve tem o seu atendimento finalizado as 463.86
+ Paciente Linda Finch que esta em estado Grave tem o seu atendimento iniciado as 463.86
+ Paciente Lisa Lewis que esta em estado Leve chega ao hospital as 465.01
+ Paciente Paula Welch que esta em estado Moderado tem o seu atendimento finalizado as 465.10
+ Paciente Ricardo Nichols que esta em estado Leve tem o seu atendimento iniciado as 465.10
+ Paciente Patricia Walker que esta em estado Grave chega ao hospital as 465.10
+ Paciente Buck Mitchell que esta em estado Gravissimo chega ao hospital as 465.40
+ Paciente Ricardo Nichols que esta em estado Leve tem o seu atendimento interrompido as 465.40
+ Paciente Buck Mitchell que esta em estado Gravissimo tem o seu atendimento iniciado as 465.40
+ Paciente Tiffany Neumann que esta em estado Gravissimo chega ao hospital as 466.12
+ Paciente Theresa Manzo que esta em estado Moderado tem o seu atendimento interrompido as 466.12
+ Paciente Tiffany Neumann que esta em estado Gravissimo tem o seu atendimento iniciado as 466.12
+ Paciente Valerie Hambright que esta em estado Leve chega ao hospital as 466.86
+ Paciente John Orozco que esta em estado Grave chega ao hospital as 470.53
+ Paciente Linda Finch que esta em estado Grave tem o seu atendimento finalizado as 471.36
+ Paciente Patricia Walker que esta em estado Grave tem o seu atendimento iniciado as 471.36
+ Paciente Charles Martinez que esta em estado Grave chega ao hospital as 472.67
+ Paciente Tiffany Neumann que esta em estado Gravissimo tem o seu atendimento finalizado as 473.59
+ Paciente John Orozco que esta em estado Grave tem o seu atendimento iniciado as 473.59
+ Paciente Charles Turner que esta em estado Gravissimo chega ao hospital as 477.35
+ Paciente John Orozco que esta em estado Grave tem o seu atendimento interrompido as 477.35
+ Paciente Charles Turner que esta em estado Gravissimo tem o seu atendimento iniciado as 477.35
+ Paciente Walter Mccoy que esta em estado Leve chega ao hospital as 477.59
+ Paciente Buck Mitchell que esta em estado Gravissimo tem o seu atendimento finalizado as 477.79
+ Paciente Charles Martinez que esta em estado Grave tem o seu atendimento iniciado as 477.79
+ Paciente Joyce Reagan que esta em estado Leve chega ao hospital as 478.97
+ Paciente Steve Campbell que esta em estado Leve chega ao hospital as 479.12
+ Paciente Wendy Avery que esta em estado Moderado chega ao hospital as 482.80
+ Paciente Jeff Everson que esta em estado Leve chega ao hospital as 483.19
+ Paciente Patricia Walker que esta em estado Grave tem o seu atendimento finalizado as 483.92
+ Paciente Wendy Avery que esta em estado Moderado tem o seu atendimento iniciado as 483.92
+ Paciente Wendy Avery que esta em estado Moderado tem o seu atendimento finalizado as 485.74
+ Paciente Julian Garcia que esta em estado Leve tem o seu atendimento iniciado as 485.74
+ Paciente Julian Garcia que esta em estado Leve tem o seu atendimento finalizado as 485.79
+ Paciente John Gustafson que esta em estado Leve tem o seu atendimento iniciado as 485.79
+ Paciente Carolyn Goods que esta em estado Grave chega ao hospital as 486.42
+ Paciente Charles Martinez que esta em estado Grave tem o seu atendimento finalizado as 486.45
+ Paciente Carolyn Goods que esta em estado Grave tem o seu atendimento iniciado as 486.45
+ Paciente Lynne Jones que esta em estado Moderado chega ao hospital as 487.62
+ Paciente Barbara Meighan que esta em estado Leve chega ao hospital as 487.80
+ Paciente Terry Egan que esta em estado Moderado chega ao hospital as 489.73
+ Paciente Jerome Fretwell que esta em estado Moderado chega ao hospital as 489.73
+ Paciente John Gustafson que esta em estado Leve tem o seu atendimento finalizado as 489.96
+ Paciente Lynne Jones que esta em estado Moderado tem o seu atendimento iniciado as 489.96
+ Paciente Lynne Jones que esta em estado Moderado tem o seu atendimento finalizado as 489.97
+ Paciente Terry Egan que esta em estado Moderado tem o seu atendimento iniciado as 489.97
+ Paciente Jose White que esta em estado Moderado chega ao hospital as 490.96
+ Paciente Gracie Gatlin que esta em estado Gravissimo chega ao hospital as 492.79
+ Paciente Terry Egan que esta em estado Moderado tem o seu atendimento interrompido as 492.79
+ Paciente Gracie Gatlin que esta em estado Gravissimo tem o seu atendimento iniciado as 492.79
+ Paciente Lori Young que esta em estado Grave chega ao hospital as 493.86
+ Paciente Frank Jennings que esta em estado Grave chega ao hospital as 494.41
+ Paciente Edgar Lazar que esta em estado Moderado chega ao hospital as 494.44
+ Paciente Robert Polzin que esta em estado Grave chega ao hospital as 494.78
+ Paciente Ernest Johnson que esta em estado Gravissimo chega ao hospital as 495.64
+ Paciente Carolyn Goods que esta em estado Grave tem o seu atendimento interrompido as 495.64
+ Paciente Ernest Johnson que esta em estado Gravissimo tem o seu atendimento iniciado as 495.64
+ Paciente William Fontaine que esta em estado Grave chega ao hospital as 501.39
+ Paciente Gracie Gatlin que esta em estado Gravissimo tem o seu atendimento finalizado as 503.16
+ Paciente Lori Young que esta em estado Grave tem o seu atendimento iniciado as 503.16
+ Paciente Charles Turner que esta em estado Gravissimo tem o seu atendimento finalizado as 503.55
+ Paciente Frank Jennings que esta em estado Grave tem o seu atendimento iniciado as 503.55
+ Paciente Lori Young que esta em estado Grave tem o seu atendimento finalizado as 504.25
+ Paciente Robert Polzin que esta em estado Grave tem o seu atendimento iniciado as 504.25
+ Paciente Ernest Johnson que esta em estado Gravissimo tem o seu atendimento finalizado as 508.85
+ Paciente William Fontaine que esta em estado Grave tem o seu atendimento iniciado as 508.85
+ Paciente Deborah Guinane que esta em estado Leve chega ao hospital as 510.73
+ Paciente Phyllis Miller que esta em estado Leve chega ao hospital as 511.80
+ Paciente Paul Denk que esta em estado Grave chega ao hospital as 511.87
+ Paciente Robert Polzin que esta em estado Grave tem o seu atendimento finalizado as 512.39
+ Paciente Paul Denk que esta em estado Grave tem o seu atendimento iniciado as 512.39
+ Paciente Frank Jennings que esta em estado Grave tem o seu atendimento finalizado as 514.05
+ Paciente Jerome Fretwell que esta em estado Moderado tem o seu atendimento iniciado as 514.05
+ Paciente Debbie Hart que esta em estado Gravissimo chega ao hospital as 514.59
+ Paciente Jerome Fretwell que esta em estado Moderado tem o seu atendimento interrompido as 514.59
+ Paciente Debbie Hart que esta em estado Gravissimo tem o seu atendimento iniciado as 514.59
+ Paciente Ronald Gonzalez que esta em estado Leve chega ao hospital as 517.59
+ Paciente William Fontaine que esta em estado Grave tem o seu atendimento finalizado as 518.40
+ Paciente Jose White que esta em estado Moderado tem o seu atendimento iniciado as 518.40
+ Paciente Paul Denk que esta em estado Grave tem o seu atendimento finalizado as 518.56
+ Paciente Edgar Lazar que esta em estado Moderado tem o seu atendimento iniciado as 518.56
+ Paciente Anthony Quiroz que esta em estado Moderado chega ao hospital as 519.34
+ Paciente Debbie Hart que esta em estado Gravissimo tem o seu atendimento finalizado as 519.50
+ Paciente Anthony Quiroz que esta em estado Moderado tem o seu atendimento iniciado as 519.50
+ Paciente Jose White que esta em estado Moderado tem o seu atendimento finalizado as 522.13
+ Paciente Clara Gonzalez que esta em estado Leve tem o seu atendimento iniciado as 522.13
+ Paciente Clara Gonzalez que esta em estado Leve tem o seu atendimento finalizado as 522.24
+ Paciente Lindsay Leblanc que esta em estado Leve tem o seu atendimento iniciado as 522.24
+ Paciente Lindsay Leblanc que esta em estado Leve tem o seu atendimento finalizado as 522.74
+ Paciente Georgia Howard que esta em estado Leve tem o seu atendimento iniciado as 522.74
+ Paciente Anthony Quiroz que esta em estado Moderado tem o seu atendimento finalizado as 525.42
+ Paciente Pearl Hoage que esta em estado Leve tem o seu atendimento iniciado as 525.42
+ Paciente Pearl Hoage que esta em estado Leve tem o seu atendimento finalizado as 525.57
+ Paciente Roland Patel que esta em estado Leve tem o seu atendimento iniciado as 525.57
+ Paciente Roland Patel que esta em estado Leve tem o seu atendimento finalizado as 525.97
+ Paciente Oscar Hungerford que esta em estado Leve tem o seu atendimento iniciado as 525.97
+ Paciente Oscar Hungerford que esta em estado Leve tem o seu atendimento finalizado as 527.58
+ Paciente Barry Moore que esta em estado Leve tem o seu atendimento iniciado as 527.58
+ Paciente Georgia Howard que esta em estado Leve tem o seu atendimento finalizado as 528.90
+ Paciente Myrtle Hall que esta em estado Leve tem o seu atendimento iniciado as 528.90
+ Paciente Kimberly Quella que esta em estado Grave chega ao hospital as 529.54
+ Paciente Myrtle Hall que esta em estado Leve tem o seu atendimento finalizado as 530.18
+ Paciente Kimberly Quella que esta em estado Grave tem o seu atendimento iniciado as 530.18
+ Paciente Leonard Hess que esta em estado Grave chega ao hospital as 531.37
+ Paciente Edgar Lazar que esta em estado Moderado tem o seu atendimento finalizado as 531.41
+ Paciente Leonard Hess que esta em estado Grave tem o seu atendimento iniciado as 531.41
+ Paciente Kimberly Quella que esta em estado Grave tem o seu atendimento finalizado as 532.63
+ Paciente Marion Scanlon que esta em estado Leve tem o seu atendimento iniciado as 532.63
+ Paciente Eric Whitlock que esta em estado Leve chega ao hospital as 534.98
+ Paciente Barry Moore que esta em estado Leve tem o seu atendimento finalizado as 535.43
+ Paciente Eugene Watkins que esta em estado Leve tem o seu atendimento iniciado as 535.43
+ Paciente Leonard Hess que esta em estado Grave tem o seu atendimento finalizado as 537.27
+ Paciente Marie Early que esta em estado Leve tem o seu atendimento iniciado as 537.27
+ Paciente Eugene Watkins que esta em estado Leve tem o seu atendimento finalizado as 537.65
+ Paciente Joe Ayala que esta em estado Leve tem o seu atendimento iniciado as 537.65
+ Paciente Eloise Aylsworth que esta em estado Grave chega ao hospital as 538.29
+ Paciente Marie Early que esta em estado Leve tem o seu atendimento finalizado as 538.48
+ Paciente Eloise Aylsworth que esta em estado Grave tem o seu atendimento iniciado as 538.48
+ Paciente Marion Scanlon que esta em estado Leve tem o seu atendimento finalizado as 539.22
+ Paciente Samuel Mahone que esta em estado Leve tem o seu atendimento iniciado as 539.22
+ Paciente Samuel Mahone que esta em estado Leve tem o seu atendimento finalizado as 539.90
+ Paciente Genevieve Clift que esta em estado Leve tem o seu atendimento iniciado as 539.90
+ Paciente Joe Ayala que esta em estado Leve tem o seu atendimento finalizado as 540.68
+ Paciente Elizabeth Toone que esta em estado Leve tem o seu atendimento iniciado as 540.68
+ Paciente Genevieve Clift que esta em estado Leve tem o seu atendimento finalizado as 540.88
+ Paciente Jamie Iannotti que esta em estado Leve tem o seu atendimento iniciado as 540.88
+ Paciente Jamie Iannotti que esta em estado Leve tem o seu atendimento finalizado as 540.89
+ Paciente Mary Mccoy que esta em estado Leve tem o seu atendimento iniciado as 540.89
+ Paciente Mary Mccoy que esta em estado Leve tem o seu atendimento finalizado as 542.37
+ Paciente Brian Lear que esta em estado Leve tem o seu atendimento iniciado as 542.37
+ Paciente Anna Fletcher que esta em estado Moderado chega ao hospital as 542.82
+ Paciente Brian Lear que esta em estado Leve tem o seu atendimento finalizado as 543.32
+ Paciente Anna Fletcher que esta em estado Moderado tem o seu atendimento iniciado as 543.32
+ Paciente Tanisha Dobbins que esta em estado Leve chega ao hospital as 544.05
+ Paciente James Harper que esta em estado Gravissimo chega ao hospital as 545.65
+ Paciente Elizabeth Toone que esta em estado Leve tem o seu atendimento interrompido as 545.65
+ Paciente James Harper que esta em estado Gravissimo tem o seu atendimento iniciado as 545.65
+ Paciente Ruth Parkinson que esta em estado Grave chega ao hospital as 547.26
+ Paciente Anna Fletcher que esta em estado Moderado tem o seu atendimento finalizado as 547.44
+ Paciente Ruth Parkinson que esta em estado Grave tem o seu atendimento iniciado as 547.44
+ Paciente James Harper que esta em estado Gravissimo tem o seu atendimento finalizado as 548.64
+ Paciente Douglas Hill que esta em estado Leve tem o seu atendimento iniciado as 548.64
+ Paciente Ruth Parkinson que esta em estado Grave tem o seu atendimento finalizado as 549.60
+ Paciente David Beard que esta em estado Leve tem o seu atendimento iniciado as 549.60
+ Paciente Douglas Hill que esta em estado Leve tem o seu atendimento finalizado as 551.38
+ Paciente Karyl Powell que esta em estado Leve tem o seu atendimento iniciado as 551.38
+ Paciente Chloe Stephenson que esta em estado Moderado chega ao hospital as 552.41
+ Paciente Karyl Powell que esta em estado Leve tem o seu atendimento finalizado as 554.13
+ Paciente Chloe Stephenson que esta em estado Moderado tem o seu atendimento iniciado as 554.13
+ Paciente David Beard que esta em estado Leve tem o seu atendimento finalizado as 555.20
+ Paciente William Ingram que esta em estado Leve tem o seu atendimento iniciado as 555.20
+ Paciente June Goodell que esta em estado Gravissimo chega ao hospital as 556.52
+ Paciente William Ingram que esta em estado Leve tem o seu atendimento interrompido as 556.52
+ Paciente June Goodell que esta em estado Gravissimo tem o seu atendimento iniciado as 556.52
+ Paciente Crystal Gordon que esta em estado Gravissimo chega ao hospital as 558.49
+ Paciente Chloe Stephenson que esta em estado Moderado tem o seu atendimento interrompido as 558.49
+ Paciente Crystal Gordon que esta em estado Gravissimo tem o seu atendimento iniciado as 558.49
+ Paciente Sarah Yeakel que esta em estado Gravissimo chega ao hospital as 559.54
+ Paciente Eloise Aylsworth que esta em estado Grave tem o seu atendimento interrompido as 559.54
+ Paciente Sarah Yeakel que esta em estado Gravissimo tem o seu atendimento iniciado as 559.54
+ Paciente Amber Salis que esta em estado Moderado chega ao hospital as 560.35
+ Paciente Ingrid Meyer que esta em estado Leve chega ao hospital as 560.60
+ Paciente Diana Boyles que esta em estado Grave chega ao hospital as 560.64
+ Paciente Don Burgher que esta em estado Moderado chega ao hospital as 560.86
+ Paciente William Askew que esta em estado Leve chega ao hospital as 561.16
+ Paciente Crystal Gordon que esta em estado Gravissimo tem o seu atendimento finalizado as 564.18
+ Paciente Diana Boyles que esta em estado Grave tem o seu atendimento iniciado as 564.18
+ Paciente Edith Mitchell que esta em estado Moderado chega ao hospital as 564.79
+ Paciente Diana Boyles que esta em estado Grave tem o seu atendimento finalizado as 568.29
+ Paciente Amber Salis que esta em estado Moderado tem o seu atendimento iniciado as 568.29
+ Paciente Adam Sunderland que esta em estado Moderado chega ao hospital as 569.24
+ Paciente Anita Rhoads que esta em estado Leve chega ao hospital as 574.08
+ Paciente Carol Bergquist que esta em estado Leve chega ao hospital as 574.59
+ Paciente Chris Rightmire que esta em estado Grave chega ao hospital as 574.88
+ Paciente Alma Perretta que esta em estado Grave chega ao hospital as 576.82
+ Paciente Amber Salis que esta em estado Moderado tem o seu atendimento finalizado as 576.96
+ Paciente Chris Rightmire que esta em estado Grave tem o seu atendimento iniciado as 576.96
+ Paciente Nathan Willis que esta em estado Grave chega ao hospital as 579.51
+ Paciente Edward Sturdivant que esta em estado Leve chega ao hospital as 583.73
+ Paciente Stacey Pankratz que esta em estado Leve chega ao hospital as 585.71
+ Paciente Robert Stone que esta em estado Moderado chega ao hospital as 587.02
+ Paciente June Goodell que esta em estado Gravissimo tem o seu atendimento finalizado as 588.76
+ Paciente Alma Perretta que esta em estado Grave tem o seu atendimento iniciado as 588.76
+ Paciente Ina Shapiro que esta em estado Moderado chega ao hospital as 589.05
+ Paciente Theodore Weidman que esta em estado Gravissimo chega ao hospital as 589.26
+ Paciente Alma Perretta que esta em estado Grave tem o seu atendimento interrompido as 589.26
+ Paciente Theodore Weidman que esta em estado Gravissimo tem o seu atendimento iniciado as 589.26
+ Paciente John Bell que esta em estado Grave chega ao hospital as 590.19
+ Paciente Chris Rightmire que esta em estado Grave tem o seu atendimento finalizado as 591.33
+ Paciente Nathan Willis que esta em estado Grave tem o seu atendimento iniciado as 591.33
+ Paciente Isaac Barnes que esta em estado Gravissimo chega ao hospital as 592.13
+ Paciente Nathan Willis que esta em estado Grave tem o seu atendimento interrompido as 592.13
+ Paciente Isaac Barnes que esta em estado Gravissimo tem o seu atendimento iniciado as 592.13
+ Paciente Barbara Armstrong que esta em estado Moderado chega ao hospital as 592.55
+ Paciente Sarah Yeakel que esta em estado Gravissimo tem o seu atendimento finalizado as 597.22
+ Paciente John Bell que esta em estado Grave tem o seu atendimento iniciado as 597.22
+ Paciente Anthony Vandorp que esta em estado Moderado chega ao hospital as 597.90
+ Paciente Theodore Weidman que esta em estado Gravissimo tem o seu atendimento finalizado as 598.24
+ Paciente Don Burgher que esta em estado Moderado tem o seu atendimento iniciado as 598.24
+ Paciente John Bell que esta em estado Grave tem o seu atendimento finalizado as 598.51
+ Paciente Edith Mitchell que esta em estado Moderado tem o seu atendimento iniciado as 598.51
+ Paciente Charisse Edsall que esta em estado Leve chega ao hospital as 599.88

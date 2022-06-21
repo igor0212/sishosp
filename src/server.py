@@ -1,5 +1,5 @@
 from util import Server
-from util import Util
+from util import Util, File
 from patient import Patient
 import simpy
 import random
@@ -21,13 +21,15 @@ while True:
     #Buscando informações para configurar o ambiente
     patient_arrival_interval, qt_employees, simulation_time = Util.get_environment_informations(message)
 
+    File.print(f"\n Hospital ira operar em {simulation_time} unidades de medida, com pacientes chegando em um intervalo de {patient_arrival_interval} unidades de medida e possuindo {qt_employees} funcionarios.\n")
+
     random.seed(100)       
     env = simpy.Environment()
 
     #Criando médicos em enfermeiros
     employees = simpy.PreemptiveResource(env, capacity=qt_employees)    
 
-    chegadas = env.process(Patient.arrival(env, employees, patient_arrival_interval))
+    env.process(Patient.arrival(env, employees, patient_arrival_interval))
 
     env.run(until=simulation_time)
 

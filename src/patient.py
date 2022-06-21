@@ -16,7 +16,7 @@ class Patient:
             patient = names.get_full_name()            
 
             #Buscar, randomicamente, qual é o estado do paciente (1: LEVE, 2: MODERADO, 3: GRAVE, 4: GRAVÍSSIMO), qual sua prioridade e se o paciente precisa de atendimento imediato
-            state, priority, is_urgent = State.get()            
+            state, priority, is_urgent = State.get()                        
 
             File.print(f"\n Paciente {patient} que esta em estado {state} chega ao hospital as {env.now:.2f}")
 
