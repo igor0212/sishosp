@@ -6,8 +6,12 @@ import random
 
 print('Aguardando conexão')
 conn, ender = Server.create_server()
+day = 0
 
 while True:
+
+    #Setando o primeiro dia de expediente    
+    day += 1
 
     #Recebendo mensagem do cliente
     message = Server.get_message(conn)
@@ -29,9 +33,9 @@ while True:
     #Criando médicos em enfermeiros
     employees = simpy.PreemptiveResource(env, capacity=qt_employees)    
 
-    env.process(Patient.arrival(env, employees, patient_arrival_interval))
+    env.process(Patient.arrival(env, employees, patient_arrival_interval, day))
 
-    env.run(until=simulation_time)
+    env.run(until=simulation_time) 
 
     #Enviando retorno para o cliente
     Server.send_message(conn, "Fim do expediente")    

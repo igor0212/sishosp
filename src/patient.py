@@ -15,7 +15,7 @@ class Patient:
             error = "Patient - insert error: {} \n".format(ex)            
             raise Exception(error)
 
-    def arrival(env, employees, arrival_interval):        
+    def arrival(env, employees, arrival_interval, day):        
         while True:
 
             #Configurando o intervalo em que os pacientes chegarão
@@ -31,7 +31,7 @@ class Patient:
 
             File.print(f"\n Paciente {patient_name} que esta em estado {state} chega ao hospital as {env.now:.2f}")
             patient_id = Patient.insert(patient_name, state_id)
-            Treatment.insert(patient_id, 1, env.now)
+            Treatment.insert(patient_id, 1, day, env.now)
 
             #Inicia o processo do atendimento
-            env.process(Treatment.execute(env, patient_id, patient_name, state, priority, is_urgent, employees))        
+            env.process(Treatment.execute(env, patient_id, patient_name, state, priority, is_urgent, employees, day))        
