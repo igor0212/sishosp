@@ -1,2 +1,2 @@
-DROP TABLE "Treatment";
-DROP TABLE "Patient";
+DELETE FROM "Treatment";
+DELETE FROM "Patient";

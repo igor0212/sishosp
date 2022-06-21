@@ -15,6 +15,31 @@ class Patient:
             error = "Patient - insert error: {} \n".format(ex)            
             raise Exception(error)
 
+    def get_total_by_day(day):   
+        try:      
+            query = """
+                        select count(distinct(patient_id))
+                        from "Treatment" t
+                        WHERE t.day = {}
+                    """.format(day)            
+            return DataBase.select(query)[0]['count']
+        except Exception as ex:
+            error = "Patient - get_total_by_day error: {} \n".format(ex)            
+            raise Exception(error)   
+
+    
+    def get_total_consulted_by_day(day):   
+        try:      
+            query = """
+                        select count(distinct(patient_id))
+                        from "Treatment" t
+                        WHERE t.day = {} and t.flow_id = 3
+                    """.format(day)            
+            return DataBase.select(query)[0]['count']
+        except Exception as ex:
+            error = "Patient - get_total_consulted_by_day error: {} \n".format(ex)            
+            raise Exception(error)   
+
     def arrival(env, employees, arrival_interval, day):        
         while True:
 
