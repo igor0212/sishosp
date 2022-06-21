@@ -1,5 +1,8 @@
 from util import Server
-from allocate import Allocate
+from util import Util
+from patient import Patient
+import simpy
+import random
 
 print('Aguardando conexão')
 conn, ender = Server.create_server()
@@ -8,15 +11,26 @@ while True:
 
     #Recebendo mensagem do cliente
     message = Server.get_message(conn)
-    if not message or Server.close_connection(message):
+    if not message:
         error = 'Encerrando conexão'
         print(error)
         Server.send_message(conn, error)
         conn.close()
         break
 
-    #Enviando informações para alocar paciente
-    response = Allocate.allocate(message)    
+    #Buscando informações para configurar o ambiente
+    patient_arrival_interval, qt_doctors, qt_nurses, simulation_time = Util.get_environment_informations(message)
+
+    random.seed(100)       
+    env = simpy.Environment()
+
+    #Criando médicos em enfermeiros
+    doctors = simpy.PreemptiveResource(env, capacity=qt_doctors)
+    nurses = simpy.PriorityResource(env, capacity=qt_nurses)
+
+    chegadas = env.process(Patient.arrival(env, doctors, nurses, patient_arrival_interval))
+
+    env.run(until=simulation_time)
 
     #Enviando retorno para o cliente
-    Server.send_message(conn, response)    
+    Server.send_message(conn, "Fim do expediente")    

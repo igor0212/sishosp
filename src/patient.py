@@ -1,55 +1,24 @@
-from database import DataBase
+from state import State
+from util import File
+from treatment import Treatment
+import random
+import names
  
 class Patient:
 
-    def insert(name, state_id, bed_id):   
-        try:                        
-            query = 'INSERT INTO "Patient" (name, state_id, bed_id) VALUES (\'{}\', {}, {}); \n'.format(name, state_id, bed_id)                        
-            DataBase.insert(query)
-        except Exception as ex:            
-            error = "Patient - insert error: {} \n".format(ex)            
-            raise Exception(error)
+    def arrival(env, doctors, nurses, arrival_interval):        
+        while True:
 
-    def get_count_by_block(block_id):   
-        try:      
-            query = """
-                        SELECT COUNT(*) 
-                        FROM "Patient" p
-                        INNER JOIN "Bed" b ON p.bed_id = b.id 
-                        WHERE b.block_id = {}
-                    """.format(block_id)            
-            return DataBase.select(query)[0]['count']
-        except Exception as ex:
-            error = "Patient - get_count_by_block error: {} \n".format(ex)            
-            raise Exception(error)    
+            #Configurando o intervalo em que os pacientes chegarão
+            yield env.timeout(random.expovariate(1/arrival_interval))             
 
-    def get_by_state_id(state_id):   
-        try:
-            query = """
-                        SELECT name AS patient_name, bed_id, id AS patient_id
-                        FROM "Patient" p                        
-                        WHERE p.state_id = {} AND bed_id IS NOT NULL
-                        LIMIT 1
-                    """.format(state_id)
+            #Gerar nome aleatório para paciente
+            patient = names.get_full_name()            
 
-            return DataBase.select(query)           
+            #Buscar, randomicamente, qual é o estado do paciente (1: LEVE, 2: MODERADO, 3: GRAVE, 4: GRAVÍSSIMO), qual sua prioridade e se o paciente precisa de atendimento imediato
+            state, priority, is_urgent = State.get()                
             
-        except Exception as ex:
-            error = "Patient - get_by_state_id error: {} \n".format(ex)            
-            raise Exception(error)    
+            File.print("\nPaciente %s em estado %s chega as %4.1f " % (patient, state, env.now))
 
-    def remove_bed(id):   
-        try:
-            query = 'UPDATE "Patient" SET bed_id = NULL, is_waiting = true WHERE id = {}'.format(id)
-            DataBase.update(query)            
-        except Exception as ex:
-            error = "Patient - remove_bed error: {} \n".format(ex)            
-            raise Exception(error)    
-
-    def update_state(id, state_id, bed_id):   
-        try:
-            query = 'UPDATE "Patient" SET bed_id = {}, state_id = {} WHERE id = {}'.format(bed_id, state_id, id)
-            DataBase.update(query)            
-        except Exception as ex:
-            error = "Patient - update_state error: {} \n".format(ex)            
-            raise Exception(error)    
+            #Inicia o processo do atendimento
+            env.process(Treatment.execute(env, patient, state, priority, is_urgent, doctors, nurses))        
