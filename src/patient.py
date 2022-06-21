@@ -1,10 +1,19 @@
-from state import State
-from util import File
-from treatment import Treatment
 import random
 import names
+from state import State
+from util import Util, File
+from treatment import Treatment
+from database import DataBase
  
 class Patient:
+
+    def insert(name, state_id):   
+        try:                        
+            query = 'INSERT INTO "Patient" (name, state_id) VALUES (\'{}\', {}) RETURNING id;'.format(name, state_id)                        
+            return DataBase.insert(query)
+        except Exception as ex:            
+            error = "Patient - insert error: {} \n".format(ex)            
+            raise Exception(error)
 
     def arrival(env, employees, arrival_interval):        
         while True:
@@ -13,12 +22,16 @@ class Patient:
             yield env.timeout(random.expovariate(1/arrival_interval))             
 
             #Gerar nome aleatório para paciente
-            patient = names.get_full_name()            
+            patient_name = names.get_full_name()            
 
             #Buscar, randomicamente, qual é o estado do paciente (1: LEVE, 2: MODERADO, 3: GRAVE, 4: GRAVÍSSIMO), qual sua prioridade e se o paciente precisa de atendimento imediato
-            state, priority, is_urgent = State.get()                        
+            state_id, priority, is_urgent = State.get()                        
 
-            File.print(f"\n Paciente {patient} que esta em estado {state} chega ao hospital as {env.now:.2f}")
+            state = Util.PATIENT_STATE_PT_BR[state_id]
+
+            File.print(f"\n Paciente {patient_name} que esta em estado {state} chega ao hospital as {env.now:.2f}")
+            patient_id = Patient.insert(patient_name, state_id)
+            Treatment.insert(patient_id, 1, env.now)
 
             #Inicia o processo do atendimento
-            env.process(Treatment.execute(env, patient, state, priority, is_urgent, employees))        
+            env.process(Treatment.execute(env, patient_id, patient_name, state, priority, is_urgent, employees))        
