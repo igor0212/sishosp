@@ -18,7 +18,7 @@ class Patient:
             #Buscar, randomicamente, qual é o estado do paciente (1: LEVE, 2: MODERADO, 3: GRAVE, 4: GRAVÍSSIMO), qual sua prioridade e se o paciente precisa de atendimento imediato
             state, priority, is_urgent = State.get()                
             
-            File.print("\nPaciente %s em estado %s chega as %4.1f " % (patient, state, env.now))
+            File.print("\nPaciente %s chega ao hospital em estado %s as %4.1f " % (patient, state, env.now))
 
             #Inicia o processo do atendimento
             env.process(Treatment.execute(env, patient, state, priority, is_urgent, doctors, nurses))        
