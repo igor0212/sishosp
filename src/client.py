@@ -7,10 +7,11 @@ while True:
 
     #Enviando mensagem para o servidor
     patient_arrival_interval = input("Digite o intervalo de chegada dos pacientes: ")
-    qt_employees = input("Digite a quantidade de funcionários: ")    
+    qt_doctors = input("Digite a quantidade de doutores: ")
+    qt_nurses = input("Digite a quantidade de enfermeiros: ")
     simulation_time = input("Digite o tempo de simulação: ")
 
-    message = '%s %s %s' % (patient_arrival_interval, qt_employees, simulation_time)       
+    message = '%s %s %s %s' % (patient_arrival_interval, qt_doctors, qt_nurses, simulation_time)       
 
     #Validando se mensagem é válida
     if(not Client.validate_message(message)):

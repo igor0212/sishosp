@@ -23,15 +23,18 @@ while True:
         break
 
     #Buscando informações para configurar o ambiente
-    patient_arrival_interval, qt_employees, simulation_time = Util.get_environment_informations(message)
+    patient_arrival_interval, qt_doctors, qt_nurses, simulation_time = Util.get_environment_informations(message)
 
     File.print(f"\n\n Hospital ira operar em {simulation_time} unidades de tempo, com pacientes chegando em um intervalo de {patient_arrival_interval} unidades de tempo e possuindo {qt_employees} funcionarios no dia {day}.\n")
 
     random.seed(100)       
     env = simpy.Environment()
 
-    #Criando médicos em enfermeiros
-    employees = simpy.PreemptiveResource(env, capacity=qt_employees)    
+    #Criando médicos
+    doctors = simpy.PreemptiveResource(env, capacity=qt_doctors) 
+
+    #Criando enfermeiros
+    nurses = simpy.PreemptiveResource(env, capacity=qt_doctors)    
 
     env.process(Patient.arrival(env, employees, patient_arrival_interval, day))
 

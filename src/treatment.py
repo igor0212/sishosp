@@ -11,11 +11,11 @@ class Treatment:
             error = "Treatment - insert error: {} \n".format(ex)            
             raise Exception(error)
 
-    def execute(env, patient_id, patient_name, state, priority, is_urgent, employees, day):        
+    def execute(env, patient_id, patient_name, state, priority, is_urgent, doctors, nurses, day):        
         treatment_time = Util.TREATMENT_TIME[state]       
 
         #Aloca um médico e realiza o atendimento do paciente
-        with employees.request(priority=priority, preempt=is_urgent) as request:            
+        with doctors.request(priority=priority, preempt=is_urgent) as request:            
             yield request                
             File.print(f"\n Paciente {patient_name} que esta em estado {state} tem o seu atendimento iniciado as {env.now:.2f}")
             Treatment.insert(patient_id, 2, day, env.now)

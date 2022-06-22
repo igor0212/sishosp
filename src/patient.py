@@ -40,7 +40,7 @@ class Patient:
             error = "Patient - get_total_consulted_by_day error: {} \n".format(ex)            
             raise Exception(error)   
 
-    def arrival(env, employees, arrival_interval, day):        
+    def arrival(env, doctors, nurses, arrival_interval, day):        
         while True:
 
             #Configurando o intervalo em que os pacientes chegarão
@@ -59,4 +59,4 @@ class Patient:
             Treatment.insert(patient_id, 1, day, env.now)
 
             #Inicia o processo do atendimento
-            env.process(Treatment.execute(env, patient_id, patient_name, state, priority, is_urgent, employees, day))        
+            env.process(Treatment.execute(env, patient_id, patient_name, state, priority, is_urgent, doctors, nurses, day))        
