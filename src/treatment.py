@@ -51,7 +51,7 @@ class Treatment:
                 File.print(f"\n Paciente {patient_name} que esta em estado {state} tem o seu atendimento interrompido as {env.now:.2f}")
                 Treatment.insert(patient_id, 4, day, env.now)    
 
-    def get_total_time_spent_by_state(state_id):   
+    def get_total_time_spent_by_state(state_id, day):   
         try:      
             query = """
                         select sum(t."time_spent") as "time_spent" 
@@ -59,14 +59,14 @@ class Treatment:
                         inner join "Patient" p ON t.patient_id = p.id 
                         inner join "State" s on p.state_id = s.id 
                         inner join "Flow" f on t.flow_id = f.id
-                        where s.id = {}
-                    """.format(state_id)            
+                        where s.id = {} and t.day = {}
+                    """.format(state_id, day)            
             return DataBase.select(query)[0]['time_spent']
         except Exception as ex:
             error = "Patient - get_total_time_spent_by_state error: {} \n".format(ex)            
             raise Exception(error)
 
-    def get_total_treatment_by_state(state_id):   
+    def get_total_treatment_by_state(state_id, day):   
         try:      
             query = """
                         select COUNT (DISTINCT p."name")  
@@ -74,18 +74,48 @@ class Treatment:
                         inner join "Patient" p ON t.patient_id = p.id 
                         inner join "State" s on p.state_id = s.id 
                         inner join "Flow" f on t.flow_id = f.id
-                        where s.id = {}
-                    """.format(state_id)            
+                        where s.id = {} and t.day = {}
+                    """.format(state_id, day)            
             return DataBase.select(query)[0]['count']
         except Exception as ex:
             error = "Patient - get_total_treatment_by_state error: {} \n".format(ex)            
             raise Exception(error)  
         
-    def get_treatment_avg_by_state(state_id):
+    def get_treatment_avg_by_state(state_id, day):
         avg = 0
-        total_time_spent = Treatment.get_total_time_spent_by_state(state_id)
-        total_treatment = Treatment.get_total_treatment_by_state(state_id)
+        total_time_spent = Treatment.get_total_time_spent_by_state(state_id, day)
+        total_treatment = Treatment.get_total_treatment_by_state(state_id, day)
         if(total_treatment > 0):
             avg = total_time_spent/total_treatment
         return avg
+
+    def get_total_treatment_canceled(state_id, day):   
+        try:      
+            query = """
+                        select count(*) 
+                        from "Treatment" t 
+                        inner join "Patient" p ON t.patient_id = p.id 
+                        inner join "State" s on p.state_id = s.id
+                        where s.id = {} and t.flow_id = 4 and t.day = {}
+                    """.format(state_id, day)            
+            return DataBase.select(query)[0]['count']
+        except Exception as ex:
+            error = "Patient - get_total_treatment_canceled error: {} \n".format(ex)            
+            raise Exception(error)  
+
+    def get_total_patient_by_state(state_id, day):   
+        try:      
+            query = """
+                        select count(*)                         
+                        from "Treatment" t 
+                        inner join "Patient" p ON t.patient_id = p.id 
+                        inner join "State" s on p.state_id = s.id
+                        inner join "Flow" f on t.flow_id = f.id 
+                        where s.id = {} and t.flow_id = 3 and t.day = {}
+                    """.format(state_id, day)            
+            return DataBase.select(query)[0]['count']
+        except Exception as ex:
+            error = "Patient - get_total_patient_by_state error: {} \n".format(ex)            
+            raise Exception(error)  
+
 
