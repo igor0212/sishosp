@@ -25,7 +25,7 @@ while True:
     #Buscando informações para configurar o ambiente
     patient_arrival_interval, qt_employees, simulation_time = Util.get_environment_informations(message)
 
-    File.print(f"\n\n Hospital ira operar em {simulation_time} unidades de medida, com pacientes chegando em um intervalo de {patient_arrival_interval} unidades de medida e possuindo {qt_employees} funcionarios no dia {day}.\n")
+    File.print(f"\n\n Hospital ira operar em {simulation_time} unidades de tempo, com pacientes chegando em um intervalo de {patient_arrival_interval} unidades de tempo e possuindo {qt_employees} funcionarios no dia {day}.\n")
 
     random.seed(100)       
     env = simpy.Environment()
@@ -39,7 +39,7 @@ while True:
 
     response = f"""
                 Fim do expediente
-                Total de pacientes que adentraram o hospital no dia {day}: {Patient.get_total_by_day(day)}
+                Total de pacientes que foram ao hospital no dia {day}: {Patient.get_total_by_day(day)}
                 Total de pacientes que foram atendidos (consulta finalizada) no dia {day}: {Patient.get_total_consulted_by_day(day)}                
                 """
 
