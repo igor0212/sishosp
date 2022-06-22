@@ -1,6 +1,7 @@
 from util import Server
 from util import Util, File
 from patient import Patient
+from treatment import Treatment
 import simpy
 import random
 
@@ -25,7 +26,7 @@ while True:
     #Buscando informações para configurar o ambiente
     patient_arrival_interval, qt_doctors, qt_nurses, simulation_time = Util.get_environment_informations(message)
 
-    File.print(f"\n\n Hospital ira operar em {simulation_time} unidades de tempo, com pacientes chegando em um intervalo de {patient_arrival_interval} unidades de tempo e possuindo {qt_doctors} médicos e {qt_nurses} enfermeiros no dia {day}.\n")
+    File.print(f"\n\n Hospital ira operar em {simulation_time} unidades de tempo, com pacientes chegando em um intervalo de {patient_arrival_interval} unidades de tempo e possuindo {qt_doctors} medicos e {qt_nurses} enfermeiros no dia {day}.\n")
 
     random.seed(100)       
     env = simpy.Environment()
@@ -43,7 +44,11 @@ while True:
     response = f"""
                 Fim do expediente
                 Total de pacientes que foram ao hospital no dia {day}: {Patient.get_total_by_day(day)}
-                Total de pacientes que foram atendidos (consulta finalizada) no dia {day}: {Patient.get_total_consulted_by_day(day)}                
+                Total de pacientes que foram atendidos (consulta finalizada) no dia {day}: {Patient.get_total_consulted_by_day(day)}
+                Media do tempo gasto nos atendimentos com casos LEVES no dia {day}: {Treatment.get_treatment_avg_by_state(1)}
+                Media do tempo gasto nos atendimentos com casos MODERADOS no dia {day}: {Treatment.get_treatment_avg_by_state(2)}
+                Media do tempo gasto nos atendimentos com casos GRAVES no dia {day}: {Treatment.get_treatment_avg_by_state(3)}
+                Media do tempo gasto nos atendimentos com casos GRAVÍSSIMOS no dia {day}: {Treatment.get_treatment_avg_by_state(4)}
                 """
 
     #Enviando retorno para o cliente

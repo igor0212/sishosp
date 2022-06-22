@@ -26,7 +26,6 @@ class Patient:
         except Exception as ex:
             error = "Patient - get_total_by_day error: {} \n".format(ex)            
             raise Exception(error)   
-
     
     def get_total_consulted_by_day(day):   
         try:      

@@ -42,6 +42,7 @@ CREATE TABLE public."Treatment" (
 	"flow_id" int4 NOT NULL,
 	"day" int4 NOT NULL,
 	"time" real NOT NULL,
+	"time_spent" real NOT NULL,
 	CONSTRAINT "PK_Treatment" PRIMARY KEY ("id"),
 	CONSTRAINT "FK_Treatment_Patient_Id" FOREIGN KEY ("patient_id") REFERENCES public."Patient"("id") ON DELETE RESTRICT,
 	CONSTRAINT "FK_Treatment_Flow_Id" FOREIGN KEY ("flow_id") REFERENCES public."Flow"("id") ON DELETE RESTRICT
