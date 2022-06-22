@@ -35,7 +35,7 @@ class Client:
         try:
             #Validando se mensagem contém quatro informações
             list = message.split()
-            if(len(list) != 3):
+            if(len(list) != 4):
                 return False            
 
             patient_arrival_interval = int(list[0])

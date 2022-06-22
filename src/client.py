@@ -7,7 +7,7 @@ while True:
 
     #Enviando mensagem para o servidor
     patient_arrival_interval = input("Digite o intervalo de chegada dos pacientes: ")
-    qt_doctors = input("Digite a quantidade de doutores: ")
+    qt_doctors = input("Digite a quantidade de médicos: ")
     qt_nurses = input("Digite a quantidade de enfermeiros: ")
     simulation_time = input("Digite o tempo de simulação: ")
 
