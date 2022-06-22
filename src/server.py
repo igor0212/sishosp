@@ -45,10 +45,10 @@ while True:
                 Fim do expediente
                 Total de pacientes que foram ao hospital no dia {day}: {Patient.get_total_by_day(day)}
                 Total de pacientes que foram atendidos (consulta finalizada) no dia {day}: {Patient.get_total_consulted_by_day(day)}
-                Media do tempo gasto nos atendimentos com casos LEVES no dia {day}: {Treatment.get_treatment_avg_by_state(1)}
-                Media do tempo gasto nos atendimentos com casos MODERADOS no dia {day}: {Treatment.get_treatment_avg_by_state(2)}
-                Media do tempo gasto nos atendimentos com casos GRAVES no dia {day}: {Treatment.get_treatment_avg_by_state(3)}
-                Media do tempo gasto nos atendimentos com casos GRAVÍSSIMOS no dia {day}: {Treatment.get_treatment_avg_by_state(4)}
+                Media do tempo gasto nos atendimentos com casos LEVES no dia {day}: {Treatment.get_treatment_avg_by_state(1):.2f}
+                Media do tempo gasto nos atendimentos com casos MODERADOS no dia {day}: {Treatment.get_treatment_avg_by_state(2):.2f}
+                Media do tempo gasto nos atendimentos com casos GRAVES no dia {day}: {Treatment.get_treatment_avg_by_state(3):.2f}
+                Media do tempo gasto nos atendimentos com casos GRAVÍSSIMOS no dia {day}: {Treatment.get_treatment_avg_by_state(4):.2f}
                 """
 
     #Enviando retorno para o cliente
