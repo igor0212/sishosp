@@ -35,11 +35,16 @@ while True:
     doctors = simpy.PreemptiveResource(env, capacity=qt_doctors) 
 
     #Criando enfermeiros
-    nurses = simpy.PreemptiveResource(env, capacity=qt_nurses)    
+    nurses = simpy.PriorityResource(env, capacity=qt_nurses)    
 
     env.process(Patient.arrival(env, doctors, nurses, patient_arrival_interval, day))
 
     env.run(until=simulation_time) 
+
+    avg_state_1 = Treatment.get_treatment_avg_by_state(1, day)
+    avg_state_2 = Treatment.get_treatment_avg_by_state(2, day)
+    avg_state_3 = Treatment.get_treatment_avg_by_state(3, day)
+    avg_state_4 = Treatment.get_treatment_avg_by_state(4, day)
 
     response = f"""
                 Fim do expediente do dia {day}
@@ -61,10 +66,10 @@ while True:
                 Total de pacientes GRAVES que tiveram o seu atendimento interrompido:        {Treatment.get_total_treatment_canceled(3, day)}
                 Total de pacientes GRAVÍSSIMOS que tiveram o seu atendimento interrompido:   {Treatment.get_total_treatment_canceled(4, day)}
 
-                Média do tempo gasto nos atendimentos LEVES:                                 {Treatment.get_treatment_avg_by_state(1, day):.2f}
-                Média do tempo gasto nos atendimentos MODERADOS:                             {Treatment.get_treatment_avg_by_state(2, day):.2f}
-                Média do tempo gasto nos atendimentos GRAVES:                                {Treatment.get_treatment_avg_by_state(3, day):.2f}
-                Média do tempo gasto nos atendimentos GRAVÍSSIMOS:                           {Treatment.get_treatment_avg_by_state(4, day):.2f}
+                Média do tempo gasto nos atendimentos LEVES:                                 {avg_state_1:.2f} - {"Abaixo da média" if avg_state_1 < Util.TREATMENT_TIME['Leve'] else "Acima da média" }
+                Média do tempo gasto nos atendimentos MODERADOS:                             {avg_state_2:.2f} - {"Abaixo da média" if avg_state_2 < Util.TREATMENT_TIME['Moderado'] else "Acima da média" }
+                Média do tempo gasto nos atendimentos GRAVES:                                {avg_state_3:.2f} - {"Abaixo da média" if avg_state_3 < Util.TREATMENT_TIME['Grave'] else "Acima da média" }
+                Média do tempo gasto nos atendimentos GRAVÍSSIMOS:                           {avg_state_4:.2f} - {"Abaixo da média" if avg_state_4 < Util.TREATMENT_TIME['Gravissimo'] else "Acima da média" }
                 """
 
     #Enviando retorno para o cliente

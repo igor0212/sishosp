@@ -33,40 +33,48 @@ class Treatment:
             error = "Treatment - insert error: {} \n".format(ex)            
             raise Exception(error)
 
-    def execute(env, patient_id, patient_name, state, priority, is_urgent, doctors, nurses, day):        
-        treatment_time = Util.TREATMENT_TIME[state]
+    def execute(env, patient_id, patient_name, state, priority, is_urgent, doctors, nurses, day, treatment_time=None):        
+        treatment_time_state = Util.TREATMENT_TIME[state]
+        
+        #Aloca um médico e realiza o atendimento do paciente
+        with doctors.request(priority=priority, preempt=is_urgent) as request:
+            #Médico só atenderá paciente nos estados Grave e Gravíssimo
+            yield request
+            treatment_start = env.now
+            File.print(f"\n Paciente {patient_name} que esta em estado {state} tem o seu atendimento iniciado pelo medico as {env.now:.2f}")
+            Treatment.insert(patient_id, 2, day, env.now)
 
-        if state in ('Grave', 'Gravissimo'):
-            #Aloca um médico e realiza o atendimento do paciente
-            with doctors.request(priority=priority, preempt=is_urgent) as request:
-                #Médico só atenderá paciente nos estados Grave e Gravíssimo
-                yield request                
-                File.print(f"\n Paciente {patient_name} que esta em estado {state} tem o seu atendimento iniciado pelo medico as {env.now:.2f}")
-                Treatment.insert(patient_id, 2, day, env.now)
+            try:
+                #Configurando o tempo de duração de cada consulta
+                if not treatment_time:
+                    treatment_time = random.expovariate(1/treatment_time_state)
+                yield env.timeout(treatment_time)
+                File.print(f"\n Paciente {patient_name} que esta em estado {state} tem o seu atendimento finalizado pelo medico as {env.now:.2f}")
+                Treatment.insert(patient_id, 3, day, env.now)
+            except:
+                treatment_time -= env.now-treatment_start 
+                File.print(f"\n Paciente {patient_name} que esta em estado {state} tem o seu atendimento interrompido pelo medico as {env.now:.2f}")
+                File.print(f"\n Paciente {patient_name} que esta em estado {state} ainda precisa de {treatment_time:.2f} minutos de atendimento")                
+                Treatment.insert(patient_id, 4, day, env.now)
 
-                try:
-                    #Configurando o tempo de duração de cada consulta
-                    yield env.timeout(random.expovariate(1/treatment_time))                
-                    File.print(f"\n Paciente {patient_name} que esta em estado {state} tem o seu atendimento finalizado pelo medico as {env.now:.2f}")
-                    Treatment.insert(patient_id, 3, day, env.now)
-                except:                
-                    File.print(f"\n Paciente {patient_name} que esta em estado {state} tem o seu atendimento interrompido pelo medico as {env.now:.2f}")
-                    Treatment.insert(patient_id, 4, day, env.now)  
-        else:
-            #Aloca um enfermeiro e realiza o atendimento do paciente
-            with nurses.request(priority=priority, preempt=is_urgent) as request:            
-                yield request                
-                File.print(f"\n Paciente {patient_name} que esta em estado {state} tem o seu atendimento iniciado pelo enfermeiro as {env.now:.2f}")
-                Treatment.insert(patient_id, 2, day, env.now)
+                #Aumenta a prioridade de quem teve o seu atendimento interrompido para um que acabou de chegar (com o mesmo grau)
+                priority -= 0.01
+                env.process(Treatment.execute(env, patient_id, patient_name, state, priority, is_urgent, doctors, nurses, day, treatment_time)) 
+        
+        """#Aloca um enfermeiro e realiza o atendimento do paciente
+        with nurses.request(priority=priority) as request:            
+            yield request                
+            File.print(f"\n Paciente {patient_name} que esta em estado {state} tem o seu atendimento iniciado pelo enfermeiro as {env.now:.2f}")
+            Treatment.insert(patient_id, 2, day, env.now)
 
-                try:
-                    #Configurando o tempo de duração de cada consulta
-                    yield env.timeout(random.expovariate(1/treatment_time))                
-                    File.print(f"\n Paciente {patient_name} que esta em estado {state} tem o seu atendimento finalizado pelo enfermeiro as {env.now:.2f}")
-                    Treatment.insert(patient_id, 3, day, env.now)
-                except:                
-                    File.print(f"\n Paciente {patient_name} que esta em estado {state} tem o seu atendimento interrompido pelo enfermeiro as {env.now:.2f}")
-                    Treatment.insert(patient_id, 4, day, env.now)   
+            try:
+                #Configurando o tempo de duração de cada consulta
+                yield env.timeout(random.expovariate(1/treatment_time))                
+                File.print(f"\n Paciente {patient_name} que esta em estado {state} tem o seu atendimento finalizado pelo enfermeiro as {env.now:.2f}")
+                Treatment.insert(patient_id, 3, day, env.now)
+            except:                
+                File.print(f"\n Paciente {patient_name} que esta em estado {state} tem o seu atendimento interrompido pelo enfermeiro as {env.now:.2f}")
+                Treatment.insert(patient_id, 4, day, env.now)   """
 
     def get_total_time_spent_by_state(state_id, day):   
         try:      
