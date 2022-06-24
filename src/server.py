@@ -35,7 +35,7 @@ while True:
     doctors = simpy.PreemptiveResource(env, capacity=qt_doctors) 
 
     #Criando enfermeiros
-    nurses = simpy.PreemptiveResource(env, capacity=qt_nurses)    
+    nurses = simpy.PreemptiveResource(env, capacity=qt_nurses)
 
     env.process(Patient.arrival(env, doctors, nurses, patient_arrival_interval, day))
 

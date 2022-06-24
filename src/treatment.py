@@ -37,7 +37,7 @@ class Treatment:
         treatment_time_state = Util.TREATMENT_TIME[state]
 
         #Médico só atenderá paciente nos estados Grave e Gravíssimo
-        if(state in ('Grave', 'Gravissimo')):
+        if(state in ('Grave', 'Gravissimo', 'Moderado')):                
             #Aloca um médico e realiza o atendimento do paciente
             with doctors.request(priority=priority, preempt=is_urgent) as request:                
                 yield request
@@ -63,7 +63,7 @@ class Treatment:
                     env.process(Treatment.execute(env, patient_id, patient_name, state, priority, is_urgent, doctors, nurses, day, treatment_time)) 
         else:        
             #Aloca um enfermeiro e realiza o atendimento do paciente
-            with nurses.request(priority=priority, preempt=is_urgent) as request:            
+            with nurses.request(priority=priority, preempt=is_urgent) as request:
                 yield request
                 treatment_start = env.now
                 File.print(f"\n Paciente {patient_name} que esta em estado {state} tem o seu atendimento iniciado pelo enfermeiro as {env.now:.2f}")
