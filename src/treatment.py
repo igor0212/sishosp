@@ -39,16 +39,16 @@ class Treatment:
         #Aloca um médico e realiza o atendimento do paciente
         with doctors.request(priority=priority, preempt=is_urgent) as request:            
             yield request                
-            File.print(f"\n Paciente {patient_name} que esta em estado {state} tem o seu atendimento iniciado as {env.now:.2f}")
+            File.print(f"\n Paciente {patient_name} que está em estado {state} tem o seu atendimento iniciado às {env.now:.2f}")
             Treatment.insert(patient_id, 2, day, env.now)
 
             try:
                 #Configurando o tempo de duração de cada consulta
                 yield env.timeout(random.expovariate(1/treatment_time))                
-                File.print(f"\n Paciente {patient_name} que esta em estado {state} tem o seu atendimento finalizado as {env.now:.2f}")
+                File.print(f"\n Paciente {patient_name} que está em estado {state} tem o seu atendimento finalizado às {env.now:.2f}")
                 Treatment.insert(patient_id, 3, day, env.now)
             except:                
-                File.print(f"\n Paciente {patient_name} que esta em estado {state} tem o seu atendimento interrompido as {env.now:.2f}")
+                File.print(f"\n Paciente {patient_name} que está em estado {state} tem o seu atendimento interrompido às {env.now:.2f}")
                 Treatment.insert(patient_id, 4, day, env.now)    
 
     def get_total_time_spent_by_state(state_id, day):   

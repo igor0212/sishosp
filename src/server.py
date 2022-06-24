@@ -49,17 +49,17 @@ while True:
                 Total de pacientes LEVES que foram atendidos (consulta finalizada):          {Treatment.get_total_patient_by_state(1, day)}
                 Total de pacientes MODERADOS que foram atendidos (consulta finalizada):      {Treatment.get_total_patient_by_state(2, day)}
                 Total de pacientes GRAVES que foram atendidos (consulta finalizada):         {Treatment.get_total_patient_by_state(3, day)}
-                Total de pacientes GRAVÍSSIMOS que foram atendidos (consulta finalizada):    {Treatment.get_total_patient_by_state(4, day)}
-
-                Total de pacientes LEVES que tiveram o seu atendimento interrompido:         {Treatment.get_total_treatment_canceled(1, day)}
-                Total de pacientes MODERADOS que tiveram o seu atendimento interrompido:     {Treatment.get_total_treatment_canceled(2, day)}
-                Total de pacientes GRAVES que tiveram o seu atendimento interrompido:        {Treatment.get_total_treatment_canceled(3, day)}
-                Total de pacientes GRAVÍSSIMOS que tiveram o seu atendimento interrompido:   {Treatment.get_total_treatment_canceled(4, day)}
+                Total de pacientes GRAVÍSSIMOS que foram atendidos (consulta finalizada):    {Treatment.get_total_patient_by_state(4, day)}                
 
                 Total de pacientes LEVES que não tiveram o seu atendimento concluído:        {Treatment.get_treatment_undone(1, day)}
                 Total de pacientes MODERADOS que não tiveram o seu atendimento concluído:    {Treatment.get_treatment_undone(2, day)}
                 Total de pacientes GRAVES que não tiveram o seu atendimento concluído:       {Treatment.get_treatment_undone(3, day)}
                 Total de pacientes GRAVÍSSIMOS que não tiveram o seu atendimento concluído:  {Treatment.get_treatment_undone(4, day)}
+
+                Total de pacientes LEVES que tiveram o seu atendimento interrompido:         {Treatment.get_total_treatment_canceled(1, day)}
+                Total de pacientes MODERADOS que tiveram o seu atendimento interrompido:     {Treatment.get_total_treatment_canceled(2, day)}
+                Total de pacientes GRAVES que tiveram o seu atendimento interrompido:        {Treatment.get_total_treatment_canceled(3, day)}
+                Total de pacientes GRAVÍSSIMOS que tiveram o seu atendimento interrompido:   {Treatment.get_total_treatment_canceled(4, day)}
 
                 Média do tempo gasto nos atendimentos LEVES:                                 {Treatment.get_treatment_avg_by_state(1, day):.2f}
                 Média do tempo gasto nos atendimentos MODERADOS:                             {Treatment.get_treatment_avg_by_state(2, day):.2f}
