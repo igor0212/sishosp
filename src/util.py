@@ -2,7 +2,7 @@ from socket import *
 
 HOST = gethostname()
 PORT = 50000
-DATA_SIZE = 1024
+DATA_SIZE = 2048
 
 class Util:
 
