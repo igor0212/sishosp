@@ -127,7 +127,7 @@ class Treatment:
     def get_total_treatment_canceled(state_id, day):   
         try:      
             query = """
-                        select count(*) 
+                        select count(distinct(patient_id))
                         from "Treatment" t 
                         inner join "Patient" p ON t.patient_id = p.id 
                         inner join "State" s on p.state_id = s.id
