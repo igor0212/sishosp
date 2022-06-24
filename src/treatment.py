@@ -118,4 +118,18 @@ class Treatment:
             error = "Patient - get_total_patient_by_state error: {} \n".format(ex)            
             raise Exception(error)  
 
+    def get_total_treatment(state_id, day):   
+        try:      
+            query = """
+                        select count(*) 
+                        from "Treatment" t 
+                        inner join "Patient" p ON t.patient_id = p.id 
+                        inner join "State" s on p.state_id = s.id
+                        where s.id = {} and t.day = {}
+                    """.format(state_id, day)            
+            return DataBase.select(query)[0]['count']
+        except Exception as ex:
+            error = "Patient - get_total_treatment_canceled error: {} \n".format(ex)            
+            raise Exception(error)  
+
 
