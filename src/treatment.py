@@ -118,18 +118,44 @@ class Treatment:
             error = "Patient - get_total_patient_by_state error: {} \n".format(ex)            
             raise Exception(error)  
 
-    def get_total_treatment(state_id, day):   
+    def get_patient_names_by_day(state_id, day):   
         try:      
             query = """
-                        select count(*) 
+                        select distinct (p."name") as patient_name
                         from "Treatment" t 
                         inner join "Patient" p ON t.patient_id = p.id 
                         inner join "State" s on p.state_id = s.id
                         where s.id = {} and t.day = {}
                     """.format(state_id, day)            
-            return DataBase.select(query)[0]['count']
+            return DataBase.select(query)
         except Exception as ex:
-            error = "Patient - get_total_treatment_canceled error: {} \n".format(ex)            
+            error = "Patient - get_patient_names_by_day error: {} \n".format(ex)            
             raise Exception(error)  
+
+    def get_treatment_undone_by_name(patient_name):   
+        try:      
+            query = """
+                        select t.flow_id 
+                        from "Treatment" t 
+                        inner join "Patient" p ON t.patient_id = p.id
+                        where p.name = \'{}\'
+                    """.format(patient_name)            
+            return DataBase.select(query)
+        except Exception as ex:
+            error = "Patient - get_total_treatment error: {} \n".format(ex)            
+            raise Exception(error)  
+
+    def get_treatment_undone(state_id, day):
+        patients = Treatment.get_patient_names_by_day(state_id, day)        
+        total = 0
+        for patient in patients:
+            patient_name = patient['patient_name']
+            flows = Treatment.get_treatment_undone_by_name(patient_name)            
+            if({'flow_id': 3} not in flows):
+                total += 1
+
+        return total   
+
+
 
 
