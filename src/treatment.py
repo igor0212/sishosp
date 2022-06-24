@@ -153,10 +153,10 @@ class Treatment:
             error = "Patient - get_total_patient_by_state error: {} \n".format(ex)            
             raise Exception(error)  
 
-    def get_patient_names_by_day(state_id, day):   
+    def get_patient_id_by_day(state_id, day):   
         try:      
             query = """
-                        select distinct (p."name") as patient_name
+                        select distinct (p."id") as patient_id
                         from "Treatment" t 
                         inner join "Patient" p ON t.patient_id = p.id 
                         inner join "State" s on p.state_id = s.id
@@ -164,28 +164,28 @@ class Treatment:
                     """.format(state_id, day)            
             return DataBase.select(query)
         except Exception as ex:
-            error = "Patient - get_patient_names_by_day error: {} \n".format(ex)            
+            error = "Patient - get_patient_id_by_day error: {} \n".format(ex)            
             raise Exception(error)  
 
-    def get_treatment_undone_by_name(patient_name):   
+    def get_treatment_undone_by_id(patient_id):   
         try:      
             query = """
                         select t.flow_id 
                         from "Treatment" t 
                         inner join "Patient" p ON t.patient_id = p.id
-                        where p.name = \'{}\'
-                    """.format(patient_name)            
+                        where p.id = {}
+                    """.format(patient_id)            
             return DataBase.select(query)
         except Exception as ex:
-            error = "Patient - get_total_treatment error: {} \n".format(ex)            
+            error = "Patient - get_treatment_undone_by_id error: {} \n".format(ex)            
             raise Exception(error)  
 
     def get_treatment_undone(state_id, day):
-        patients = Treatment.get_patient_names_by_day(state_id, day)        
+        patients = Treatment.get_patient_id_by_day(state_id, day)        
         total = 0
         for patient in patients:
-            patient_name = patient['patient_name']
-            flows = Treatment.get_treatment_undone_by_name(patient_name)            
+            patient_id = patient['patient_id']
+            flows = Treatment.get_treatment_undone_by_id(patient_id)            
             if({'flow_id': 3} not in flows):
                 total += 1
 
