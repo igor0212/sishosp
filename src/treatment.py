@@ -63,7 +63,7 @@ class Treatment:
                     env.process(Treatment.execute(env, patient_id, patient_name, state, priority, is_urgent, doctors, nurses, day, treatment_time)) 
         else:        
             #Aloca um enfermeiro e realiza o atendimento do paciente
-            with nurses.request(priority=priority, preempt=is_urgent) as request:
+            with nurses.request(priority=priority) as request:
                 yield request
                 treatment_start = env.now
                 File.print(f"\n Paciente {patient_name} que esta em estado {state} tem o seu atendimento iniciado pelo enfermeiro as {env.now:.2f}")

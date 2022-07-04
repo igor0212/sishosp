@@ -35,7 +35,7 @@ while True:
     doctors = simpy.PreemptiveResource(env, capacity=qt_doctors) 
 
     #Criando enfermeiros
-    nurses = simpy.PreemptiveResource(env, capacity=qt_nurses)
+    nurses = simpy.PriorityResource(env, capacity=qt_nurses)
 
     env.process(Patient.arrival(env, doctors, nurses, patient_arrival_interval, day))
 
@@ -46,25 +46,51 @@ while True:
     avg_state_3 = Treatment.get_treatment_avg_by_state(3, day)
     avg_state_4 = Treatment.get_treatment_avg_by_state(4, day)
 
+    patients = Patient.get_total_by_day(day);
+    total_consulted = Patient.get_total_consulted_by_day(day)
+    total_not_consulted = patients - total_consulted   if patients >= total_consulted else 0    
+
+    total_consulted_1 = Treatment.get_total_patient_by_state(1, day)
+    total_consulted_2 = Treatment.get_total_patient_by_state(2, day)
+    total_consulted_3 = Treatment.get_total_patient_by_state(3, day)
+    total_consulted_4 = Treatment.get_total_patient_by_state(4, day)
+    total_patient = total_consulted_1 + total_consulted_2 + total_consulted_3 + total_consulted_4
+
+    total_treatment_undone_1 = Treatment.get_treatment_undone(1, day)
+    total_treatment_undone_2 = Treatment.get_treatment_undone(2, day)
+    total_treatment_undone_3 = Treatment.get_treatment_undone(3, day)
+    total_treatment_undone_4 = Treatment.get_treatment_undone(4, day)
+    total_treatment_undone = total_treatment_undone_1 + total_treatment_undone_2 + total_treatment_undone_3 + total_treatment_undone_4
+
+    total_treatment_canceled_1 = Treatment.get_total_treatment_canceled(1, day)
+    total_treatment_canceled_2 = Treatment.get_total_treatment_canceled(2, day)
+    total_treatment_canceled_3 = Treatment.get_total_treatment_canceled(3, day)
+    total_treatment_canceled_4 = Treatment.get_total_treatment_canceled(4, day)
+    total_treatment_canceled = total_treatment_canceled_1 + total_treatment_canceled_2 + total_treatment_canceled_3 + total_treatment_canceled_4
+
     response = f"""
                 Fim do expediente do dia {day}
-                Total de pacientes que foram ao hospital:                                    {Patient.get_total_by_day(day)}
-                Total de pacientes que foram atendidos (consulta finalizada):                {Patient.get_total_consulted_by_day(day)}
+                Total de pacientes que foram ao hospital:                                    {patients}
+                Total de pacientes que foram atendidos (consulta finalizada):                {total_consulted}
+                Total de pacientes que não foram atendidos:                                  {total_not_consulted}
 
-                Total de pacientes LEVES que foram atendidos (consulta finalizada):          {Treatment.get_total_patient_by_state(1, day)}
-                Total de pacientes MODERADOS que foram atendidos (consulta finalizada):      {Treatment.get_total_patient_by_state(2, day)}
-                Total de pacientes GRAVES que foram atendidos (consulta finalizada):         {Treatment.get_total_patient_by_state(3, day)}
-                Total de pacientes GRAVÍSSIMOS que foram atendidos (consulta finalizada):    {Treatment.get_total_patient_by_state(4, day)}                
+                Total de pacientes LEVES que foram atendidos (consulta finalizada):          {total_consulted_1}
+                Total de pacientes MODERADOS que foram atendidos (consulta finalizada):      {total_consulted_2}
+                Total de pacientes GRAVES que foram atendidos (consulta finalizada):         {total_consulted_3}
+                Total de pacientes GRAVÍSSIMOS que foram atendidos (consulta finalizada):    {total_consulted_4}
+                TOTAL:                                                                       {total_patient}
 
-                Total de pacientes LEVES que não tiveram o seu atendimento concluído:        {Treatment.get_treatment_undone(1, day)}
-                Total de pacientes MODERADOS que não tiveram o seu atendimento concluído:    {Treatment.get_treatment_undone(2, day)}
-                Total de pacientes GRAVES que não tiveram o seu atendimento concluído:       {Treatment.get_treatment_undone(3, day)}
-                Total de pacientes GRAVÍSSIMOS que não tiveram o seu atendimento concluído:  {Treatment.get_treatment_undone(4, day)}
+                Total de pacientes LEVES que não tiveram o seu atendimento concluído:        {total_treatment_undone_1}
+                Total de pacientes MODERADOS que não tiveram o seu atendimento concluído:    {total_treatment_undone_2}
+                Total de pacientes GRAVES que não tiveram o seu atendimento concluído:       {total_treatment_undone_3}
+                Total de pacientes GRAVÍSSIMOS que não tiveram o seu atendimento concluído:  {total_treatment_undone_4}
+                TOTAL:                                                                       {total_treatment_undone}
 
-                Total de pacientes LEVES que tiveram o seu atendimento interrompido:         {Treatment.get_total_treatment_canceled(1, day)}
-                Total de pacientes MODERADOS que tiveram o seu atendimento interrompido:     {Treatment.get_total_treatment_canceled(2, day)}
-                Total de pacientes GRAVES que tiveram o seu atendimento interrompido:        {Treatment.get_total_treatment_canceled(3, day)}
-                Total de pacientes GRAVÍSSIMOS que tiveram o seu atendimento interrompido:   {Treatment.get_total_treatment_canceled(4, day)}
+                Total de pacientes LEVES que tiveram o seu atendimento interrompido:         {total_treatment_canceled_1}
+                Total de pacientes MODERADOS que tiveram o seu atendimento interrompido:     {total_treatment_canceled_2}
+                Total de pacientes GRAVES que tiveram o seu atendimento interrompido:        {total_treatment_canceled_3}
+                Total de pacientes GRAVÍSSIMOS que tiveram o seu atendimento interrompido:   {total_treatment_canceled_4}
+                TOTAL:                                                                       {total_treatment_canceled}
 
                 Média do tempo gasto nos atendimentos LEVES:                                 {avg_state_1:.2f} - {"Abaixo da média" if avg_state_1 < Util.TREATMENT_TIME['Leve'] else "Acima da média" }
                 Média do tempo gasto nos atendimentos MODERADOS:                             {avg_state_2:.2f} - {"Abaixo da média" if avg_state_2 < Util.TREATMENT_TIME['Moderado'] else "Acima da média" }
