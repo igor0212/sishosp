@@ -72,7 +72,7 @@ while True:
                 Fim do expediente do dia {day}
                 Total de pacientes que foram ao hospital:                                    {patients}
                 Total de pacientes que foram atendidos (consulta finalizada):                {total_consulted}
-                Total de pacientes que não foram atendidos:                                  {total_not_consulted}
+                Total de pacientes que não foram atendidos (consulta finalizada):            {total_not_consulted}
 
                 Total de pacientes LEVES que foram atendidos (consulta finalizada):          {total_consulted_1}
                 Total de pacientes MODERADOS que foram atendidos (consulta finalizada):      {total_consulted_2}
