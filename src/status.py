@@ -1,6 +1,6 @@
 import random
 
-class State:
+class Status:
 
     def get():
         #Sorteando número aleatório entre 0 e 1

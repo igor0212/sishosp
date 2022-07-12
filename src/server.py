@@ -41,19 +41,19 @@ while True:
 
     env.run(until=simulation_time) 
 
-    avg_state_1 = Treatment.get_treatment_avg_by_state(1, day)
-    avg_state_2 = Treatment.get_treatment_avg_by_state(2, day)
-    avg_state_3 = Treatment.get_treatment_avg_by_state(3, day)
-    avg_state_4 = Treatment.get_treatment_avg_by_state(4, day)
+    avg_status_1 = Treatment.get_treatment_avg_by_status(1, day)
+    avg_status_2 = Treatment.get_treatment_avg_by_status(2, day)
+    avg_status_3 = Treatment.get_treatment_avg_by_status(3, day)
+    avg_status_4 = Treatment.get_treatment_avg_by_status(4, day)
 
     patients = Patient.get_total_by_day(day);
     total_consulted = Patient.get_total_consulted_by_day(day)
     total_not_consulted = patients - total_consulted   if patients >= total_consulted else 0    
 
-    total_consulted_1 = Treatment.get_total_patient_by_state(1, day)
-    total_consulted_2 = Treatment.get_total_patient_by_state(2, day)
-    total_consulted_3 = Treatment.get_total_patient_by_state(3, day)
-    total_consulted_4 = Treatment.get_total_patient_by_state(4, day)
+    total_consulted_1 = Treatment.get_total_patient_by_status(1, day)
+    total_consulted_2 = Treatment.get_total_patient_by_status(2, day)
+    total_consulted_3 = Treatment.get_total_patient_by_status(3, day)
+    total_consulted_4 = Treatment.get_total_patient_by_status(4, day)
     total_patient = total_consulted_1 + total_consulted_2 + total_consulted_3 + total_consulted_4
 
     total_treatment_undone_1 = Treatment.get_treatment_undone(1, day)
@@ -92,10 +92,10 @@ while True:
                 Total de pacientes GRAVÍSSIMOS que tiveram o seu atendimento interrompido:   {total_treatment_canceled_4}
                 TOTAL:                                                                       {total_treatment_canceled}
 
-                Média do tempo gasto nos atendimentos LEVES:                                 {avg_state_1:.2f} - {"Abaixo da média" if avg_state_1 < Util.TREATMENT_TIME['Leve'] else "Acima da média" }
-                Média do tempo gasto nos atendimentos MODERADOS:                             {avg_state_2:.2f} - {"Abaixo da média" if avg_state_2 < Util.TREATMENT_TIME['Moderado'] else "Acima da média" }
-                Média do tempo gasto nos atendimentos GRAVES:                                {avg_state_3:.2f} - {"Abaixo da média" if avg_state_3 < Util.TREATMENT_TIME['Grave'] else "Acima da média" }
-                Média do tempo gasto nos atendimentos GRAVÍSSIMOS:                           {avg_state_4:.2f} - {"Abaixo da média" if avg_state_4 < Util.TREATMENT_TIME['Gravissimo'] else "Acima da média" }
+                Média do tempo gasto nos atendimentos LEVES:                                 {avg_status_1:.2f} - {"Abaixo da média" if avg_status_1 < Util.TREATMENT_TIME['Leve'] else "Acima da média" }
+                Média do tempo gasto nos atendimentos MODERADOS:                             {avg_status_2:.2f} - {"Abaixo da média" if avg_status_2 < Util.TREATMENT_TIME['Moderado'] else "Acima da média" }
+                Média do tempo gasto nos atendimentos GRAVES:                                {avg_status_3:.2f} - {"Abaixo da média" if avg_status_3 < Util.TREATMENT_TIME['Grave'] else "Acima da média" }
+                Média do tempo gasto nos atendimentos GRAVÍSSIMOS:                           {avg_status_4:.2f} - {"Abaixo da média" if avg_status_4 < Util.TREATMENT_TIME['Gravissimo'] else "Acima da média" }
                 """
 
     #Enviando retorno para o cliente

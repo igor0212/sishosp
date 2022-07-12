@@ -1,15 +1,15 @@
 import random
 import names
-from state import State
+from status import Status
 from util import Util, File
 from treatment import Treatment
 from database import DataBase
  
 class Patient:
 
-    def insert(name, state_id):   
+    def insert(name, status_id):   
         try:                        
-            query = 'INSERT INTO "Patient" (name, state_id) VALUES (\'{}\', {}) RETURNING id;'.format(name, state_id)                        
+            query = 'INSERT INTO "Patient" (name, status_id) VALUES (\'{}\', {}) RETURNING id;'.format(name, status_id)                        
             return DataBase.insert(query)
         except Exception as ex:            
             error = "Patient - insert error: {} \n".format(ex)            
@@ -49,13 +49,13 @@ class Patient:
             patient_name = names.get_full_name()            
 
             #Buscar, randomicamente, qual é o estado do paciente (1: LEVE, 2: MODERADO, 3: GRAVE, 4: GRAVÍSSIMO), qual sua prioridade e se o paciente precisa de atendimento imediato
-            state_id, priority, is_urgent = State.get()                        
+            status_id, priority, is_urgent = Status.get()                        
 
-            state = Util.PATIENT_STATE_PT_BR[state_id]
+            status = Util.PATIENT_STATUS_PT_BR[status_id]
 
-            File.print(f"\n Paciente {patient_name} que esta em estado {state} chega ao hospital as {env.now:.2f}")
-            patient_id = Patient.insert(patient_name, state_id)
+            File.print(f"\n Paciente {patient_name} que esta em estado {status} chega ao hospital as {env.now:.2f}")
+            patient_id = Patient.insert(patient_name, status_id)
             Treatment.insert(patient_id, 1, day, env.now)
 
             #Inicia o processo do atendimento
-            env.process(Treatment.execute(env, patient_id, patient_name, state, priority, is_urgent, doctors, nurses, day))        
+            env.process(Treatment.execute(env, patient_id, patient_name, status, priority, is_urgent, doctors, nurses, day))        

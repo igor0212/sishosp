@@ -6,7 +6,7 @@ DATA_SIZE = 4096
 
 class Util:
 
-    PATIENT_STATE_PT_BR = {1: 'Leve', 2:'Moderado', 3: 'Grave', 4: 'Gravissimo' }
+    PATIENT_STATUS_PT_BR = {1: 'Leve', 2:'Moderado', 3: 'Grave', 4: 'Gravissimo' }
 
     TREATMENT_TIME = {'Leve': 3, 'Moderado':6, 'Grave': 9, 'Gravissimo': 12 }
 
