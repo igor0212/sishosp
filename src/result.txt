@@ -1,0 +1,630 @@
+
+
+ Hospital ira operar em 50 unidades de tempo, com pacientes chegando em um intervalo de 1 unidades de tempo e possuindo 5 medicos e 3 enfermeiros no dia 1.
+
+ Paciente Geralyn Peterson que esta em estado Moderado chega ao hospital as 0.16
+ Paciente Geralyn Peterson que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 0.16
+ Paciente Jack Martin que esta em estado Moderado chega ao hospital as 0.59
+ Paciente Jack Martin que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 0.59
+ Paciente Steven Fleming que esta em estado Gravissimo chega ao hospital as 0.64
+ Paciente Steven Fleming que esta em estado Gravissimo tem o seu atendimento iniciado pelo medico as 0.64
+ Paciente Wilbur Alvarado que esta em estado Moderado chega ao hospital as 0.86
+ Paciente Wilbur Alvarado que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 0.86
+ Paciente Hazel Wolfrom que esta em estado Gravissimo chega ao hospital as 2.67
+ Paciente Hazel Wolfrom que esta em estado Gravissimo tem o seu atendimento iniciado pelo medico as 2.67
+ Paciente David Shell que esta em estado Leve chega ao hospital as 2.84
+ Paciente David Shell que esta em estado Leve tem o seu atendimento iniciado pelo enfermeiro as 2.84
+ Paciente Steven Fleming que esta em estado Gravissimo tem o seu atendimento finalizado pelo medico as 3.00
+ Paciente David Shell que esta em estado Leve tem o seu atendimento finalizado pelo enfermeiro as 3.37
+ Paciente Wilbur Alvarado que esta em estado Moderado tem o seu atendimento finalizado pelo medico as 3.96
+ Paciente Geralyn Peterson que esta em estado Moderado tem o seu atendimento finalizado pelo medico as 4.40
+ Paciente Lonnie Escutia que esta em estado Leve chega ao hospital as 4.75
+ Paciente Lonnie Escutia que esta em estado Leve tem o seu atendimento iniciado pelo enfermeiro as 4.75
+ Paciente Lisa Schmitz que esta em estado Gravissimo chega ao hospital as 5.34
+ Paciente Lisa Schmitz que esta em estado Gravissimo tem o seu atendimento iniciado pelo medico as 5.34
+ Paciente Heidi Schneider que esta em estado Grave chega ao hospital as 6.28
+ Paciente Heidi Schneider que esta em estado Grave tem o seu atendimento iniciado pelo medico as 6.28
+ Paciente Kathy Taylor que esta em estado Leve chega ao hospital as 7.06
+ Paciente Kathy Taylor que esta em estado Leve tem o seu atendimento iniciado pelo enfermeiro as 7.06
+ Paciente Clayton Cottier que esta em estado Grave chega ao hospital as 7.42
+ Paciente Clayton Cottier que esta em estado Grave tem o seu atendimento iniciado pelo medico as 7.42
+ Paciente Lonnie Escutia que esta em estado Leve tem o seu atendimento finalizado pelo enfermeiro as 7.79
+ Paciente Kathy Taylor que esta em estado Leve tem o seu atendimento finalizado pelo enfermeiro as 8.77
+ Paciente Karyn Stone que esta em estado Leve chega ao hospital as 8.88
+ Paciente Karyn Stone que esta em estado Leve tem o seu atendimento iniciado pelo enfermeiro as 8.88
+ Paciente Tom Wesson que esta em estado Leve chega ao hospital as 9.76
+ Paciente Tom Wesson que esta em estado Leve tem o seu atendimento iniciado pelo enfermeiro as 9.76
+ Paciente Kenny Marrero que esta em estado Leve chega ao hospital as 9.81
+ Paciente Kenny Marrero que esta em estado Leve tem o seu atendimento iniciado pelo enfermeiro as 9.81
+ Paciente Karyn Stone que esta em estado Leve tem o seu atendimento finalizado pelo enfermeiro as 10.06
+ Paciente Alice Johnson que esta em estado Leve chega ao hospital as 11.44
+ Paciente Alice Johnson que esta em estado Leve tem o seu atendimento iniciado pelo enfermeiro as 11.44
+ Paciente John Comeau que esta em estado Leve chega ao hospital as 11.65
+ Paciente Tom Wesson que esta em estado Leve tem o seu atendimento finalizado pelo enfermeiro as 12.47
+ Paciente John Comeau que esta em estado Leve tem o seu atendimento iniciado pelo enfermeiro as 12.47
+ Paciente Blair Brown que esta em estado Moderado chega ao hospital as 12.79
+ Paciente Ofelia Miller que esta em estado Leve chega ao hospital as 12.84
+ Paciente John Comeau que esta em estado Leve tem o seu atendimento finalizado pelo enfermeiro as 12.96
+ Paciente Ofelia Miller que esta em estado Leve tem o seu atendimento iniciado pelo enfermeiro as 12.96
+ Paciente Charles Martinez que esta em estado Moderado chega ao hospital as 13.13
+ Paciente Ofelia Miller que esta em estado Leve tem o seu atendimento finalizado pelo enfermeiro as 13.26
+ Paciente Alice Johnson que esta em estado Leve tem o seu atendimento finalizado pelo enfermeiro as 13.68
+ Paciente Kenny Marrero que esta em estado Leve tem o seu atendimento finalizado pelo enfermeiro as 13.71
+ Paciente Clayton Cottier que esta em estado Grave tem o seu atendimento finalizado pelo medico as 13.91
+ Paciente Blair Brown que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 13.91
+ Paciente Jonathan Madden que esta em estado Moderado chega ao hospital as 14.29
+ Paciente Aaron Lanphear que esta em estado Moderado chega ao hospital as 14.89
+ Paciente Hazel Wolfrom que esta em estado Gravissimo tem o seu atendimento finalizado pelo medico as 15.21
+ Paciente Charles Martinez que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 15.21
+ Paciente Rolando Wakefield que esta em estado Gravissimo chega ao hospital as 16.65
+ Paciente Charles Martinez que esta em estado Moderado tem o seu atendimento interrompido pelo medico as 16.65
+ Paciente Charles Martinez que esta em estado Moderado ainda precisa de 9.14 de atendimento
+ Paciente Rolando Wakefield que esta em estado Gravissimo tem o seu atendimento iniciado pelo medico as 16.65
+ Paciente Jack Martin que esta em estado Moderado tem o seu atendimento finalizado pelo medico as 16.80
+ Paciente Charles Martinez que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 16.80
+ Paciente David Lofty que esta em estado Moderado chega ao hospital as 17.16
+ Paciente Elena Brown que esta em estado Leve chega ao hospital as 17.47
+ Paciente Elena Brown que esta em estado Leve tem o seu atendimento iniciado pelo enfermeiro as 17.47
+ Paciente Elena Brown que esta em estado Leve tem o seu atendimento finalizado pelo enfermeiro as 18.52
+ Paciente Mary Martin que esta em estado Moderado chega ao hospital as 19.20
+ Paciente Jordan Flemings que esta em estado Moderado chega ao hospital as 20.23
+ Paciente Rolando Wakefield que esta em estado Gravissimo tem o seu atendimento finalizado pelo medico as 20.27
+ Paciente Jonathan Madden que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 20.27
+ Paciente Lisa Schmitz que esta em estado Gravissimo tem o seu atendimento finalizado pelo medico as 20.50
+ Paciente Aaron Lanphear que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 20.50
+ Paciente Gerardo Thompson que esta em estado Grave chega ao hospital as 21.35
+ Paciente Blair Brown que esta em estado Moderado tem o seu atendimento finalizado pelo medico as 21.83
+ Paciente Gerardo Thompson que esta em estado Grave tem o seu atendimento iniciado pelo medico as 21.83
+ Paciente William Sellars que esta em estado Grave chega ao hospital as 23.27
+ Paciente Cindy Torres que esta em estado Moderado chega ao hospital as 23.28
+ Paciente Jonathan Madden que esta em estado Moderado tem o seu atendimento finalizado pelo medico as 23.79
+ Paciente William Sellars que esta em estado Grave tem o seu atendimento iniciado pelo medico as 23.79
+ Paciente Louis Bourgeois que esta em estado Gravissimo chega ao hospital as 23.87
+ Paciente Aaron Lanphear que esta em estado Moderado tem o seu atendimento interrompido pelo medico as 23.87
+ Paciente Aaron Lanphear que esta em estado Moderado ainda precisa de 4.45 de atendimento
+ Paciente Louis Bourgeois que esta em estado Gravissimo tem o seu atendimento iniciado pelo medico as 23.87
+ Paciente Scott Teems que esta em estado Grave chega ao hospital as 23.95
+ Paciente Clifton Coyle que esta em estado Leve chega ao hospital as 25.00
+ Paciente Clifton Coyle que esta em estado Leve tem o seu atendimento iniciado pelo enfermeiro as 25.00
+ Paciente Gracie Garcia que esta em estado Leve chega ao hospital as 25.50
+ Paciente Gracie Garcia que esta em estado Leve tem o seu atendimento iniciado pelo enfermeiro as 25.50
+ Paciente Gracie Garcia que esta em estado Leve tem o seu atendimento finalizado pelo enfermeiro as 25.56
+ Paciente William Sellars que esta em estado Grave tem o seu atendimento finalizado pelo medico as 25.94
+ Paciente Scott Teems que esta em estado Grave tem o seu atendimento iniciado pelo medico as 25.94
+ Paciente Charles Martinez que esta em estado Moderado tem o seu atendimento finalizado pelo medico as 25.95
+ Paciente Aaron Lanphear que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 25.95
+ Paciente Allen Little que esta em estado Grave chega ao hospital as 26.09
+ Paciente Clifton Coyle que esta em estado Leve tem o seu atendimento finalizado pelo enfermeiro as 26.84
+ Paciente William Lafave que esta em estado Grave chega ao hospital as 26.89
+ Paciente Katrina Drake que esta em estado Gravissimo chega ao hospital as 27.08
+ Paciente Aaron Lanphear que esta em estado Moderado tem o seu atendimento interrompido pelo medico as 27.08
+ Paciente Aaron Lanphear que esta em estado Moderado ainda precisa de 3.31 de atendimento
+ Paciente Katrina Drake que esta em estado Gravissimo tem o seu atendimento iniciado pelo medico as 27.08
+ Paciente Dorothy Weech que esta em estado Gravissimo chega ao hospital as 27.19
+ Paciente Scott Teems que esta em estado Grave tem o seu atendimento interrompido pelo medico as 27.19
+ Paciente Scott Teems que esta em estado Grave ainda precisa de 0.26 de atendimento
+ Paciente Dorothy Weech que esta em estado Gravissimo tem o seu atendimento iniciado pelo medico as 27.19
+ Paciente Cynthia Amelung que esta em estado Leve chega ao hospital as 29.65
+ Paciente Cynthia Amelung que esta em estado Leve tem o seu atendimento iniciado pelo enfermeiro as 29.65
+ Paciente Melanie Wilson que esta em estado Moderado chega ao hospital as 29.77
+ Paciente Cynthia Amelung que esta em estado Leve tem o seu atendimento finalizado pelo enfermeiro as 29.93
+ Paciente Patrick Moroni que esta em estado Grave chega ao hospital as 30.49
+ Paciente Dorothy Weech que esta em estado Gravissimo tem o seu atendimento finalizado pelo medico as 31.16
+ Paciente Scott Teems que esta em estado Grave tem o seu atendimento iniciado pelo medico as 31.16
+ Paciente Patricia Smiley que esta em estado Gravissimo chega ao hospital as 31.19
+ Paciente Gerardo Thompson que esta em estado Grave tem o seu atendimento interrompido pelo medico as 31.19
+ Paciente Gerardo Thompson que esta em estado Grave ainda precisa de 7.48 de atendimento
+ Paciente Patricia Smiley que esta em estado Gravissimo tem o seu atendimento iniciado pelo medico as 31.19
+ Paciente Louis Bourgeois que esta em estado Gravissimo tem o seu atendimento finalizado pelo medico as 31.21
+ Paciente Gerardo Thompson que esta em estado Grave tem o seu atendimento iniciado pelo medico as 31.21
+ Paciente Scott Teems que esta em estado Grave tem o seu atendimento finalizado pelo medico as 31.42
+ Paciente Allen Little que esta em estado Grave tem o seu atendimento iniciado pelo medico as 31.42
+ Paciente Allen Little que esta em estado Grave tem o seu atendimento finalizado pelo medico as 31.78
+ Paciente William Lafave que esta em estado Grave tem o seu atendimento iniciado pelo medico as 31.78
+ Paciente Heidi Schneider que esta em estado Grave tem o seu atendimento finalizado pelo medico as 32.12
+ Paciente Patrick Moroni que esta em estado Grave tem o seu atendimento iniciado pelo medico as 32.12
+ Paciente Michael Tyler que esta em estado Moderado chega ao hospital as 32.65
+ Paciente Donald Feenstra que esta em estado Grave chega ao hospital as 33.64
+ Paciente Patrick Moroni que esta em estado Grave tem o seu atendimento finalizado pelo medico as 34.50
+ Paciente Donald Feenstra que esta em estado Grave tem o seu atendimento iniciado pelo medico as 34.50
+ Paciente William Liu que esta em estado Grave chega ao hospital as 36.35
+ Paciente Donald Feenstra que esta em estado Grave tem o seu atendimento finalizado pelo medico as 36.42
+ Paciente William Liu que esta em estado Grave tem o seu atendimento iniciado pelo medico as 36.42
+ Paciente Jennifer Neal que esta em estado Leve chega ao hospital as 36.52
+ Paciente Jennifer Neal que esta em estado Leve tem o seu atendimento iniciado pelo enfermeiro as 36.52
+ Paciente Julianna Buri que esta em estado Leve chega ao hospital as 36.83
+ Paciente Julianna Buri que esta em estado Leve tem o seu atendimento iniciado pelo enfermeiro as 36.83
+ Paciente Jamie Solomon que esta em estado Moderado chega ao hospital as 37.56
+ Paciente Jeffrey Patrick que esta em estado Leve chega ao hospital as 37.65
+ Paciente Jeffrey Patrick que esta em estado Leve tem o seu atendimento iniciado pelo enfermeiro as 37.65
+ Paciente Desmond Dominguez que esta em estado Gravissimo chega ao hospital as 37.85
+ Paciente William Liu que esta em estado Grave tem o seu atendimento interrompido pelo medico as 37.85
+ Paciente William Liu que esta em estado Grave ainda precisa de 0.49 de atendimento
+ Paciente Desmond Dominguez que esta em estado Gravissimo tem o seu atendimento iniciado pelo medico as 37.85
+ Paciente Melissa Billings que esta em estado Leve chega ao hospital as 38.35
+ Paciente Jeffrey Patrick que esta em estado Leve tem o seu atendimento finalizado pelo enfermeiro as 38.58
+ Paciente Melissa Billings que esta em estado Leve tem o seu atendimento iniciado pelo enfermeiro as 38.58
+ Paciente Gerardo Thompson que esta em estado Grave tem o seu atendimento finalizado pelo medico as 38.69
+ Paciente William Liu que esta em estado Grave tem o seu atendimento iniciado pelo medico as 38.69
+ Paciente Julianna Buri que esta em estado Leve tem o seu atendimento finalizado pelo enfermeiro as 38.75
+ Paciente David Hidalgo que esta em estado Moderado chega ao hospital as 38.88
+ Paciente William Liu que esta em estado Grave tem o seu atendimento finalizado pelo medico as 39.18
+ Paciente Aaron Lanphear que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 39.18
+ Paciente William Lafave que esta em estado Grave tem o seu atendimento finalizado pelo medico as 39.55
+ Paciente David Lofty que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 39.55
+ Paciente Jennifer Neal que esta em estado Leve tem o seu atendimento finalizado pelo enfermeiro as 39.81
+ Paciente Yasmin Fitzpatrick que esta em estado Moderado chega ao hospital as 40.37
+ Paciente Vernon Walton que esta em estado Gravissimo chega ao hospital as 40.68
+ Paciente Vernon Walton que esta em estado Gravissimo nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Danielle Daggett que esta em estado Moderado chega ao hospital as 40.98
+ Paciente Sandra Green que esta em estado Leve chega ao hospital as 41.48
+ Paciente Sandra Green que esta em estado Leve tem o seu atendimento iniciado pelo enfermeiro as 41.48
+ Paciente Brenda Dunbar que esta em estado Leve chega ao hospital as 42.16
+ Paciente Brenda Dunbar que esta em estado Leve tem o seu atendimento iniciado pelo enfermeiro as 42.16
+ Paciente Melissa Billings que esta em estado Leve tem o seu atendimento finalizado pelo enfermeiro as 42.40
+ Paciente James Ben que esta em estado Moderado chega ao hospital as 42.40
+ Paciente Brenda Dunbar que esta em estado Leve tem o seu atendimento finalizado pelo enfermeiro as 42.40
+ Paciente Aaron Lanphear que esta em estado Moderado tem o seu atendimento finalizado pelo medico as 42.49
+ Paciente Mary Martin que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 42.49
+ Paciente Desmond Dominguez que esta em estado Gravissimo tem o seu atendimento finalizado pelo medico as 42.73
+ Paciente Jordan Flemings que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 42.73
+ Paciente Sandra Green que esta em estado Leve tem o seu atendimento finalizado pelo enfermeiro as 43.02
+ Paciente Lydia Beverly que esta em estado Moderado chega ao hospital as 43.06
+ Paciente David Lofty que esta em estado Moderado tem o seu atendimento finalizado pelo medico as 43.94
+ Paciente Cindy Torres que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 43.94
+ Paciente Carl Sevy que esta em estado Grave chega ao hospital as 44.23
+ Paciente Carl Sevy que esta em estado Grave nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Timothy Brown que esta em estado Gravissimo chega ao hospital as 44.70
+ Paciente Timothy Brown que esta em estado Gravissimo nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Patricia Smiley que esta em estado Gravissimo tem o seu atendimento finalizado pelo medico as 45.19
+ Paciente Melanie Wilson que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 45.19
+ Paciente Ron Elliott que esta em estado Moderado chega ao hospital as 47.56
+ Paciente Ron Elliott que esta em estado Moderado nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Katrina Drake que esta em estado Gravissimo tem o seu atendimento finalizado pelo medico as 48.61
+ Paciente Michael Tyler que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 48.61
+ Paciente Melanie Wilson que esta em estado Moderado tem o seu atendimento finalizado pelo medico as 49.79
+ Paciente Jamie Solomon que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 49.79
+
+ Hospital ira operar em 50 unidades de tempo, com pacientes chegando em um intervalo de 1 unidades de tempo e possuindo 5 medicos e 3 enfermeiros no dia 1.
+
+ Paciente Geralyn Peterson que esta em estado Moderado chega ao hospital as 0.16
+ Paciente Geralyn Peterson que esta em estado Moderado nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Jack Martin que esta em estado Moderado chega ao hospital as 0.59
+ Paciente Jack Martin que esta em estado Moderado nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Steven Fleming que esta em estado Gravissimo chega ao hospital as 0.64
+ Paciente Steven Fleming que esta em estado Gravissimo nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente William Beltrami que esta em estado Moderado chega ao hospital as 0.86
+ Paciente William Beltrami que esta em estado Moderado nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Timothy Bonner que esta em estado Moderado chega ao hospital as 1.39
+ Paciente Timothy Bonner que esta em estado Moderado nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Sandra Neill que esta em estado Leve chega ao hospital as 2.96
+ Paciente Sandra Neill que esta em estado Leve nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Betty Mcmakin que esta em estado Leve chega ao hospital as 2.97
+ Paciente Betty Mcmakin que esta em estado Leve nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Jermaine Boyd que esta em estado Moderado chega ao hospital as 3.15
+ Paciente Jermaine Boyd que esta em estado Moderado nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Lisa Schmitz que esta em estado Gravissimo chega ao hospital as 4.17
+ Paciente Lisa Schmitz que esta em estado Gravissimo nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Heidi Schneider que esta em estado Grave chega ao hospital as 5.11
+ Paciente Heidi Schneider que esta em estado Grave nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Soila Heath que esta em estado Leve chega ao hospital as 5.89
+ Paciente Soila Heath que esta em estado Leve nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Eileen Ferguson que esta em estado Gravissimo chega ao hospital as 6.00
+ Paciente Eileen Ferguson que esta em estado Gravissimo nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Melody Norwood que esta em estado Moderado chega ao hospital as 8.40
+ Paciente Melody Norwood que esta em estado Moderado nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente John Stockton que esta em estado Moderado chega ao hospital as 9.27
+ Paciente John Stockton que esta em estado Moderado nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Lena Hill que esta em estado Leve chega ao hospital as 9.33
+ Paciente Lena Hill que esta em estado Leve nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Kenny Marrero que esta em estado Leve chega ao hospital as 10.23
+ Paciente Kenny Marrero que esta em estado Leve nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Alice Johnson que esta em estado Leve chega ao hospital as 11.86
+ Paciente Alice Johnson que esta em estado Leve nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Frederick Hayes que esta em estado Moderado chega ao hospital as 12.08
+ Paciente Frederick Hayes que esta em estado Moderado nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Joy Collins que esta em estado Gravissimo chega ao hospital as 14.83
+ Paciente Joy Collins que esta em estado Gravissimo nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Jeff Morgan que esta em estado Gravissimo chega ao hospital as 15.86
+ Paciente Jeff Morgan que esta em estado Gravissimo nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Len Moers que esta em estado Leve chega ao hospital as 17.93
+ Paciente Len Moers que esta em estado Leve nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Alan Scott que esta em estado Leve chega ao hospital as 17.97
+ Paciente Alan Scott que esta em estado Leve nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Patricia Maynard que esta em estado Moderado chega ao hospital as 20.88
+ Paciente Patricia Maynard que esta em estado Moderado nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Aaron Lanphear que esta em estado Moderado chega ao hospital as 22.07
+ Paciente Aaron Lanphear que esta em estado Moderado nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Jennifer Hrbacek que esta em estado Moderado chega ao hospital as 23.82
+ Paciente Jennifer Hrbacek que esta em estado Moderado nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Kelsey Clark que esta em estado Leve chega ao hospital as 28.34
+ Paciente Kelsey Clark que esta em estado Leve nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Mary Swinehart que esta em estado Leve chega ao hospital as 28.39
+ Paciente Mary Swinehart que esta em estado Leve nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Cynthia Smith que esta em estado Leve chega ao hospital as 28.42
+ Paciente Cynthia Smith que esta em estado Leve nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Jordan Flemings que esta em estado Moderado chega ao hospital as 28.77
+ Paciente Jordan Flemings que esta em estado Moderado nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Patricia Cloninger que esta em estado Gravissimo chega ao hospital as 29.89
+ Paciente Patricia Cloninger que esta em estado Gravissimo nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Lorna Gillis que esta em estado Leve chega ao hospital as 29.98
+ Paciente Lorna Gillis que esta em estado Leve nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Jacob Pagan que esta em estado Leve chega ao hospital as 31.17
+ Paciente Jacob Pagan que esta em estado Leve nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Laura Caserta que esta em estado Grave chega ao hospital as 31.65
+ Paciente Laura Caserta que esta em estado Grave nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Elizabeth Stein que esta em estado Grave chega ao hospital as 32.51
+ Paciente Elizabeth Stein que esta em estado Grave nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Chris Green que esta em estado Leve chega ao hospital as 33.09
+ Paciente Chris Green que esta em estado Leve nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Matthew Rowland que esta em estado Grave chega ao hospital as 34.04
+ Paciente Matthew Rowland que esta em estado Grave nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente John Lamblin que esta em estado Moderado chega ao hospital as 36.02
+ Paciente John Lamblin que esta em estado Moderado nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Margaret Martinez que esta em estado Grave chega ao hospital as 36.85
+ Paciente Margaret Martinez que esta em estado Grave nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente William Lafave que esta em estado Grave chega ao hospital as 36.95
+ Paciente William Lafave que esta em estado Grave nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Katrina Drake que esta em estado Gravissimo chega ao hospital as 37.14
+ Paciente Katrina Drake que esta em estado Gravissimo nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Elisabeth King que esta em estado Gravissimo chega ao hospital as 37.25
+ Paciente Elisabeth King que esta em estado Gravissimo nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Shirley Giffin que esta em estado Gravissimo chega ao hospital as 38.78
+ Paciente Shirley Giffin que esta em estado Gravissimo tem o seu atendimento iniciado pelo medico as 38.78
+ Paciente Henry Egan que esta em estado Leve chega ao hospital as 39.04
+ Paciente Henry Egan que esta em estado Leve nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Bernard Manning que esta em estado Moderado chega ao hospital as 40.04
+ Paciente Bernard Manning que esta em estado Moderado nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Patricia Smiley que esta em estado Gravissimo chega ao hospital as 40.71
+ Paciente Patricia Smiley que esta em estado Gravissimo tem o seu atendimento iniciado pelo medico as 40.71
+ Paciente Irvin Kornegay que esta em estado Moderado chega ao hospital as 42.17
+ Paciente Irvin Kornegay que esta em estado Moderado nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Charles Romito que esta em estado Leve chega ao hospital as 43.36
+ Paciente Charles Romito que esta em estado Leve nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Marie Riggan que esta em estado Moderado chega ao hospital as 43.71
+ Paciente Marie Riggan que esta em estado Moderado nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Maria Salazar que esta em estado Gravissimo chega ao hospital as 44.68
+ Paciente Maria Salazar que esta em estado Gravissimo tem o seu atendimento iniciado pelo medico as 44.68
+ Paciente Jennifer Neal que esta em estado Leve chega ao hospital as 45.65
+ Paciente Jennifer Neal que esta em estado Leve nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Eric Kowalczyk que esta em estado Leve chega ao hospital as 45.96
+ Paciente Eric Kowalczyk que esta em estado Leve nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Joshua Cheney que esta em estado Grave chega ao hospital as 48.36
+ Paciente Joshua Cheney que esta em estado Grave tem o seu atendimento iniciado pelo medico as 48.36
+
+ Hospital ira operar em 10 unidades de tempo, com pacientes chegando em um intervalo de 1 unidades de tempo e possuindo 5 medicos e 3 enfermeiros no dia 1.
+
+ Paciente Geralyn Peterson que esta em estado Moderado chega ao hospital as 0.16
+
+ Hospital ira operar em 10 unidades de tempo, com pacientes chegando em um intervalo de 1 unidades de tempo e possuindo 5 medicos e 3 enfermeiros no dia 1.
+
+ Paciente Geralyn Peterson que esta em estado Moderado chega ao hospital as 0.16
+ Paciente Geralyn Peterson que esta em estado Moderado nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Jack Martin que esta em estado Moderado chega ao hospital as 0.59
+ Paciente Jack Martin que esta em estado Moderado nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Steven Fleming que esta em estado Gravissimo chega ao hospital as 0.64
+ Paciente Steven Fleming que esta em estado Gravissimo tem o seu atendimento iniciado pelo medico as 0.64
+ Paciente Wilbur Alvarado que esta em estado Moderado chega ao hospital as 0.86
+ Paciente Wilbur Alvarado que esta em estado Moderado nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Ferne Wray que esta em estado Gravissimo chega ao hospital as 2.67
+ Paciente Ferne Wray que esta em estado Gravissimo tem o seu atendimento iniciado pelo medico as 2.67
+ Paciente Steven Fleming que esta em estado Gravissimo tem o seu atendimento finalizado pelo medico as 3.00
+ Paciente David Shell que esta em estado Leve chega ao hospital as 4.37
+ Paciente David Shell que esta em estado Leve nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Ferne Wray que esta em estado Gravissimo tem o seu atendimento finalizado pelo medico as 4.76
+ Paciente Richard Sidhu que esta em estado Gravissimo chega ao hospital as 6.28
+ Paciente Richard Sidhu que esta em estado Gravissimo tem o seu atendimento iniciado pelo medico as 6.28
+ Paciente Lisa Schmitz que esta em estado Gravissimo chega ao hospital as 6.55
+ Paciente Lisa Schmitz que esta em estado Gravissimo tem o seu atendimento iniciado pelo medico as 6.55
+ Paciente Heidi Schneider que esta em estado Grave chega ao hospital as 7.49
+ Paciente Heidi Schneider que esta em estado Grave tem o seu atendimento iniciado pelo medico as 7.49
+ Paciente Kathy Taylor que esta em estado Leve chega ao hospital as 8.27
+ Paciente Kathy Taylor que esta em estado Leve tem o seu atendimento iniciado pelo enfermeiro as 8.27
+ Paciente Clayton Cottier que esta em estado Grave chega ao hospital as 8.63
+ Paciente Clayton Cottier que esta em estado Grave tem o seu atendimento iniciado pelo medico as 8.63
+ Paciente Kathy Taylor que esta em estado Leve tem o seu atendimento finalizado pelo enfermeiro as 9.98
+
+ Hospital ira operar em 10 unidades de tempo, com pacientes chegando em um intervalo de 1 unidades de tempo e possuindo 5 medicos e 3 enfermeiros no dia 1.
+
+ Paciente Geralyn Peterson que esta em estado Moderado chega ao hospital as 0.16
+ Paciente Geralyn Peterson que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 0.16
+ Paciente Jack Martin que esta em estado Moderado chega ao hospital as 0.59
+ Paciente Jack Martin que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 0.59
+ Paciente Steven Fleming que esta em estado Gravissimo chega ao hospital as 0.64
+ Paciente Steven Fleming que esta em estado Gravissimo nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente William Beltrami que esta em estado Moderado chega ao hospital as 0.86
+ Paciente William Beltrami que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 0.86
+ Paciente Ferne Wray que esta em estado Gravissimo chega ao hospital as 1.39
+ Paciente Ferne Wray que esta em estado Gravissimo nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Jaime Mcafee que esta em estado Leve chega ao hospital as 3.10
+ Paciente Jaime Mcafee que esta em estado Leve tem o seu atendimento iniciado pelo enfermeiro as 3.10
+ Paciente Jaime Mcafee que esta em estado Leve tem o seu atendimento finalizado pelo enfermeiro as 3.57
+ Paciente Richard Sidhu que esta em estado Gravissimo chega ao hospital as 4.02
+ Paciente Richard Sidhu que esta em estado Gravissimo nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Paulette Nolder que esta em estado Moderado chega ao hospital as 4.29
+ Paciente Paulette Nolder que esta em estado Moderado nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Geralyn Peterson que esta em estado Moderado tem o seu atendimento finalizado pelo medico as 4.40
+ Paciente Randy Yamada que esta em estado Gravissimo chega ao hospital as 5.27
+ Paciente Randy Yamada que esta em estado Gravissimo nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Heidi Schneider que esta em estado Grave chega ao hospital as 5.98
+ Paciente Heidi Schneider que esta em estado Grave nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Soila Heath que esta em estado Leve chega ao hospital as 6.76
+ Paciente Soila Heath que esta em estado Leve tem o seu atendimento iniciado pelo enfermeiro as 6.76
+ Paciente Amy Cotta que esta em estado Gravissimo chega ao hospital as 6.86
+ Paciente Amy Cotta que esta em estado Gravissimo nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Soila Heath que esta em estado Leve tem o seu atendimento finalizado pelo enfermeiro as 7.83
+ Paciente Karyn Stone que esta em estado Leve chega ao hospital as 8.12
+ Paciente Karyn Stone que esta em estado Leve nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Donna Bannon que esta em estado Grave chega ao hospital as 9.00
+ Paciente Donna Bannon que esta em estado Grave nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Derrick Suchan que esta em estado Gravissimo chega ao hospital as 9.13
+ Paciente Derrick Suchan que esta em estado Gravissimo nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Chris Mcauley que esta em estado Grave chega ao hospital as 9.87
+ Paciente Chris Mcauley que esta em estado Grave nao podera ser atendido pois o tempo do expediente está acabando
+
+ Hospital ira operar em 10 unidades de tempo, com pacientes chegando em um intervalo de 1 unidades de tempo e possuindo 5 medicos e 3 enfermeiros no dia 1.
+
+ Paciente Geralyn Peterson que esta em estado Moderado chega ao hospital as 0.16
+ Paciente Geralyn Peterson que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 0.16
+ Paciente Jack Martin que esta em estado Moderado chega ao hospital as 0.59
+ Paciente Jack Martin que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 0.59
+ Paciente Steven Fleming que esta em estado Gravissimo chega ao hospital as 0.64
+ Paciente Steven Fleming que esta em estado Gravissimo nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente William Beltrami que esta em estado Moderado chega ao hospital as 0.86
+ Paciente William Beltrami que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 0.86
+ Paciente Ferne Wray que esta em estado Gravissimo chega ao hospital as 1.39
+ Paciente Ferne Wray que esta em estado Gravissimo nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Jaime Mcafee que esta em estado Leve chega ao hospital as 3.10
+ Paciente Jaime Mcafee que esta em estado Leve tem o seu atendimento iniciado pelo enfermeiro as 3.10
+ Paciente Jaime Mcafee que esta em estado Leve tem o seu atendimento finalizado pelo enfermeiro as 3.57
+ Paciente Richard Sidhu que esta em estado Gravissimo chega ao hospital as 4.02
+ Paciente Richard Sidhu que esta em estado Gravissimo nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Paulette Nolder que esta em estado Moderado chega ao hospital as 4.29
+ Paciente Paulette Nolder que esta em estado Moderado nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Geralyn Peterson que esta em estado Moderado tem o seu atendimento finalizado pelo medico as 4.40
+ Paciente Randy Yamada que esta em estado Gravissimo chega ao hospital as 5.27
+ Paciente Randy Yamada que esta em estado Gravissimo nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Heidi Schneider que esta em estado Grave chega ao hospital as 5.98
+ Paciente Heidi Schneider que esta em estado Grave nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Soila Heath que esta em estado Leve chega ao hospital as 6.76
+ Paciente Soila Heath que esta em estado Leve tem o seu atendimento iniciado pelo enfermeiro as 6.76
+ Paciente Amy Cotta que esta em estado Gravissimo chega ao hospital as 6.86
+ Paciente Amy Cotta que esta em estado Gravissimo nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Soila Heath que esta em estado Leve tem o seu atendimento finalizado pelo enfermeiro as 7.83
+ Paciente Karyn Stone que esta em estado Leve chega ao hospital as 8.12
+ Paciente Karyn Stone que esta em estado Leve nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Donna Bannon que esta em estado Grave chega ao hospital as 9.00
+ Paciente Donna Bannon que esta em estado Grave nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Derrick Suchan que esta em estado Gravissimo chega ao hospital as 9.13
+ Paciente Derrick Suchan que esta em estado Gravissimo nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Chris Mcauley que esta em estado Grave chega ao hospital as 9.87
+ Paciente Chris Mcauley que esta em estado Grave nao podera ser atendido pois o tempo do expediente está acabando
+
+ Hospital ira operar em 10 unidades de tempo, com pacientes chegando em um intervalo de 1 unidades de tempo e possuindo 5 medicos e 3 enfermeiros no dia 1.
+
+ Paciente Geralyn Peterson que esta em estado Moderado chega ao hospital as 0.16
+ Paciente Geralyn Peterson que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 0.16
+ Paciente Jack Martin que esta em estado Moderado chega ao hospital as 0.59
+ Paciente Jack Martin que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 0.59
+ Paciente Steven Fleming que esta em estado Gravissimo chega ao hospital as 0.64
+ Paciente Steven Fleming que esta em estado Gravissimo nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente William Beltrami que esta em estado Moderado chega ao hospital as 0.86
+ Paciente William Beltrami que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 0.86
+ Paciente Ferne Wray que esta em estado Gravissimo chega ao hospital as 1.39
+ Paciente Ferne Wray que esta em estado Gravissimo nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Jaime Mcafee que esta em estado Leve chega ao hospital as 3.10
+ Paciente Jaime Mcafee que esta em estado Leve tem o seu atendimento iniciado pelo enfermeiro as 3.10
+ Paciente Jaime Mcafee que esta em estado Leve tem o seu atendimento finalizado pelo enfermeiro as 3.57
+ Paciente Richard Sidhu que esta em estado Gravissimo chega ao hospital as 4.02
+ Paciente Richard Sidhu que esta em estado Gravissimo nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Paulette Nolder que esta em estado Moderado chega ao hospital as 4.29
+ Paciente Paulette Nolder que esta em estado Moderado nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Geralyn Peterson que esta em estado Moderado tem o seu atendimento finalizado pelo medico as 4.40
+ Paciente Randy Yamada que esta em estado Gravissimo chega ao hospital as 5.27
+ Paciente Randy Yamada que esta em estado Gravissimo nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Heidi Schneider que esta em estado Grave chega ao hospital as 5.98
+ Paciente Heidi Schneider que esta em estado Grave nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Soila Heath que esta em estado Leve chega ao hospital as 6.76
+ Paciente Soila Heath que esta em estado Leve tem o seu atendimento iniciado pelo enfermeiro as 6.76
+ Paciente Amy Cotta que esta em estado Gravissimo chega ao hospital as 6.86
+ Paciente Amy Cotta que esta em estado Gravissimo nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Soila Heath que esta em estado Leve tem o seu atendimento finalizado pelo enfermeiro as 7.83
+ Paciente Karyn Stone que esta em estado Leve chega ao hospital as 8.12
+ Paciente Karyn Stone que esta em estado Leve nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Donna Bannon que esta em estado Grave chega ao hospital as 9.00
+ Paciente Donna Bannon que esta em estado Grave nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Derrick Suchan que esta em estado Gravissimo chega ao hospital as 9.13
+ Paciente Derrick Suchan que esta em estado Gravissimo nao podera ser atendido pois o tempo do expediente está acabando
+ Paciente Chris Mcauley que esta em estado Grave chega ao hospital as 9.87
+ Paciente Chris Mcauley que esta em estado Grave nao podera ser atendido pois o tempo do expediente está acabando
+
+ Hospital ira operar em 10 unidades de tempo, com pacientes chegando em um intervalo de 1 unidades de tempo e possuindo 5 medicos e 3 enfermeiros no dia 1.
+
+ Paciente Geralyn Peterson que esta em estado Moderado chega ao hospital as 0.16
+ Paciente Geralyn Peterson que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 0.16
+ Paciente Jack Martin que esta em estado Moderado chega ao hospital as 0.59
+ Paciente Jack Martin que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 0.59
+ Paciente William Beltrami que esta em estado Moderado chega ao hospital as 0.86
+ Paciente William Beltrami que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 0.86
+ Paciente Jaime Mcafee que esta em estado Leve chega ao hospital as 3.10
+ Paciente Jaime Mcafee que esta em estado Leve tem o seu atendimento iniciado pelo enfermeiro as 3.10
+ Paciente Jaime Mcafee que esta em estado Leve tem o seu atendimento finalizado pelo enfermeiro as 3.57
+ Paciente Geralyn Peterson que esta em estado Moderado tem o seu atendimento finalizado pelo medico as 4.40
+ Paciente Soila Heath que esta em estado Leve chega ao hospital as 6.76
+ Paciente Soila Heath que esta em estado Leve tem o seu atendimento iniciado pelo enfermeiro as 6.76
+ Paciente Soila Heath que esta em estado Leve tem o seu atendimento finalizado pelo enfermeiro as 7.83
+
+ Hospital ira operar em 10 unidades de tempo, com pacientes chegando em um intervalo de 1 unidades de tempo e possuindo 5 medicos e 3 enfermeiros no dia 1.
+
+ Paciente Geralyn Peterson que esta em estado Moderado chega ao hospital as 0.16
+ Paciente Geralyn Peterson que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 0.16
+ Paciente Jack Martin que esta em estado Moderado chega ao hospital as 0.59
+ Paciente Jack Martin que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 0.59
+ Paciente William Beltrami que esta em estado Moderado chega ao hospital as 0.86
+ Paciente William Beltrami que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 0.86
+ Paciente Jaime Mcafee que esta em estado Leve chega ao hospital as 3.10
+ Paciente Jaime Mcafee que esta em estado Leve tem o seu atendimento iniciado pelo enfermeiro as 3.10
+ Paciente Jaime Mcafee que esta em estado Leve tem o seu atendimento finalizado pelo enfermeiro as 3.57
+ Paciente Geralyn Peterson que esta em estado Moderado tem o seu atendimento finalizado pelo medico as 4.40
+ Paciente Soila Heath que esta em estado Leve chega ao hospital as 6.76
+ Paciente Soila Heath que esta em estado Leve tem o seu atendimento iniciado pelo enfermeiro as 6.76
+ Paciente Soila Heath que esta em estado Leve tem o seu atendimento finalizado pelo enfermeiro as 7.83
+
+ Hospital ira operar em 10 unidades de tempo, com pacientes chegando em um intervalo de 1 unidades de tempo e possuindo 5 medicos e 3 enfermeiros no dia 1.
+
+ Paciente Geralyn Peterson que esta em estado Moderado chega ao hospital as 0.16
+ Paciente Geralyn Peterson que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 0.16
+ Paciente Jack Martin que esta em estado Moderado chega ao hospital as 0.59
+ Paciente Jack Martin que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 0.59
+ Paciente William Beltrami que esta em estado Moderado chega ao hospital as 0.86
+ Paciente William Beltrami que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 0.86
+ Paciente Timothy Bonner que esta em estado Moderado chega ao hospital as 1.39
+ Paciente Timothy Bonner que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 1.39
+ Paciente Sandra Neill que esta em estado Leve chega ao hospital as 2.96
+ Paciente Sandra Neill que esta em estado Leve tem o seu atendimento iniciado pelo enfermeiro as 2.96
+ Paciente Paulette Nolder que esta em estado Moderado chega ao hospital as 3.24
+ Paciente Paulette Nolder que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 3.24
+ Paciente Sandra Neill que esta em estado Leve tem o seu atendimento finalizado pelo enfermeiro as 4.47
+ Paciente Soila Heath que esta em estado Leve chega ao hospital as 5.71
+ Paciente Soila Heath que esta em estado Leve tem o seu atendimento iniciado pelo enfermeiro as 5.71
+ Paciente Geralyn Peterson que esta em estado Moderado tem o seu atendimento finalizado pelo medico as 6.16
+ Paciente Jack Martin que esta em estado Moderado tem o seu atendimento finalizado pelo medico as 6.59
+ Paciente Soila Heath que esta em estado Leve tem o seu atendimento finalizado pelo enfermeiro as 6.78
+ Paciente William Beltrami que esta em estado Moderado tem o seu atendimento finalizado pelo medico as 6.86
+ Paciente Timothy Bonner que esta em estado Moderado tem o seu atendimento finalizado pelo medico as 7.39
+ Paciente Paulette Nolder que esta em estado Moderado tem o seu atendimento finalizado pelo medico as 9.24
+
+ Hospital ira operar em 50 unidades de tempo, com pacientes chegando em um intervalo de 1 unidades de tempo e possuindo 5 medicos e 3 enfermeiros no dia 1.
+
+ Paciente Geralyn Peterson que esta em estado Moderado chega ao hospital as 0.16
+ Paciente Geralyn Peterson que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 0.16
+ Paciente Jack Martin que esta em estado Moderado chega ao hospital as 0.59
+ Paciente Jack Martin que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 0.59
+ Paciente Steven Fleming que esta em estado Gravissimo chega ao hospital as 0.64
+ Paciente Steven Fleming que esta em estado Gravissimo tem o seu atendimento iniciado pelo medico as 0.64
+ Paciente William Beltrami que esta em estado Moderado chega ao hospital as 0.86
+ Paciente William Beltrami que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 0.86
+ Paciente Timothy Bonner que esta em estado Moderado chega ao hospital as 1.39
+ Paciente Timothy Bonner que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 1.39
+ Paciente Sandra Neill que esta em estado Leve chega ao hospital as 2.96
+ Paciente Sandra Neill que esta em estado Leve tem o seu atendimento iniciado pelo enfermeiro as 2.96
+ Paciente Richard Sidhu que esta em estado Gravissimo chega ao hospital as 2.97
+ Paciente Timothy Bonner que esta em estado Moderado tem o seu atendimento interrompido pelo medico as 2.97
+ Paciente Timothy Bonner que esta em estado Moderado ainda precisa de 4.42 de atendimento
+ Paciente Richard Sidhu que esta em estado Gravissimo tem o seu atendimento iniciado pelo medico as 2.97
+ Paciente Paulette Nolder que esta em estado Moderado chega ao hospital as 3.24
+ Paciente Randy Yamada que esta em estado Gravissimo chega ao hospital as 4.22
+ Paciente William Beltrami que esta em estado Moderado tem o seu atendimento interrompido pelo medico as 4.22
+ Paciente William Beltrami que esta em estado Moderado ainda precisa de 2.65 de atendimento
+ Paciente Randy Yamada que esta em estado Gravissimo tem o seu atendimento iniciado pelo medico as 4.22
+ Paciente Sandra Neill que esta em estado Leve tem o seu atendimento finalizado pelo enfermeiro as 4.47
+ Paciente Heidi Schneider que esta em estado Grave chega ao hospital as 4.93
+ Paciente Soila Heath que esta em estado Leve chega ao hospital as 5.71
+ Paciente Soila Heath que esta em estado Leve tem o seu atendimento iniciado pelo enfermeiro as 5.71
+ Paciente Amy Cotta que esta em estado Gravissimo chega ao hospital as 5.81
+ Paciente Jack Martin que esta em estado Moderado tem o seu atendimento interrompido pelo medico as 5.81
+ Paciente Jack Martin que esta em estado Moderado ainda precisa de 0.77 de atendimento
+ Paciente Amy Cotta que esta em estado Gravissimo tem o seu atendimento iniciado pelo medico as 5.81
+ Paciente Geralyn Peterson que esta em estado Moderado tem o seu atendimento finalizado pelo medico as 6.16
+ Paciente Heidi Schneider que esta em estado Grave tem o seu atendimento iniciado pelo medico as 6.16
+ Paciente Soila Heath que esta em estado Leve tem o seu atendimento finalizado pelo enfermeiro as 6.78
+ Paciente Karyn Stone que esta em estado Leve chega ao hospital as 7.07
+ Paciente Karyn Stone que esta em estado Leve tem o seu atendimento iniciado pelo enfermeiro as 7.07
+ Paciente Tom Wesson que esta em estado Leve chega ao hospital as 7.95
+ Paciente Tom Wesson que esta em estado Leve tem o seu atendimento iniciado pelo enfermeiro as 7.95
+ Paciente Kenny Marrero que esta em estado Leve chega ao hospital as 8.00
+ Paciente Kenny Marrero que esta em estado Leve tem o seu atendimento iniciado pelo enfermeiro as 8.00
+ Paciente Karyn Stone que esta em estado Leve tem o seu atendimento finalizado pelo enfermeiro as 8.26
+ Paciente Alice Johnson que esta em estado Leve chega ao hospital as 9.63
+ Paciente Alice Johnson que esta em estado Leve tem o seu atendimento iniciado pelo enfermeiro as 9.63
+ Paciente John Comeau que esta em estado Leve chega ao hospital as 9.85
+ Paciente Tom Wesson que esta em estado Leve tem o seu atendimento finalizado pelo enfermeiro as 10.66
+ Paciente John Comeau que esta em estado Leve tem o seu atendimento iniciado pelo enfermeiro as 10.66
+ Paciente Blair Brown que esta em estado Moderado chega ao hospital as 10.98
+ Paciente Ofelia Miller que esta em estado Leve chega ao hospital as 11.03
+ Paciente John Comeau que esta em estado Leve tem o seu atendimento finalizado pelo enfermeiro as 11.16
+ Paciente Ofelia Miller que esta em estado Leve tem o seu atendimento iniciado pelo enfermeiro as 11.16
+ Paciente Charles Martinez que esta em estado Moderado chega ao hospital as 11.32
+ Paciente Ofelia Miller que esta em estado Leve tem o seu atendimento finalizado pelo enfermeiro as 11.45
+ Paciente Alice Johnson que esta em estado Leve tem o seu atendimento finalizado pelo enfermeiro as 11.87
+ Paciente Kenny Marrero que esta em estado Leve tem o seu atendimento finalizado pelo enfermeiro as 11.90
+ Paciente Patricia Maynard que esta em estado Moderado chega ao hospital as 12.48
+ Paciente Steven Fleming que esta em estado Gravissimo tem o seu atendimento finalizado pelo medico as 12.64
+ Paciente Timothy Bonner que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 12.64
+ Paciente Aaron Lanphear que esta em estado Moderado chega ao hospital as 13.67
+ Paciente Richard Sidhu que esta em estado Gravissimo tem o seu atendimento finalizado pelo medico as 14.97
+ Paciente William Beltrami que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 14.97
+ Paciente Heidi Schneider que esta em estado Grave tem o seu atendimento finalizado pelo medico as 15.16
+ Paciente Jack Martin que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 15.16
+ Paciente Jennifer Hrbacek que esta em estado Moderado chega ao hospital as 15.42
+ Paciente Jack Martin que esta em estado Moderado tem o seu atendimento finalizado pelo medico as 15.93
+ Paciente Paulette Nolder que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 15.93
+ Paciente Randy Yamada que esta em estado Gravissimo tem o seu atendimento finalizado pelo medico as 16.22
+ Paciente Blair Brown que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 16.22
+ Paciente Timothy Bonner que esta em estado Moderado tem o seu atendimento finalizado pelo medico as 17.06
+ Paciente Charles Martinez que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 17.06
+ Paciente William Beltrami que esta em estado Moderado tem o seu atendimento finalizado pelo medico as 17.62
+ Paciente Patricia Maynard que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 17.62
+ Paciente Amy Cotta que esta em estado Gravissimo tem o seu atendimento finalizado pelo medico as 17.81
+ Paciente Aaron Lanphear que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 17.81
+ Paciente Kelsey Clark que esta em estado Leve chega ao hospital as 19.94
+ Paciente Kelsey Clark que esta em estado Leve tem o seu atendimento iniciado pelo enfermeiro as 19.94
+ Paciente Daniel Moreno que esta em estado Gravissimo chega ao hospital as 19.99
+ Paciente Aaron Lanphear que esta em estado Moderado tem o seu atendimento interrompido pelo medico as 19.99
+ Paciente Aaron Lanphear que esta em estado Moderado ainda precisa de 3.83 de atendimento
+ Paciente Daniel Moreno que esta em estado Gravissimo tem o seu atendimento iniciado pelo medico as 19.99
+ Paciente Paulette Nolder que esta em estado Moderado tem o seu atendimento finalizado pelo medico as 21.93
+ Paciente Aaron Lanphear que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 21.93
+ Paciente Blair Brown que esta em estado Moderado tem o seu atendimento finalizado pelo medico as 22.22
+ Paciente Jennifer Hrbacek que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 22.22
+ Paciente Charles Martinez que esta em estado Moderado tem o seu atendimento finalizado pelo medico as 23.06
+ Paciente Patricia Maynard que esta em estado Moderado tem o seu atendimento finalizado pelo medico as 23.62
+ Paciente Cynthia Smith que esta em estado Leve chega ao hospital as 24.84
+ Paciente Cynthia Smith que esta em estado Leve tem o seu atendimento iniciado pelo enfermeiro as 24.84
+ Paciente Jordan Flemings que esta em estado Moderado chega ao hospital as 25.19
+ Paciente Jordan Flemings que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 25.19
+ Paciente Aaron Lanphear que esta em estado Moderado tem o seu atendimento finalizado pelo medico as 25.76
+ Paciente Patricia Cloninger que esta em estado Gravissimo chega ao hospital as 26.31
+ Paciente Patricia Cloninger que esta em estado Gravissimo tem o seu atendimento iniciado pelo medico as 26.31
+ Paciente Lorna Gillis que esta em estado Leve chega ao hospital as 26.40
+ Paciente Lorna Gillis que esta em estado Leve tem o seu atendimento iniciado pelo enfermeiro as 26.40
+ Paciente Jacob Pagan que esta em estado Leve chega ao hospital as 27.59
+ Paciente Cynthia Smith que esta em estado Leve tem o seu atendimento finalizado pelo enfermeiro as 27.93
+ Paciente Jacob Pagan que esta em estado Leve tem o seu atendimento iniciado pelo enfermeiro as 27.93
+ Paciente Myron Upton que esta em estado Grave chega ao hospital as 28.08
+ Paciente Myron Upton que esta em estado Grave tem o seu atendimento iniciado pelo medico as 28.08
+ Paciente Jennifer Hrbacek que esta em estado Moderado tem o seu atendimento finalizado pelo medico as 28.22
+ Paciente Kelsey Clark que esta em estado Leve tem o seu atendimento finalizado pelo enfermeiro as 29.20
+ Paciente Jacob Pagan que esta em estado Leve tem o seu atendimento finalizado pelo enfermeiro as 29.70
+ Paciente Lorna Gillis que esta em estado Leve tem o seu atendimento finalizado pelo enfermeiro as 29.84
+ Paciente Victor Sowers que esta em estado Leve chega ao hospital as 30.66
+ Paciente Victor Sowers que esta em estado Leve tem o seu atendimento iniciado pelo enfermeiro as 30.66
+ Paciente Jordan Flemings que esta em estado Moderado tem o seu atendimento finalizado pelo medico as 31.19
+ Paciente Chris Green que esta em estado Leve chega ao hospital as 31.53
+ Paciente Chris Green que esta em estado Leve tem o seu atendimento iniciado pelo enfermeiro as 31.53
+ Paciente Chris Green que esta em estado Leve tem o seu atendimento finalizado pelo enfermeiro as 31.68
+ Paciente Daniel Moreno que esta em estado Gravissimo tem o seu atendimento finalizado pelo medico as 31.99
+ Paciente Andrea Robbins que esta em estado Gravissimo chega ao hospital as 32.49
+ Paciente Andrea Robbins que esta em estado Gravissimo tem o seu atendimento iniciado pelo medico as 32.49
+ Paciente Irene Starnes que esta em estado Moderado chega ao hospital as 32.56
+ Paciente Irene Starnes que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 32.56
+ Paciente Victor Sowers que esta em estado Leve tem o seu atendimento finalizado pelo enfermeiro as 33.29
+ Paciente Vivian Clark que esta em estado Grave chega ao hospital as 33.73
+ Paciente Vivian Clark que esta em estado Grave tem o seu atendimento iniciado pelo medico as 33.73
+ Paciente Myron Upton que esta em estado Grave tem o seu atendimento finalizado pelo medico as 37.08
+ Paciente Basil Burroughs que esta em estado Leve chega ao hospital as 37.12
+ Paciente Basil Burroughs que esta em estado Leve tem o seu atendimento iniciado pelo enfermeiro as 37.12
+ Paciente Patricia Cloninger que esta em estado Gravissimo tem o seu atendimento finalizado pelo medico as 38.31
+ Paciente Basil Burroughs que esta em estado Leve tem o seu atendimento finalizado pelo enfermeiro as 38.45
+ Paciente Irene Starnes que esta em estado Moderado tem o seu atendimento finalizado pelo medico as 38.56
+ Paciente Leah Hyder que esta em estado Grave chega ao hospital as 39.91
+ Paciente Leah Hyder que esta em estado Grave tem o seu atendimento iniciado pelo medico as 39.91
+ Paciente Vivian Clark que esta em estado Grave tem o seu atendimento finalizado pelo medico as 42.73
+ Paciente Charles Hernandez que esta em estado Leve chega ao hospital as 43.29
+ Paciente Charles Hernandez que esta em estado Leve tem o seu atendimento iniciado pelo enfermeiro as 43.29
+ Paciente Doris Franks que esta em estado Moderado chega ao hospital as 43.93
+ Paciente Doris Franks que esta em estado Moderado tem o seu atendimento iniciado pelo medico as 43.93
+ Paciente Andrea Robbins que esta em estado Gravissimo tem o seu atendimento finalizado pelo medico as 44.49
+ Paciente Leah Hyder que esta em estado Grave tem o seu atendimento finalizado pelo medico as 48.91
+ Paciente Charles Hernandez que esta em estado Leve tem o seu atendimento finalizado pelo enfermeiro as 49.79
+ Paciente Doris Franks que esta em estado Moderado tem o seu atendimento finalizado pelo medico as 49.93
