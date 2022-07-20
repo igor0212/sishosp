@@ -92,10 +92,10 @@ while True:
                 Total de pacientes GRAVÍSSIMOS que tiveram o seu atendimento interrompido:   {total_treatment_canceled_4}
                 TOTAL:                                                                       {total_treatment_canceled}
 
-                Média do tempo gasto nos atendimentos LEVES:                                 {avg_status_1:.2f} - {"Abaixo da média" if avg_status_1 < Util.TREATMENT_TIME['Leve'] else "Acima da média" }
-                Média do tempo gasto nos atendimentos MODERADOS:                             {avg_status_2:.2f} - {"Abaixo da média" if avg_status_2 < Util.TREATMENT_TIME['Moderado'] else "Acima da média" }
-                Média do tempo gasto nos atendimentos GRAVES:                                {avg_status_3:.2f} - {"Abaixo da média" if avg_status_3 < Util.TREATMENT_TIME['Grave'] else "Acima da média" }
-                Média do tempo gasto nos atendimentos GRAVÍSSIMOS:                           {avg_status_4:.2f} - {"Abaixo da média" if avg_status_4 < Util.TREATMENT_TIME['Gravissimo'] else "Acima da média" }
+                Média do tempo gasto nos atendimentos LEVES:                                 {avg_status_1:.2f} - {"OK" if avg_status_1 < Util.TREATMENT_TIME['Leve'] else "Acima da média" }
+                Média do tempo gasto nos atendimentos MODERADOS:                             {avg_status_2:.2f} - {"OK" if avg_status_2 < Util.TREATMENT_TIME['Moderado'] else "Acima da média" }
+                Média do tempo gasto nos atendimentos GRAVES:                                {avg_status_3:.2f} - {"OK" if avg_status_3 < Util.TREATMENT_TIME['Grave'] else "Acima da média" }
+                Média do tempo gasto nos atendimentos GRAVÍSSIMOS:                           {avg_status_4:.2f} - {"OK" if avg_status_4 < Util.TREATMENT_TIME['Gravissimo'] else "Acima da média" }
                 """
 
     #Enviando retorno para o cliente
