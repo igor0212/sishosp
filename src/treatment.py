@@ -48,7 +48,7 @@ class Treatment:
                 try:
                     #Configurando o tempo de duração de cada consulta
                     if not treatment_time:
-                        treatment_time = random.expovariate(1/treatment_time_status)
+                        treatment_time = treatment_time_status                    
                     yield env.timeout(treatment_time)
                     File.print(f"\n Paciente {patient_name} que esta em estado {status} tem o seu atendimento finalizado pelo medico as {env.now:.2f}")
                     Treatment.insert(patient_id, 3, day, env.now)
