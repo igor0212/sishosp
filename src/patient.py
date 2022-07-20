@@ -39,7 +39,14 @@ class Patient:
             error = "Patient - get_total_consulted_by_day error: {} \n".format(ex)            
             raise Exception(error)   
 
-    def arrival(env, doctors, nurses, arrival_interval, day):        
+    def validate_treatment_time(env, status, simulation_time, now):
+        treatment_time = Util.TREATMENT_TIME[status]
+        time = simulation_time - now        
+        if(treatment_time > time):
+            return False
+        return True
+
+    def arrival(env, doctors, nurses, arrival_interval, day, simulation_time):        
         while True:
 
             #Configurando o intervalo em que os pacientes chegarão
@@ -49,11 +56,18 @@ class Patient:
             patient_name = names.get_full_name()            
 
             #Buscar, randomicamente, qual é o estado do paciente (1: LEVE, 2: MODERADO, 3: GRAVE, 4: GRAVÍSSIMO), qual sua prioridade e se o paciente precisa de atendimento imediato
-            status_id, priority, is_urgent = Status.get()                        
+            status_id, priority, is_urgent = Status.get()           
+
+            now = env.now
 
             status = Util.PATIENT_STATUS_PT_BR[status_id]
 
-            File.print(f"\n Paciente {patient_name} que esta em estado {status} chega ao hospital as {env.now:.2f}")
+            File.print(f"\n Paciente {patient_name} que esta em estado {status} chega ao hospital as {now:.2f}")
+
+            if(not Patient.validate_treatment_time(env, status, simulation_time, now)):
+                File.print(f"\n Paciente {patient_name} que esta em estado {status} nao podera ser atendido pois o tempo do expediente está acabando")
+                continue
+
             patient_id = Patient.insert(patient_name, status_id)
             Treatment.insert(patient_id, 1, day, env.now)
 

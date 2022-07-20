@@ -37,7 +37,7 @@ while True:
     #Criando enfermeiros
     nurses = simpy.PriorityResource(env, capacity=qt_nurses)
 
-    env.process(Patient.arrival(env, doctors, nurses, patient_arrival_interval, day))
+    env.process(Patient.arrival(env, doctors, nurses, patient_arrival_interval, day, simulation_time))
 
     env.run(until=simulation_time) 
 
