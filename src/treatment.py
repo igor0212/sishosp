@@ -1,6 +1,9 @@
+from pydoc import Doc
 import random
 from util import Util, File
 from database import DataBase
+from doctor import Doctor
+import names
 
 class Treatment:
     def get_last_time(patient_id):   
@@ -61,6 +64,10 @@ class Treatment:
                     #Aumenta a prioridade de quem teve o seu atendimento interrompido para um que acabou de chegar (com o mesmo grau)
                     priority -= 0.01
                     env.process(Treatment.execute(env, patient_id, patient_name, status, priority, is_urgent, doctors, nurses, day, treatment_time)) 
+
+                #Gerar nome aleatório para o doutor
+                doctor_name = names.get_full_name()            
+                Doctor.insert(patient_id, doctor_name, env.now)
         else:        
             #Aloca um enfermeiro e realiza o atendimento do paciente
             with nurses.request(priority=priority) as request:
