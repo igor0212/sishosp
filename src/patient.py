@@ -62,11 +62,10 @@ class Patient:
 
             status = Util.PATIENT_STATUS_PT_BR[status_id]
 
-            File.print(f"\n Paciente {patient_name} que esta em estado {status} chega ao hospital as {now:.2f}")
-
-            if(not Patient.validate_treatment_time(env, status, simulation_time, now)):
-                File.print(f"\n Paciente {patient_name} que esta em estado {status} nao podera ser atendido pois o tempo do expediente está acabando")
+            if(not Patient.validate_treatment_time(env, status, simulation_time, now)):                
                 continue
+
+            File.print(f"\n Paciente {patient_name} que esta em estado {status} chega ao hospital as {now:.2f}")            
 
             patient_id = Patient.insert(patient_name, status_id)
             Treatment.insert(patient_id, 1, day, env.now)
