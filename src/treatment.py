@@ -43,7 +43,7 @@ class Treatment:
         if(status in ('Grave', 'Gravissimo', 'Moderado')):                
             #Aloca um médico e realiza o atendimento do paciente
             with doctors.request(priority=priority, preempt=is_urgent) as request:                
-                yield request
+                yield request                
                 treatment_start = env.now
                 File.print(f"\n Paciente {patient_name} que esta em estado {status} tem o seu atendimento iniciado pelo medico as {env.now:.2f}")
                 Treatment.insert(patient_id, 2, day, env.now)
@@ -66,8 +66,10 @@ class Treatment:
                     env.process(Treatment.execute(env, patient_id, patient_name, status, priority, is_urgent, doctors, nurses, day, treatment_time)) 
 
                 #Gerar nome aleatório para o doutor
-                doctor_name = names.get_full_name()            
-                Doctor.insert(patient_id, doctor_name, env.now)
+                #doctor_name = Doctor.get_name(patient_id)
+                #if(not doctor_name):
+                #    doctor_name = names.get_full_name()
+                #Doctor.insert(patient_id, doctor_name, env.now)                
         else:        
             #Aloca um enfermeiro e realiza o atendimento do paciente
             with nurses.request(priority=priority) as request:
